@@ -70,7 +70,7 @@
         
         <p>Let's see if this will work</p>
 
-        <div id="chart"></div>
+        <div id="canvas"></div>
         
       </div>
     </div>
@@ -109,7 +109,8 @@ var tip = d3.tip()
     return "<strong>Frequency:</strong> <span style='color:red'>" + d.frequency + "</span>";
   })
 
-var svg = d3.select("#chart").append("svg")
+var svg = d3.select("#canvas").append("svg")
+	.attr("id", "chart")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .attr("viewBox", "0 0 960 500")
