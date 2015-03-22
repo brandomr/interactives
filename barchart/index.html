@@ -71,7 +71,9 @@
         
         <p>Let's see if this will work</p>
 
-        <div id="canvas"></div>
+        <div id="canvas">
+        <label><input type="checkbox"> Sort values</label>
+        </div>
         
       </div>
     </div>
@@ -156,6 +158,45 @@ d3.csv("data.csv", type, function(error, data) {
       .on('mouseout', tip.hide)
 
 });
+
+
+
+d3.select("input").on("change", change);
+
+  var sortTimeout = setTimeout(function() {
+    d3.select("input").property("checked", true).each(change);
+  }, 2000);
+
+  function change() {
+    clearTimeout(sortTimeout);
+
+    // Copy-on-write since tweens are evaluated after a delay.
+    var x0 = x.domain(data.sort(this.checked
+        ? function(a, b) { return b.count - a.count; }
+        : function(a, b) { return d3.ascending(a.state, b.state); })
+        .map(function(d) { return d.letter; }))
+        .copy();
+
+    svg.selectAll(".bar")
+        .sort(function(a, b) { return x0(a.state) - x0(b.state); });
+
+    var transition = svg.transition().duration(750),
+        delay = function(d, i) { return i * 50; };
+
+    transition.selectAll(".bar")
+        .delay(delay)
+        .attr("x", function(d) { return x0(d.state); });
+
+    transition.select(".x.axis")
+        .call(xAxis)
+      .selectAll("g")
+        .delay(delay);
+  }
+  
+  
+  
+
+
 
 function type(d) {
   d.count = +d.count;
