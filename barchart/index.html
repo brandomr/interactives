@@ -16,11 +16,8 @@
         <h1>Here's a barchart</h1>
         
         <p>Let's see if this will work</p>
-        
+
         <div id="chart"></div>
-        
-        
-        
         
       </div>
     </div>
@@ -59,7 +56,7 @@ var tip = d3.tip()
     return "<strong>Frequency:</strong> <span style='color:red'>" + d.frequency + "</span>";
   })
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#chart").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -67,7 +64,7 @@ var svg = d3.select("body").append("svg")
 
 svg.call(tip);
 
-d3.tsv("data.csv", type, function(error, data) {
+d3.csv("data.csv", type, function(error, data) {
   x.domain(data.map(function(d) { return d.letter; }));
   y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
 
