@@ -30,6 +30,10 @@
   display: none;
 }
 
+.y.axis text {
+  font-size:11px;
+  }
+
 .d3-tip {
   line-height: 1;
   font-weight: bold;
@@ -149,9 +153,6 @@ d3.csv("data.csv", function(error, data) {
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
-      	.selectAll("text")  
-        .style("font-size", "11px")
-	svg.select(".y axis")
 	.append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 6)
