@@ -122,7 +122,7 @@ var svg = d3.select("#canvas").append("svg")
 
 svg.call(tip);
 
-d3.csv("data.csv", type, function(error, data) {
+d3.csv("data.csv", function(error, data) {
   
   data.forEach(function(d) {
     d.count = +d.count;
