@@ -130,7 +130,10 @@ d3.csv("data.csv", type, function(error, data) {
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
         .selectAll("text")  
-     	.attr("transform", "rotate(90)")
+        .style("text-anchor", "end")
+     	.attr("dx", "-.8em")
+     	.attr("dy", ".15em")
+     	.attr("transform", "rotate(-90)")
 
   svg.append("g")
       .attr("class", "y axis")
