@@ -149,12 +149,13 @@ d3.csv("data.csv", function(error, data) {
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
+      	.selectAll("text")  
+        .style("font-size", "11px")
     .append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 6)
       .attr("dy", "-3em")
       .style("text-anchor", "end")
-      .style("font-size", "11px")
       .text("Number of Universities");
 
   svg.selectAll(".bar")
