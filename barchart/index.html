@@ -33,6 +33,10 @@
 .y.axis text {
   font-size:11px;
   }
+  
+.ytitle {
+  font-size:14px;
+  }
 
 .d3-tip {
   line-height: 1;
@@ -154,9 +158,10 @@ d3.csv("data.csv", function(error, data) {
       .attr("class", "y axis")
       .call(yAxis)
 	.append("text")
+	  .attr("class", "ytitle")
       .attr("transform", "rotate(-90)")
       .attr("y", 6)
-      .attr("dy", "-3em")
+      .attr("dy", "-3.5em")
       .style("text-anchor", "end")
       .text("Number of Universities");
 
