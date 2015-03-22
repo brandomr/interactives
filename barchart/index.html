@@ -137,7 +137,8 @@ d3.csv("data.csv", function(error, data) {
       .call(xAxis)
         .selectAll("text")  
         .style("text-anchor", "end")
-
+     	.attr("dx", "-.8em")
+     	.attr("dy", "-.15em")
      	.attr("transform", "rotate(-90)")
 
   svg.append("g")
@@ -191,6 +192,11 @@ d3.select("input").on("change", change);
 
     transition.select(".x.axis")
         .call(xAxis)
+            .selectAll("text")  
+        	.style("text-anchor", "end")
+     		.attr("dx", "-.8em")
+     		.attr("dy", "-.15em")
+     		.attr("transform", "rotate(-90)")
       .selectAll("g")
         .delay(delay);
   }
