@@ -174,7 +174,7 @@ d3.select("input").on("change", change);
     var x0 = x.domain(data.sort(this.checked
         ? function(a, b) { return b.count - a.count; }
         : function(a, b) { return d3.ascending(a.state, b.state); })
-        .map(function(d) { return d.letter; }))
+        .map(function(d) { return d.state; }))
         .copy();
 
     svg.selectAll(".bar")
