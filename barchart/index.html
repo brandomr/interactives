@@ -123,6 +123,11 @@ var svg = d3.select("#canvas").append("svg")
 svg.call(tip);
 
 d3.csv("data.csv", type, function(error, data) {
+  
+  data.forEach(function(d) {
+    d.count = +d.count;
+  });
+
   x.domain(data.map(function(d) { return d.state; }));
   y.domain([0, d3.max(data, function(d) { return d.count; })]);
 
@@ -157,7 +162,7 @@ d3.csv("data.csv", type, function(error, data) {
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide)
 
-});
+
 
 
 
@@ -193,15 +198,11 @@ d3.select("input").on("change", change);
         .delay(delay);
   }
   
+});  
   
-  
 
 
 
-function type(d) {
-  d.count = +d.count;
-  return d;
-}
 
 </script>
     
