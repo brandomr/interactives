@@ -67,9 +67,12 @@
       <div class="large-12 columns">
         
         
-        <h1>Here's a barchart</h1>
+        <h1>Higher Education Institutions by State</h1>
         
-        <p>Let's see if this will work</p>
+        <p>This chart shows the number of universities per state within the National
+        Center for Educational Statistics Integrated Postsecondary Education System (IPEDS) System.
+        The data was obtained from <a href="https://inventory.data.gov/dataset/032e19b4-5a90-41dc-83ff-6e4cd234f565/resource/38625c3d-5388-4c16-a30f-d105432553a4">data.gov</a>
+        </p>
 
         <div id="canvas">
         <label><input type="checkbox"> Sort values</label>
@@ -108,7 +111,7 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>count:</strong> <span style='color:red'>" + d.count + "</span>";
+    return "<strong>" + d.state + ":</strong> <span style='color:red'>" + d.count + "</span>";
   })
 
 var svg = d3.select("#canvas").append("svg")
@@ -149,7 +152,7 @@ d3.csv("data.csv", function(error, data) {
       .attr("y", 6)
       .attr("dy", "-3.5em")
       .style("text-anchor", "end")
-      .text("count");
+      .text("Number of Universities");
 
   svg.selectAll(".bar")
       .data(data)
