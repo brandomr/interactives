@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>Higher Ed by State</title>
     <link rel="stylesheet" href="../foundation/css/foundation.css" />
     <script src="../foundation/js/vendor/modernizr.js"></script>
   </head>
@@ -128,8 +128,9 @@ d3.csv("data.csv", type, function(error, data) {
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
-      .attr("transform", "rotate(-90)")
-      .call(xAxis);
+      .call(xAxis)
+        .selectAll("text")  
+     	.attr("transform", "rotate(90)")
 
   svg.append("g")
       .attr("class", "y axis")
