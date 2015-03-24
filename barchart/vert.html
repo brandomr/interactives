@@ -221,7 +221,7 @@ function resize() {
         .attr('width', function(d) { return x(d.count); });
 
     // update axes
-      svg.select("x.axis").call(xAxis);
+      svg.select("g.x.axis").call(xAxis);
 
 	}
 
