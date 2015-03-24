@@ -170,7 +170,7 @@ d3.csv("data.csv", function(error, data) {
     .enter().append("rect")
       .attr("class", "bar")
       .attr("width", function(d) { return x(d.count); })
-      .attr("height", y.rangeBand());
+      .attr("height", y.rangeBand())
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
 
