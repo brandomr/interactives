@@ -170,7 +170,7 @@ d3.csv("data.csv", function(error, data) {
       .data(data)
     .enter().append("g")
       .attr("class", "bar")
-      .attr("transform", function(d) { return "translate(0," + y(d.name) + ")"; });
+      .attr("transform", function(d) { return "translate(0," + y(d.state) + ")"; });
 
   bar.append("rect")
       .attr("width", function(d) { return x(d.count); })
