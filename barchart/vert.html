@@ -169,7 +169,7 @@ d3.csv("data.csv", function(error, data) {
 
 d3.select(window).on('resize', resize); 
 
-d3.select(window).on('load', resize); 
+d3.select(window).resize(); 
 
 function resize() {
     // update width
