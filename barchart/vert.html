@@ -218,7 +218,7 @@ function resize() {
         .style('height', (y.rangeExtent()[1] + margin.top + margin.bottom) + 'px')
         .style('width', (width + margin.left + margin.right) + 'px');
 
-    chart.selectAll('rect')
+    svg.selectAll('rect')
         .attr('width', function(d) { return x(d.count); });
 
 
