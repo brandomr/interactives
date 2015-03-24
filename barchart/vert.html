@@ -209,7 +209,7 @@ d3.select(window).on('resize', resize);
 
 function resize() {
     // update width
-    width = parseInt(d3.select('#chart').style('width'), 10);
+    width = parseInt(d3.select('#canvas').style('width'), 10);
     width = width - margin.left - margin.right;
 
     // resize the chart
