@@ -169,6 +169,8 @@ d3.csv("data.csv", function(error, data) {
 
 d3.select(window).on('resize', resize); 
 
+d3.select(window).on('load', resize); 
+
 function resize() {
     // update width
     width = parseInt(d3.select('#canvas').style('width'), 10);
