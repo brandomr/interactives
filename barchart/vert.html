@@ -97,7 +97,7 @@
 <script>
 
 var margin = {top: 40, right: 20, bottom: 50, left: 65},
-    width = 450 - margin.left - margin.right,
+    width = 250 - margin.left - margin.right,
     height = 960 - margin.top - margin.bottom,
     barHeight = 20;
 
@@ -105,7 +105,7 @@ var x = d3.scale.linear()
     .range([0, width]);
 
 var y = d3.scale.ordinal()
-    .rangeRoundBands([0, height], .05);
+    .rangeRoundBands([0, height], .1);
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -130,7 +130,7 @@ var svg = d3.select("#canvas").append("svg")
 	.attr("id", "chart")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-    .attr("viewBox", "0 0 450 960")
+    .attr("viewBox", "0 0 250 960")
     .attr("preserveAspectRatio", "xMidYMid")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
