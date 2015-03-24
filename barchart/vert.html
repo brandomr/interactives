@@ -122,7 +122,7 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>" + d.state + "</strong> has <span style='color:red'>" + d.count + " universities.</span><br>"
+    return "" + d.state + " has <strong><span style='color:red'>" + d.count + " universities.</span></strong><br>"
     + "It ranks <strong><span style='color:red'>#" + d.per_capita_rank + " </span></strong>in terms of universities on a per capita basis, <br>"
     + " having one university for every " + d.per_capita + " thousand residents.";
   })
