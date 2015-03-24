@@ -164,7 +164,6 @@ d3.csv("data.csv", function(error, data) {
 
   bar.append("rect")
       .attr("width", function(d) { return x(d.count); })
-      .attr("y", function(d) { return y(d.state); })
       .attr("height", y.rangeBand())
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
