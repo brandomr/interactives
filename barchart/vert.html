@@ -168,8 +168,11 @@ d3.csv("data.csv", function(error, data) {
   svg.selectAll(".bar")
       .data(data)
     .enter().append("rect")
+      .attr('transform', function(d, i) { return 'translate(0,'  + y(i) + ')'; });
       .attr("class", "bar")
+      
       .attr("width", function(d) { return x(d.count); })
+      
       .attr("height", y.rangeBand())
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
