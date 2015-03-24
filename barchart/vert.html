@@ -104,7 +104,7 @@ var x = d3.scale.linear()
     .range([0, width]);
 
 var y = d3.scale.ordinal()
-    .rangeRoundBands([height, 0], .1);
+    .rangeRoundBands([0, height], .1);
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -153,14 +153,12 @@ d3.csv("data.csv", function(error, data) {
         .style("text-anchor", "end")
      	.attr("dx", "-.3em")
      	.attr("dy", ".3em")
-     	.attr("transform", "rotate(-90)")
 
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
 	.append("text")
 	  .attr("class", "ytitle")
-      .attr("transform", "rotate(-90)")
       .attr("y", 6)
       .attr("dy", "-3em")
       .style("text-anchor", "end")
@@ -171,10 +169,8 @@ d3.csv("data.csv", function(error, data) {
       .data(data)
     .enter().append("rect")
       .attr("class", "bar")
-      .attr("y", function(d) { return y(d.state); })
-      .attr("width", function(d) { return width - x(d.count); })
-      .attr("x", function(d) { return x(d.count); })
-      .attr("height", y.rangeBand())
+      .attr("width", function(d) { return x(d.count); })
+      .attr("height", y.rangeBand());
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
 
