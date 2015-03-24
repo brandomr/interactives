@@ -148,23 +148,13 @@ d3.csv("data.csv", function(error, data) {
 
   svg.append("g")
       .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
-        .selectAll("text")  
-        .style("text-anchor", "end")
-     	.attr("dx", "-.3em")
-     	.attr("dy", ".3em")
+
 
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
-	.append("text")
-	  .attr("class", "ytitle")
-      .attr("y", 6)
-      .attr("dy", "-3em")
-      .style("text-anchor", "end")
-      .style("font-size", "16px")
-      .text("Number of Universities");
+
 
  var bar = svg.selectAll("g.bar")
       .data(data)
