@@ -171,9 +171,9 @@ d3.csv("data.csv", function(error, data) {
       .data(data)
     .enter().append("rect")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.state); })
+      .attr("y", function(d) { return y(d.state); })
       .attr("width", function(d) { return width - x(d.count); })
-      .attr("y", function(d) { return y(d.count); })
+      .attr("x", function(d) { return x(d.count); })
       .attr("height", y.rangeBand())
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
