@@ -194,7 +194,7 @@ d3.select("input").on("change", change);
 
     transition.selectAll("g.bar")
         .delay(delay)
-        .attr("y", function(d) { return y0(d.state); });
+        .attr("transform", function(d) { return "translate(0," + y0(d.state) + ")"; });
 
     transition.select(".y.axis")
         .call(yAxis)
