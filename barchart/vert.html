@@ -165,14 +165,14 @@ d3.csv("data.csv", function(error, data) {
       .style("font-size", "16px")
       .text("Number of Universities");
 
-  svg.selectAll(".bar")
+ var bar = svg.selectAll("g.bar")
       .data(data)
-    .enter().append("rect")
-      .attr('transform', function(d, i) { return 'translate(0,'  + y(i) + ')'; })
+    .enter().append("g")
       .attr("class", "bar")
-      
+      .attr("transform", function(d) { return "translate(0," + y(d.name) + ")"; });
+
+  bar.append("rect")
       .attr("width", function(d) { return x(d.count); })
-      
       .attr("height", y.rangeBand())
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
