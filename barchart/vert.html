@@ -102,7 +102,8 @@ var margin = {top: 40, right: 20, bottom: 50, left: 65},
     barHeight = 20;
 
 var x = d3.scale.linear()
-    .range([0, width]);
+    .range([0, width])
+    .domain([0, 800]);
 
 var y = d3.scale.ordinal()
     .rangeRoundBands([0, height], .1);
@@ -141,7 +142,7 @@ d3.csv("data.csv", function(error, data) {
     d.count = +d.count;
   });
 
-  x.domain([0, 800]);
+
   y.domain(data.map(function(d) { return d.state; }));
 
   svg.append("g")
@@ -220,7 +221,7 @@ function resize() {
         .attr('width', function(d) { return x(d.count); });
 
     // update axes
-      svg.select("x axis").call(xAxis.orient('bottom'));
+      svg.select("x axis").call(xAxis);
 
 	}
 
