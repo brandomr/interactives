@@ -123,7 +123,9 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>" + d.state + ":</strong> <span style='color:red'>" + d.count + "</span>";
+    return "<strong>" + d.state + ":</strong> <span style='color:red'> has " + d.count + " universities.</span>"
+    + "It ranks <strong>#" + d.per_capita_rank + " in terms of universities on a per capita basis, having "
+    + "one university for every " + d.per_capita + " thousand residents.";
   })
 
 var svg = d3.select("#canvas").append("svg")
@@ -135,7 +137,7 @@ var svg = d3.select("#canvas").append("svg")
 
 svg.call(tip);
 
-d3.csv("data.csv", function(error, data) {
+d3.csv("data_update.csv", function(error, data) {
   
   data.forEach(function(d) {
     d.count = +d.count;
