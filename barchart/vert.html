@@ -167,6 +167,28 @@ d3.csv("data.csv", function(error, data) {
       .on('mouseout', tip.hide);
 
 
+d3.select(window).on('resize', resize); 
+
+function resize() {
+    // update width
+    width = parseInt(d3.select('#canvas').style('width'), 10);
+    width = width - margin.left - margin.right;
+
+    // resize the chart
+    x.range([0, width]);
+    d3.select("svg")
+        .style('height', (y.rangeExtent()[1] + margin.top + margin.bottom) + 'px')
+        .style('width', (width + margin.left + margin.right) + 'px');
+
+    svg.selectAll('rect')
+        .attr('width', function(d) { return x(d.count); });
+
+    // update axes
+      svg.select(".x.axis").call(xAxis);
+
+	}
+	
+	
 
 d3.select("input").on("change", change);
 
@@ -201,28 +223,6 @@ d3.select("input").on("change", change);
         .delay(delay);
   }
 
-
-
-d3.select(window).on('resize', resize); 
-
-function resize() {
-    // update width
-    width = parseInt(d3.select('#canvas').style('width'), 10);
-    width = width - margin.left - margin.right;
-
-    // resize the chart
-    x.range([0, width]);
-    d3.select("svg")
-        .style('height', (y.rangeExtent()[1] + margin.top + margin.bottom) + 'px')
-        .style('width', (width + margin.left + margin.right) + 'px');
-
-    svg.selectAll('rect')
-        .attr('width', function(d) { return x(d.count); });
-
-    // update axes
-      svg.select(".x.axis").call(xAxis);
-
-	}
 
 
   });
