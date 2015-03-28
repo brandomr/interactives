@@ -98,10 +98,10 @@
 <script>
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-	var tipwidth = 65%;
+	var tipwidth = 65;
 }
 else {
-	var tipwidth = 35%;
+	var tipwidth = 35;
 }
 
 format = d3.format("0,000");
@@ -132,7 +132,7 @@ var yAxis = d3.svg.axis()
 var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
-  .style("width", tipwidth)
+  .style("width", tipwidth + "%")
   .html(function(d) {
     return "" + d.state + " has <strong><span style='color:red'>" + d.count + " universities</span></strong>"
     + " and a population of <strong><span style='color:red'>" + format(d.population) + ".  </span></strong>"
