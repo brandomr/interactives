@@ -26,10 +26,6 @@
   fill: #238b45 ;
 }
 
-.y.axis {
-  text-anchor:initial;
-}
-
 .y.axis path {
   display: none;
 }
@@ -119,14 +115,14 @@ var xAxis = d3.svg.axis()
 var yAxis = d3.svg.axis()
     .scale(y)
     .tickSize(0)
-    .tickPadding(-4)
+    .tickPadding(4)
     .orient("left");
 
 var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "" + d.state + " has <strong><span style='color:red'>" + d.count + " universities and a population of " + d.population + ".</span></strong><br>"
+    return "" + d.state + " has <strong><span style='color:red'>" + d.count + " universities and a population of " + d.population +".</span></strong><br>"
     + "It ranks <strong><span style='color:red'>#" + d.per_capita_rank + " </span></strong>in terms of universities on a per capita basis, <br>"
     + " having one university for every " + d.per_capita + " thousand residents.";
   })
@@ -155,7 +151,6 @@ d3.csv("data_update.csv", function(error, data) {
       .call(xAxis)
 
 
-
  var bar = svg.selectAll("g.bar")
       .data(data)
     .enter().append("g")
@@ -172,6 +167,7 @@ d3.csv("data_update.csv", function(error, data) {
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
+
 
 
 d3.select(window).on('resize', resize); 
