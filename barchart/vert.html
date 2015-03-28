@@ -156,7 +156,7 @@ d3.csv("data_update.csv", function(error, data) {
       .attr("class", "x axis")
       .call(xAxis)
       .append("text")
-	  	.attr("class", "ytitle")
+	  	.attr("class", "xtitle")
       	.attr("dy", "-1.5em")
       	.attr("x", width/2)
       	.style("text-anchor", "middle")
@@ -208,7 +208,8 @@ function resize() {
 
     // update axes
       svg.select(".x.axis").call(xAxis)
-      	.selectAll("text")
+      
+      .select("xtitle")
       	.attr("x", width/2);
 
 	}
