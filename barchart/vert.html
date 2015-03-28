@@ -166,7 +166,10 @@ d3.csv("data_update.csv", function(error, data) {
 
   svg.append("g")
       .attr("class", "y axis")
-      .call(yAxis);
+      .attr("transform", "translate(20,0)")
+      .call(yAxis)
+      .selectAll("text")
+      	.style("text-anchor","start");
 
 
 
@@ -224,8 +227,10 @@ d3.select("input").on("change", change);
 
     transition.select(".y.axis")
         .call(yAxis)
+        .selectAll("text")
+      	.style("text-anchor","start")
 
-      .selectAll("g")
+      transition.select(".y.axis").selectAll("g")
         .delay(delay);
   }
 
