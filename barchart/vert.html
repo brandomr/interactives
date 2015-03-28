@@ -207,7 +207,7 @@ d3.select("input").on("change", change);
 
     // Copy-on-write since tweens are evaluated after a delay.
     var y0 = y.domain(data.sort(this.checked
-        ? function(a, b) { return b.per_capita - a.per_capita; }
+        ? function(a, b) { return a.per_capita - b.per_capita; }
         : function(a, b) { return d3.ascending(a.state, b.state); })
         .map(function(d) { return d.state; }))
         .copy();
