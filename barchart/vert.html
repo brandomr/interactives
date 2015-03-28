@@ -24,7 +24,8 @@
 }
 
 .bar:hover {
-  fill: #238b45 ;
+  fill: #00441b;
+  opacity: 0.5;
 }
 
 .y.axis path {
@@ -190,8 +191,7 @@ function resize() {
     x.range([0, width]);
     d3.select("svg")
         .style('height', (y.rangeExtent()[1] + margin.top + margin.bottom) + 'px')
-        .style('width', (width + margin.left + margin.right) + 'px')
-        .style('padding-left', '45px');
+        .style('width', (width + margin.left + margin.right) + 'px');
 
     svg.selectAll('rect')
         .attr('width', function(d) { return x(d.per_capita); });
