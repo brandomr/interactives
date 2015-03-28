@@ -230,7 +230,7 @@ d3.select("input").on("change", change);
         .selectAll("text")
       	.style("text-anchor","start")
 
-      transition.selectAll("g")
+      transition.select(".y.axis").selectAll("g")
         .delay(delay);
   }
 
