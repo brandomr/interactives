@@ -102,7 +102,8 @@ format = d3.format("0,000");
 
 var margin = {top: 40, right: 20, bottom: 50, left: 10},
     width = 960 - margin.left - margin.right,
-    height = 1160 - margin.top - margin.bottom;
+    height = 1160 - margin.top - margin.bottom,
+    axistransform = 10 - width;
 
 var x = d3.scale.linear()
     .range([0, width])
@@ -166,7 +167,7 @@ d3.csv("data_update.csv", function(error, data) {
 
   svg.append("g")
       .attr("class", "y axis")
-      .attr("transform", "translate(-" + width + "+10,0)")
+      .attr("transform", "translate(" + axistransform + ",0)")
       .call(yAxis);
 
 
