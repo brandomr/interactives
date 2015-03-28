@@ -19,7 +19,8 @@
 }
 
 .bar {
-  fill: #74c476;
+  fill: #238b45;
+  opacity: 0.5;
 }
 
 .bar:hover {
@@ -150,6 +151,15 @@ d3.csv("data_update.csv", function(error, data) {
       .call(xAxis)
 
 
+  svg.append("g")
+      .attr("class", "y axis")
+      .attr("transform", "translate(10,0)")
+      .call(yAxis)
+      .selectAll("text")
+      	.style("text-anchor","start");
+
+
+
  var bar = svg.selectAll("g.bar")
       .data(data)
     .enter().append("g")
@@ -163,12 +173,7 @@ d3.csv("data_update.csv", function(error, data) {
       .on('mouseout', tip.hide);
 
 
-  svg.append("g")
-      .attr("class", "y axis")
-      .attr("transform", "translate(20,0)")
-      .call(yAxis)
-      .selectAll("text")
-      	.style("text-anchor","start");
+
 
 
 
