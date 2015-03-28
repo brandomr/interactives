@@ -166,6 +166,7 @@ d3.csv("data_update.csv", function(error, data) {
 
   svg.append("g")
       .attr("class", "y axis")
+      .attr("transform", "translate(50,0)")
       .call(yAxis)
 
 
