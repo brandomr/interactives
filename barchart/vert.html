@@ -101,7 +101,7 @@ var margin = {top: 40, right: 20, bottom: 50, left: 65},
 
 var x = d3.scale.linear()
     .range([0, width])
-    .domain([0, 800]);
+    .domain([0, 65]);
 
 var y = d3.scale.ordinal()
     .rangeRoundBands([0, height], .1);
@@ -122,7 +122,7 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "" + d.state + " has <strong><span style='color:red'>" + d.count + " universities.</span></strong><br>"
+    return "" + d.state + " has <strong><span style='color:red'>" + d.count + " universities and a population of " + d.population.</span></strong><br>"
     + "It ranks <strong><span style='color:red'>#" + d.per_capita_rank + " </span></strong>in terms of universities on a per capita basis, <br>"
     + " having one university for every " + d.per_capita + " thousand residents.";
   })
@@ -140,7 +140,7 @@ svg.call(tip);
 d3.csv("data_update.csv", function(error, data) {
   
   data.forEach(function(d) {
-    d.count = +d.count;
+    d.per_capita = +d.per_capita;
   });
 
 
@@ -163,7 +163,7 @@ d3.csv("data_update.csv", function(error, data) {
       .attr("transform", function(d) { return "translate(0," + y(d.state) + ")"; });
 
   bar.append("rect")
-      .attr("width", function(d) { return x(d.count); })
+      .attr("width", function(d) { return x(d.per_capita); })
       .attr("height", y.rangeBand())
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
@@ -186,7 +186,7 @@ function resize() {
         .style('padding-left', '45px');
 
     svg.selectAll('rect')
-        .attr('width', function(d) { return x(d.count); });
+        .attr('width', function(d) { return x(d.per_capita); });
 
     // update axes
       svg.select(".x.axis").call(xAxis);
@@ -206,7 +206,7 @@ d3.select("input").on("change", change);
 
     // Copy-on-write since tweens are evaluated after a delay.
     var y0 = y.domain(data.sort(this.checked
-        ? function(a, b) { return b.count - a.count; }
+        ? function(a, b) { return b.per_capita - a.per_capita; }
         : function(a, b) { return d3.ascending(a.state, b.state); })
         .map(function(d) { return d.state; }))
         .copy();
