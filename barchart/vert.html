@@ -86,7 +86,7 @@
         </p>
 
         <div id="canvas">
-        <label><input type="checkbox"> Sort values</label>
+        <label><input type="checkbox"> Sort by population per university</label>
         </div>
         
       </div>
@@ -100,7 +100,7 @@
 
 format = d3.format("0,000");
 
-var margin = {top: 40, right: 20, bottom: 50, left: 0},
+var margin = {top: 40, right: 20, bottom: 50, left: 10},
     width = 960 - margin.left - margin.right,
     height = 1160 - margin.top - margin.bottom;
 
@@ -155,6 +155,10 @@ d3.csv("data_update.csv", function(error, data) {
   svg.append("g")
       .attr("class", "x axis")
       .call(xAxis)
+      .append("text", "Residents per University")
+      	.attr("dy", "-1em")
+      	.attr("x", width/2)
+      	.style("font-size", "14px");
 
 
   svg.append("g")
