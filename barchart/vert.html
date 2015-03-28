@@ -98,6 +98,8 @@
 <script src="../d3-tip/index.js"></script>
 <script>
 
+format = d3.format("0,000");
+
 var margin = {top: 40, right: 20, bottom: 50, left: 65},
     width = 960 - margin.left - margin.right,
     height = 1160 - margin.top - margin.bottom;
@@ -125,7 +127,8 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "" + d.state + " has <strong><span style='color:red'>" + d.count + " universities</span></strong> and a population of <strong><span style='color:red'>" + d.population + ".  </span></strong>"
+    return "" + d.state + " has <strong><span style='color:red'>" + d.count + " universities</span></strong>"
+    "+ and a population of <strong><span style='color:red'>" + format(d.population) + ".  </span></strong>"
     + "It ranks <strong><span style='color:red'>#" + d.per_capita_rank + " </span></strong>in terms of universities on a per capita basis,"
     + " having one university for every " + d.per_capita + " thousand residents.";
   })
@@ -143,6 +146,7 @@ d3.csv("data_update.csv", function(error, data) {
   
   data.forEach(function(d) {
     d.per_capita = +d.per_capita;
+    d.population = +d.population;
   });
 
 
