@@ -97,23 +97,34 @@
 <script src="../d3-tip/index.js"></script>
 <script>
 
+
+// Browser detection to set the width of the tooltip
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	// If the browser is a mobile device, set a slightly larger tipwidth of 45% of the canvas
 	var tipwidth = 45;
 }
 else {
+	// Else, the tipwidth will be 35% of the canvas width
 	var tipwidth = 35;
 }
 
+// Define a format that adds commas to large numbers
 format = d3.format("0,000");
 
+// Set the canvas size and margins
 var margin = {top: 50, right: 20, bottom: 50, left: 10},
     width = 960 - margin.left - margin.right,
     height = 1160 - margin.top - margin.bottom;
 
+// Define the X Axis as a linear scaled axis
 var x = d3.scale.linear()
+	// Set the range as from 0 to the width defined for the canvas previously
     .range([0, width])
+    // manually set the domain to 0 to 65 since the maximum in the data set is 62
     .domain([0, 65]);
 
+// Define the Y Axis as an ordinal axis 
+// State is categorical, but for a bar chart we treat it as ordinal
 var y = d3.scale.ordinal()
     .rangeRoundBands([0, height], .1);
 
@@ -137,7 +148,7 @@ var tip = d3.tip()
     return "" + d.state + " has <strong><span style='color:red'>" + d.count + " universities</span></strong>"
     + " and a population of <strong><span style='color:red'>" + format(d.population) + ".  </span></strong>"
     + "It ranks <strong><span style='color:red'>#" + d.per_capita_rank + " </span></strong>in terms of universities on a per capita basis,"
-    + " having one university for every " + d.per_capita + " thousand residents.";
+    + " having one university for every <strong><span style='color:red'>" + d.per_capita + " thousand</span></strong> residents.";
   })
 
 var svg = d3.select("#canvas").append("svg")
