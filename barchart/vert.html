@@ -81,7 +81,8 @@
         
         <p>This chart shows the number of universities per state within the National
         Center for Educational Statistics Integrated Postsecondary Education System (IPEDS) System.
-        The data was obtained from <a href="https://inventory.data.gov/dataset/032e19b4-5a90-41dc-83ff-6e4cd234f565/resource/38625c3d-5388-4c16-a30f-d105432553a4">data.gov</a>
+        The data on universities was obtained from <a href="https://inventory.data.gov/dataset/032e19b4-5a90-41dc-83ff-6e4cd234f565/resource/38625c3d-5388-4c16-a30f-d105432553a4">data.gov</a>
+        and state population data was obtained from <a href="http://www.census.gov/popest/data/national/totals/2014/NST-EST2014-alldata.html">census.gov</a>.
         </p>
 
         <div id="canvas">
@@ -167,7 +168,7 @@ d3.csv("data_update.csv", function(error, data) {
     d.population = +d.population;
   });
 
-
+  x.domain([0, d3.max(data, function(d) { return d.per_capita; })]);
   y.domain(data.map(function(d) { return d.state; }));
 
   svg.append("g")
