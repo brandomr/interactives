@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<body>
+<script src="d3/d3.v3.js"></script>
+<script>
+
+d3.csv("classifications_update.csv", function(error, data) {
+
+console.log(data);
+
+var nested_data = d3.nest()
+.key(function(d) { return d.level_2; })
+.key(function(d) { return d.level_3; })
+.key(function(d) { return d.level_4; })
+.key(function(d) { return d.level_5; })
+.entries(data);
+
+console.log(nested_data);
+
+
+
+var outer = {"Key": "Classifications"}
+	outer["Classifications"].values = nested_data;
+
+
+
+console.log(JSON.stringify(outer, undefined, 2));
+
+
+
+var treemap = d3.layout.treemap.nodes(outer);
+
+console.log(JSON.stringify(treemap));
+
+
+;});
+
+
+</script>
+</html>

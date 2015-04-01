@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<body>
+<script src="d3/d3.v3.js"></script>
+<script>
+
+d3.csv("classifications_update.csv", function(error, data) {
+
+var nested_data = { "key": "Classifications", "values":
+	d3.nest()
+	.key(function(d) { return d.level_2; })
+	.key(function(d) { return d.level_3; })
+	.key(function(d) { return d.level_4; })
+	.key(function(d) { return d.level_5; })
+	.entries(data)
+
+
+
+};
+
+
+//console.log(JSON.stringify(nested_data, undefined, 2));
+
+
+
+
+var treeData2 = { "name": "Classification", "children":
+        nested_data.values.map( function(level_2){
+
+            return { "name": level_2.key, "children": 
+              level_2.values.map( function(level_3){
+
+                 return { "name": level_3.key, "children": 
+                   level_3.values.map(function(level_4){
+
+                      return { "name": level_4.key, "children":
+			 level_4.values.map(function(level_5){
+			
+			 	return { "name": level_5.key, "values": level_5.values };
+				
+				}) //end of map(function(level_5){
+				};
+
+                   }) //end of map(function(level_4){
+                 };
+
+              }) //end of map(function(level_3){
+            }; 
+
+         }) //end of map(function(level_2){
+      }; //end of var declaration
+
+
+
+
+console.log(JSON.stringify(treeData2, undefined, 2));
+
+
+
+;});
+
+
+</script>
+</html>

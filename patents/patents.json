@@ -1,0 +1,2247 @@
+{
+  "name": "Classification",
+  "children": [
+    {
+      "name": "HUMAN NECESSITIES",
+      "children": [
+        {
+          "name": "Personal or domestic articles",
+          "children": [
+            {
+              "name": "WEARING APPAREL",
+              "children": [
+                {
+                  "name": "OUTERWEAR",
+                  "size": 5
+                },
+                {
+                  "name": "CORSETS",
+                  "size": 1
+                },
+                {
+                  "name": "SHIRTS",
+                  "size": 4
+                }
+              ]
+            },
+            {
+              "name": "FOOTWEAR",
+              "children": [
+                {
+                  "name": "CHARACTERISTIC FEATURES OF FOOTWEAR",
+                  "size": 7
+                }
+              ]
+            },
+            {
+              "name": "HAND OR TRAVELLING ARTICLES",
+              "children": [
+                {
+                  "name": "TRAVELLING OR CAMP EQUIPMENT",
+                  "size": 3
+                },
+                {
+                  "name": "PURSES",
+                  "size": 7
+                },
+                {
+                  "name": "HAIRDRESSING OR SHAVING EQUIPMENT",
+                  "size": 5
+                },
+                {
+                  "name": "WALKING STICKS",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "BRUSHWARE",
+              "children": [
+                {
+                  "name": "BRUSHES ",
+                  "size": 7
+                }
+              ]
+            },
+            {
+              "name": "FURNITURE ",
+              "children": [
+                {
+                  "name": "CHAIRS ",
+                  "size": 14
+                },
+                {
+                  "name": "TABLES",
+                  "size": 6
+                },
+                {
+                  "name": "KITCHEN EQUIPMENT ",
+                  "size": 8
+                },
+                {
+                  "name": "HOUSEHOLD OR TABLE EQUIPMENT ",
+                  "size": 9
+                },
+                {
+                  "name": "SANITARY EQUIPMENT NOT OTHERWISE PROVIDED FOR ",
+                  "size": 2
+                },
+                {
+                  "name": "DOMESTIC WASHING OR CLEANING ",
+                  "size": 15
+                },
+                {
+                  "name": "SPECIAL FURNITURE, FITTINGS, OR ACCESSORIES FOR SHOPS, STOREHOUSES, BARS, RESTAURANTS OR THE LIKE",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "HABERDASHERY",
+              "children": [
+                {
+                  "name": "BUTTONS, PINS, BUCKLES, SLIDE FASTENERS, OR THE LIKE ",
+                  "size": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Agriculture",
+          "children": [
+            {
+              "name": "AGRICULTURE",
+              "children": [
+                {
+                  "name": "ANIMAL HUSBANDRY",
+                  "size": 16
+                },
+                {
+                  "name": "HORTICULTURE",
+                  "size": 4
+                },
+                {
+                  "name": "NEW PLANTS OR PROCESSES FOR OBTAINING THEM",
+                  "size": 7
+                },
+                {
+                  "name": "CATCHING OR TRAPPING OF ANIMALS ",
+                  "size": 3
+                },
+                {
+                  "name": "HARVESTING",
+                  "size": 4
+                },
+                {
+                  "name": "PLANTING",
+                  "size": 5
+                },
+                {
+                  "name": "SOIL WORKING IN AGRICULTURE OR FORESTRY",
+                  "size": 3
+                },
+                {
+                  "name": "PRESERVATION OF BODIES OF HUMANS OR ANIMALS OR PLANTS OR PARTS THEREOF",
+                  "size": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Foodstuffs",
+          "children": [
+            {
+              "name": "BAKING",
+              "children": [
+                {
+                  "name": "MACHINES OR EQUIPMENT FOR BAKING ",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "TOBACCO",
+              "children": [
+                {
+                  "name": "MATCH BOXES ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "BUTCHERING",
+              "children": [
+                {
+                  "name": "PROCESSING MEAT, POULTRY, OR FISH ",
+                  "size": 1
+                },
+                {
+                  "name": "SLAUGHTERING",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "FOODS OR FOODSTUFFS",
+              "children": [
+                {
+                  "name": "INDEXING SCHEME RELATING TO FOODS, FOODSTUFFS OR NON-ALCOHOLIC BEVERAGES",
+                  "size": 1
+                },
+                {
+                  "name": "DAIRY PRODUCTS, e.g. MILK, BUTTER, CHEESE",
+                  "size": 2
+                },
+                {
+                  "name": "COFFEE",
+                  "size": 1
+                },
+                {
+                  "name": "SHAPING OR WORKING OF FOODSTUFFS, NOT FULLY COVERED BY A SINGLE OTHER SUBCLASS ",
+                  "size": 1
+                },
+                {
+                  "name": "FOODS, FOODSTUFFS, OR NON-ALCOHOLIC BEVERAGES, NOT COVERED BY SUBCLASSES ",
+                  "size": 2
+                },
+                {
+                  "name": "PRESERVING, e.g. BY CANNING, MEAT, FISH, EGGS, FRUIT, VEGETABLES, EDIBLE SEEDS",
+                  "size": 1
+                },
+                {
+                  "name": "FODDER",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Health",
+          "children": [
+            {
+              "name": "SPORTS",
+              "children": [
+                {
+                  "name": "APPARATUS FOR PHYSICAL TRAINING, GYMNASTICS, SWIMMING, CLIMBING, OR FENCING",
+                  "size": 22
+                },
+                {
+                  "name": "TOYS, e.g. TOPS, DOLLS, HOOPS, BUILDING BLOCKS",
+                  "size": 9
+                },
+                {
+                  "name": "CARD, BOARD, OR ROULETTE GAMES",
+                  "size": 11
+                },
+                {
+                  "name": "SKATES",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "MEDICAL OR VETERINARY SCIENCE",
+              "children": [
+                {
+                  "name": "DIAGNOSIS",
+                  "size": 88
+                },
+                {
+                  "name": "CONTAINERS SPECIALLY ADAPTED FOR MEDICAL OR PHARMACEUTICAL PURPOSES",
+                  "size": 5
+                },
+                {
+                  "name": "PHYSICAL THERAPY APPARATUS, e.g. DEVICES FOR LOCATING OR STIMULATING REFLEX POINTS IN THE BODY",
+                  "size": 1
+                },
+                {
+                  "name": "DENTISTRY",
+                  "size": 8
+                },
+                {
+                  "name": "PREPARATIONS FOR MEDICAL, DENTAL, OR TOILET PURPOSES ",
+                  "size": 69
+                },
+                {
+                  "name": "TRANSPORT OR ACCOMODATION FOR PATIENTS",
+                  "size": 4
+                },
+                {
+                  "name": "FILTERS IMPLANTABLE INTO BLOOD VESSELS",
+                  "size": 38
+                },
+                {
+                  "name": "DEVICES FOR INTRODUCING MEDIA INTO, OR ONTO, THE BODY ",
+                  "size": 43
+                },
+                {
+                  "name": "METHODS OR APPARATUS FOR STERILISING MATERIALS OR OBJECTS IN GENERAL",
+                  "size": 5
+                },
+                {
+                  "name": "ELECTROTHERAPY",
+                  "size": 16
+                },
+                {
+                  "name": "SPECIFIC USE OF COSMETICS OR SIMILAR TOILET PREPARATIONS",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "LIFE-SAVING",
+              "children": [
+                {
+                  "name": "DEVICES, APPARATUS OR METHODS FOR LIFE-SAVING ",
+                  "size": 2
+                },
+                {
+                  "name": "FIRE-FIGHTING ",
+                  "size": 1
+                },
+                {
+                  "name": "CHEMICAL MEANS FOR EXTINGUISHING FIRES OR FOR COMBATING OR PROTECTING AGAINST HARMFUL CHEMICAL AGENTS",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FIXED CONSTRUCTIONS",
+      "children": [
+        {
+          "name": "Building",
+          "children": [
+            {
+              "name": "LOCKS",
+              "children": [
+                {
+                  "name": "LOCKS",
+                  "size": 6
+                },
+                {
+                  "name": "BOLTS OR FASTENING DEVICES FOR WINGS, SPECIALLY FOR DOORS OR WINDOWS ",
+                  "size": 3
+                },
+                {
+                  "name": "HINGES OR OTHER SUSPENSION DEVICES FOR DOORS, WINDOWS OR WINGS ",
+                  "size": 3
+                },
+                {
+                  "name": "DEVICES FOR MOVING WINGS INTO OPEN OR CLOSED POSITION",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "CONSTRUCTION OF ROADS, RAILWAYS, OR BRIDGES ",
+              "children": [
+                {
+                  "name": "STREET CLEANING",
+                  "size": 4
+                },
+                {
+                  "name": "CONSTRUCTION OF, OR SURFACES FOR, ROADS, SPORTS GROUNDS, OR THE LIKE",
+                  "size": 8
+                },
+                {
+                  "name": "PERMANENT WAY",
+                  "size": 1
+                },
+                {
+                  "name": "ADDITIONAL WORK, SUCH AS EQUIPPING ROADS OR THE CONSTRUCTION OF PLATFORMS, HELICOPTER LANDING STAGES, SIGNS, SNOW FENCES, OR THE LIKE",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "WATER SUPPLY",
+              "children": [
+                {
+                  "name": "DOMESTIC PLUMBING INSTALLATIONS FOR FRESH WATER OR WASTE WATER ",
+                  "size": 7
+                },
+                {
+                  "name": "SEWERS",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "HYDRAULIC ENGINEERING",
+              "children": [
+                {
+                  "name": "DREDGING",
+                  "size": 4
+                },
+                {
+                  "name": "HYDRAULIC ENGINEERING ",
+                  "size": 3
+                },
+                {
+                  "name": "FOUNDATIONS",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "DOORS, WINDOWS, SHUTTERS, OR ROLLER BLINDS IN GENERAL",
+              "children": [
+                {
+                  "name": "FIXED OR MOVABLE CLOSURES FOR OPENINGS IN BUILDINGS, VEHICLES, FENCES OR LIKE ENCLOSURES IN GENERAL, e.g. DOORS, WINDOWS, BLINDS, GATES ",
+                  "size": 6
+                }
+              ]
+            },
+            {
+              "name": "BUILDING ",
+              "children": [
+                {
+                  "name": "BUILDINGS OR LIKE STRUCTURES FOR PARTICULAR PURPOSES",
+                  "size": 2
+                },
+                {
+                  "name": "SCAFFOLDING",
+                  "size": 2
+                },
+                {
+                  "name": "ROOF COVERINGS",
+                  "size": 2
+                },
+                {
+                  "name": "FINISHING WORK ON BUILDINGS, e.g. STAIRS, FLOORS ",
+                  "size": 3
+                },
+                {
+                  "name": "GENERAL BUILDING CONSTRUCTIONS",
+                  "size": 5
+                },
+                {
+                  "name": "STRUCTURAL ELEMENTS",
+                  "size": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Earth drilling",
+          "children": [
+            {
+              "name": "EARTH DRILLING",
+              "children": [
+                {
+                  "name": "EARTH DRILLING, e.g. DEEP DRILLING ",
+                  "size": 20
+                },
+                {
+                  "name": "SAFETY DEVICES, TRANSPORT, FILLING-UP, RESCUE, VENTILATION, OR DRAINING IN OR OF MINES OR TUNNELS",
+                  "size": 2
+                },
+                {
+                  "name": "SHAFTS",
+                  "size": 2
+                },
+                {
+                  "name": "MINING OR QUARRYING",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PHYSICS",
+      "children": [
+        {
+          "name": "Instruments",
+          "children": [
+            {
+              "name": "EDUCATION",
+              "children": [
+                {
+                  "name": "DISPLAYING",
+                  "size": 5
+                },
+                {
+                  "name": "EDUCATIONAL OR DEMONSTRATION APPLIANCES",
+                  "size": 6
+                },
+                {
+                  "name": "ARRANGEMENTS OR CIRCUITS FOR CONTROL OF INDICATING DEVICES USING STATIC MEANS TO PRESENT VARIABLE INFORMATION ",
+                  "size": 32
+                }
+              ]
+            },
+            {
+              "name": "CHECKING-DEVICES",
+              "children": [
+                {
+                  "name": "COIN-FREED OR LIKE APPARATUS ",
+                  "size": 12
+                },
+                {
+                  "name": "TIME OR ATTENDANCE REGISTERS",
+                  "size": 9
+                },
+                {
+                  "name": "HANDLING OF COINS OR OF PAPER CURRENCY OR SIMILAR VALUABLE PAPERS, e.g. TESTING, SORTING BY DENOMINATIONS, COUNTING, DISPENSING, CHANGING OR DEPOSITING",
+                  "size": 3
+                },
+                {
+                  "name": "REGISTERING THE RECEIPT OF CASH, VALUABLES, OR TOKENS ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "HOROLOGY",
+              "children": [
+                {
+                  "name": "MECHANICALLY-DRIVEN CLOCKS OR WATCHES",
+                  "size": 8
+                },
+                {
+                  "name": "ELECTROMECHANICAL CLOCKS OR WATCHES ",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "MEASURING ",
+              "children": [
+                {
+                  "name": "MEASUREMENT OF INTENSITY, VELOCITY, SPECTRAL CONTENT, POLARISATION, PHASE OR PULSE CHARACTERISTICS OF INFRA-RED, VISIBLE OR ULTRA-VIOLET LIGHT",
+                  "size": 5
+                },
+                {
+                  "name": "MEASURING LENGTH, THICKNESS OR SIMILAR LINEAR DIMENSIONS",
+                  "size": 9
+                },
+                {
+                  "name": "MEASURING ELECTRIC VARIABLES",
+                  "size": 23
+                },
+                {
+                  "name": "MEASURING LINEAR OR ANGULAR SPEED, ACCELERATION, DECELERATION, OR SHOCK",
+                  "size": 3
+                },
+                {
+                  "name": "MEASURING FORCE, STRESS, TORQUE, WORK, MECHANICAL POWER, MECHANICAL EFFICIENCY, OR FLUID PRESSURE ",
+                  "size": 7
+                },
+                {
+                  "name": "TESTING STATIC OR DYNAMIC BALANCE OF MACHINES OR STRUCTURES",
+                  "size": 7
+                },
+                {
+                  "name": "INVESTIGATING OR ANALYSING MATERIALS BY DETERMINING THEIR CHEMICAL OR PHYSICAL PROPERTIES ",
+                  "size": 53
+                },
+                {
+                  "name": "MEASURING VOLUME, VOLUME FLOW, MASS FLOW OR LIQUID LEVEL",
+                  "size": 4
+                },
+                {
+                  "name": "GEOPHYSICS",
+                  "size": 4
+                },
+                {
+                  "name": "WEIGHING ",
+                  "size": 5
+                },
+                {
+                  "name": "MEASURING NOT SPECIALLY ADAPTED FOR A SPECIFIC VARIABLE",
+                  "size": 3
+                },
+                {
+                  "name": "MEASURING TEMPERATURE",
+                  "size": 2
+                },
+                {
+                  "name": "MEASUREMENT OF NUCLEAR OR X-RADIATION ",
+                  "size": 6
+                },
+                {
+                  "name": "MEASURING DISTANCES, LEVELS OR BEARINGS",
+                  "size": 13
+                },
+                {
+                  "name": "RADIO DIRECTION-FINDING",
+                  "size": 17
+                },
+                {
+                  "name": "MEASUREMENT OF MECHANICAL VIBRATIONS OR ULTRASONIC, SONIC OR INFRASONIC WAVES ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "SIGNALLING ",
+              "children": [
+                {
+                  "name": "TRAFFIC CONTROL SYSTEMS ",
+                  "size": 7
+                },
+                {
+                  "name": "TRANSMISSION SYSTEMS FOR MEASURED VALUES, CONTROL OR SIMILAR SIGNALS ",
+                  "size": 2
+                },
+                {
+                  "name": "SIGNALLING OR CALLING SYSTEMS",
+                  "size": 9
+                }
+              ]
+            },
+            {
+              "name": "COMPUTING",
+              "children": [
+                {
+                  "name": "ELECTRICAL DIGITAL DATA PROCESSING ",
+                  "size": 400
+                },
+                {
+                  "name": "RECOGNITION OF DATA",
+                  "size": 43
+                },
+                {
+                  "name": "DATA PROCESSING SYSTEMS OR METHODS, SPECIALLY ADAPTED FOR ADMINISTRATIVE, COMMERCIAL, FINANCIAL, MANAGERIAL, SUPERVISORY OR FORECASTING PURPOSES",
+                  "size": 38
+                },
+                {
+                  "name": "IMAGE DATA PROCESSING OR GENERATION, IN GENERAL ",
+                  "size": 15
+                },
+                {
+                  "name": "ANALOGUE COMPUTERS ",
+                  "size": 1
+                },
+                {
+                  "name": "COMPUTER SYSTEMS BASED ON SPECIFIC COMPUTATIONAL MODELS",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "OPTICS ",
+              "children": [
+                {
+                  "name": "OPTICAL ELEMENTS, SYSTEMS, OR APPARATUS ",
+                  "size": 52
+                },
+                {
+                  "name": "SPECTACLES",
+                  "size": 6
+                },
+                {
+                  "name": "DEVICES OR ARRANGEMENTS, THE OPTICAL OPERATION OF WHICH IS MODIFIED BY CHANGING THE OPTICAL PROPERTIES OF THE MEDIUM OF THE DEVICES OR ARRANGEMENTS FOR THE CONTROL OF THE INTENSITY, COLOUR, PHASE, POLARISATION OR DIRECTION OF LIGHT, e.g. SWITCHING, GATING, MODULATING OR DEMODULATING",
+                  "size": 27
+                }
+              ]
+            },
+            {
+              "name": "PHOTOGRAPHY",
+              "children": [
+                {
+                  "name": "APPARATUS OR ARRANGEMENTS FOR TAKING PHOTOGRAPHS OR FOR PROJECTING OR VIEWING THEM",
+                  "size": 17
+                },
+                {
+                  "name": "ELECTROGRAPHY",
+                  "size": 26
+                },
+                {
+                  "name": "PHOTOMECHANICAL PRODUCTION OF TEXTURED OR PATTERNED SURFACES, e.g. FOR PRINTING, FOR PROCESSING OF SEMICONDUCTOR DEVICES",
+                  "size": 15
+                },
+                {
+                  "name": "HOLOGRAPHIC PROCESSES OR APPARATUS ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "INFORMATION STORAGE",
+              "children": [
+                {
+                  "name": "INFORMATION STORAGE BASED ON RELATIVE MOVEMENT BETWEEN RECORD CARRIER AND TRANSDUCER ",
+                  "size": 20
+                },
+                {
+                  "name": "STATIC STORES ",
+                  "size": 34
+                }
+              ]
+            },
+            {
+              "name": "CONTROLLING",
+              "children": [
+                {
+                  "name": "SYSTEMS FOR CONTROLLING OR REGULATING NON-ELECTRIC VARIABLES ",
+                  "size": 4
+                },
+                {
+                  "name": "SYSTEMS FOR REGULATING ELECTRIC OR MAGNETIC VARIABLES ",
+                  "size": 3
+                },
+                {
+                  "name": "CONTROL OR REGULATING SYSTEMS IN GENERAL",
+                  "size": 5
+                }
+              ]
+            },
+            {
+              "name": "MUSICAL INSTRUMENTS",
+              "children": [
+                {
+                  "name": "ELECTROPHONIC MUSICAL INSTRUMENTS ",
+                  "size": 5
+                },
+                {
+                  "name": "STRINGED MUSICAL INSTRUMENTS",
+                  "size": 2
+                },
+                {
+                  "name": "SPEECH ANALYSIS OR SYNTHESIS",
+                  "size": 9
+                },
+                {
+                  "name": "SOUND-PRODUCING DEVICES ",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nucleonics",
+          "children": [
+            {
+              "name": "NUCLEAR PHYSICS",
+              "children": [
+                {
+                  "name": "TECHNIQUES FOR HANDLING PARTICLES OR IONISING RADIATION NOT OTHERWISE PROVIDED FOR",
+                  "size": 2
+                },
+                {
+                  "name": "CONVERSION OF CHEMICAL ELEMENTS",
+                  "size": 1
+                },
+                {
+                  "name": "NUCLEAR REACTORS ",
+                  "size": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PERFORMING OPERATIONS; TRANSPORTING",
+      "children": [
+        {
+          "name": "Transporting",
+          "children": [
+            {
+              "name": "CONVEYING",
+              "children": [
+                {
+                  "name": "CONTAINERS FOR STORAGE OR TRANSPORT OF ARTICLES OR MATERIALS, e.g. BAGS, BARRELS, BOTTLES, BOXES, CANS, CARTONS, CRATES, DRUMS, JARS, TANKS, HOPPERS, FORWARDING CONTAINERS",
+                  "size": 40
+                },
+                {
+                  "name": "HANDLING THIN OR FILAMENTARY MATERIAL, e.g. SHEETS, WEBS, CABLES",
+                  "size": 19
+                },
+                {
+                  "name": "MACHINES, APPARATUS OR DEVICES FOR, OR METHODS OF, PACKAGING ARTICLES OR MATERIALS",
+                  "size": 7
+                },
+                {
+                  "name": "GATHERING OR REMOVAL OF DOMESTIC OR LIKE REFUSE ",
+                  "size": 1
+                },
+                {
+                  "name": "TRANSPORT OR STORAGE DEVICES, e.g. CONVEYERS FOR LOADING OR TIPPING",
+                  "size": 9
+                },
+                {
+                  "name": "LABELLING OR TAGGING MACHINES, APPARATUS, OR PROCESSES ",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "OPENING, CLOSING ",
+              "children": [
+                {
+                  "name": "DISPENSING, DELIVERING OR TRANSFERRING LIQUIDS, NOT OTHERWISE PROVIDED FOR ",
+                  "size": 3
+                },
+                {
+                  "name": "CLEANING, FILLING WITH LIQUIDS OR SEMILIQUIDS, OR EMPTYING, OF BOTTLES, JARS, CANS, CASKS, BARRELS, OR SIMILAR CONTAINERS, NOT OTHERWISE PROVIDED FOR",
+                  "size": 1
+                },
+                {
+                  "name": "APPLYING CLOSURE MEMBERS TO BOTTLES JARS, OR SIMILAR CONTAINERS",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "VEHICLES IN GENERAL",
+              "children": [
+                {
+                  "name": "VEHICLES, VEHICLE FITTINGS, OR VEHICLE PARTS, NOT OTHERWISE PROVIDED FOR",
+                  "size": 27
+                },
+                {
+                  "name": "VEHICLE PASSENGER ACCOMMODATION NOT OTHERWISE PROVIDED FOR ",
+                  "size": 6
+                },
+                {
+                  "name": "VEHICLE WHEELS",
+                  "size": 10
+                },
+                {
+                  "name": "ARRANGEMENTS OR ADAPTATIONS OF HEATING, COOLING, VENTILATING, OR OTHER AIR-TREATING DEVICES SPECIALLY FOR PASSENGER OR GOODS SPACES OF VEHICLES",
+                  "size": 2
+                },
+                {
+                  "name": "SERVICING, CLEANING, REPAIRING, SUPPORTING, LIFTING, OR MANOEUVRING OF VEHICLES, NOT OTHERWISE PROVIDED FOR",
+                  "size": 1
+                },
+                {
+                  "name": "ARRANGEMENT OR MOUNTING OF PROPULSION UNITS OR OF TRANSMISSIONS IN VEHICLES",
+                  "size": 12
+                },
+                {
+                  "name": "VEHICLE TYRES ",
+                  "size": 9
+                },
+                {
+                  "name": "VEHICLE BRAKE CONTROL SYSTEMS OR PARTS THEREOF",
+                  "size": 5
+                },
+                {
+                  "name": "VEHICLE SUSPENSION ARRANGEMENTS ",
+                  "size": 5
+                },
+                {
+                  "name": "VEHICLE CONNECTIONS ",
+                  "size": 1
+                },
+                {
+                  "name": "WINDOWS, WINDSCREENS, NON-FIXED ROOFS, DOORS, OR SIMILAR DEVICES FOR VEHICLES",
+                  "size": 6
+                },
+                {
+                  "name": "VEHICLE LIGHTING OR SIGNALLING ",
+                  "size": 4
+                },
+                {
+                  "name": "VEHICLES ADAPTED FOR LOAD TRANSPORTATION OR TO TRANSPORT, TO CARRY OR TO COMPRISE SPECIAL LOADS OR OBJECTS ",
+                  "size": 1
+                },
+                {
+                  "name": "ELECTRIC EQUIPMENT OR PROPULSION OF ELECTRICALLY-PROPELLED VEHICLES",
+                  "size": 2
+                },
+                {
+                  "name": "CONJOINT CONTROL OF VEHICLE SUB-UNITS OF DIFFERENT TYPE OR DIFFERENT FUNCTION",
+                  "size": 9
+                }
+              ]
+            },
+            {
+              "name": "LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS",
+              "children": [
+                {
+                  "name": "CYCLE SADDLES OR SEATS",
+                  "size": 1
+                },
+                {
+                  "name": "HAND-PROPELLED VEHICLES, e.g. HAND CARTS, PERAMBULATORS",
+                  "size": 3
+                },
+                {
+                  "name": "RIDER PROPULSION OF WHEELED VEHICLES OR SLEDGES",
+                  "size": 1
+                },
+                {
+                  "name": "MOTOR VEHICLES",
+                  "size": 14
+                },
+                {
+                  "name": "CYCLE STANDS",
+                  "size": 1
+                },
+                {
+                  "name": "CYCLES",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "AIRCRAFT",
+              "children": [
+                {
+                  "name": "LIGHTER-THAN AIR AIRCRAFT",
+                  "size": 1
+                },
+                {
+                  "name": "AEROPLANES",
+                  "size": 10
+                },
+                {
+                  "name": "EQUIPMENT FOR FITTING IN OR TO AIRCRAFT",
+                  "size": 8
+                },
+                {
+                  "name": "GROUND OR AIRCRAFT-CARRIER-DECK INSTALLATIONS",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "SHIPS OR OTHER WATERBORNE VESSELS",
+              "children": [
+                {
+                  "name": "SHIPS OR OTHER WATERBORNE VESSELS",
+                  "size": 4
+                },
+                {
+                  "name": "MARINE PROPULSION OR STEERING ",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "SADDLERY",
+              "children": [
+                {
+                  "name": "SADDLES",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "HOISTING",
+              "children": [
+                {
+                  "name": "ELEVATORS",
+                  "size": 1
+                },
+                {
+                  "name": "CRANES",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "RAILWAYS",
+              "children": [
+                {
+                  "name": "COUPLINGS",
+                  "size": 1
+                },
+                {
+                  "name": "RAILWAY SYSTEMS",
+                  "size": 1
+                },
+                {
+                  "name": "GUIDING RAILWAY TRAFFIC",
+                  "size": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shaping",
+          "children": [
+            {
+              "name": "WORKING OR PRESERVING WOOD OR SIMILAR MATERIAL",
+              "children": [
+                {
+                  "name": "PLANING, DRILLING, MILLING, TURNING, OR UNIVERSAL MACHINES ",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "GRINDING",
+              "children": [
+                {
+                  "name": "MACHINES, DEVICES, OR PROCESSES FOR GRINDING OR POLISHING ",
+                  "size": 6
+                },
+                {
+                  "name": "TOOLS FOR GRINDING, BUFFING, OR SHARPENING ",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "HAND TOOLS",
+              "children": [
+                {
+                  "name": "COMBINATION OR MULTI-PURPOSE TOOLS NOT OTHERWISE PROVIDED FOR",
+                  "size": 1
+                },
+                {
+                  "name": "HANDLES FOR HAND IMPLEMENTS ",
+                  "size": 2
+                },
+                {
+                  "name": "TOOLS OR BENCH DEVICES NOT OTHERWISE PROVIDED FOR, FOR FASTENING, CONNECTING, DISENGAGING OR HOLDING",
+                  "size": 3
+                },
+                {
+                  "name": "HAND-HELD NAILING OR STAPLING TOOLS",
+                  "size": 1
+                },
+                {
+                  "name": "WORKSHOP EQUIPMENT, e.g. FOR MARKING-OUT WORK",
+                  "size": 1
+                },
+                {
+                  "name": "MANIPULATORS",
+                  "size": 4
+                }
+              ]
+            },
+            {
+              "name": "MACHINE TOOLS",
+              "children": [
+                {
+                  "name": "OTHER WORKING OF METAL",
+                  "size": 2
+                },
+                {
+                  "name": "SOLDERING OR UNSOLDERING",
+                  "size": 5
+                },
+                {
+                  "name": "TURNING",
+                  "size": 3
+                },
+                {
+                  "name": "MILLING ",
+                  "size": 2
+                },
+                {
+                  "name": "MAKING GEARS OR TOOTHED RACKS ",
+                  "size": 1
+                },
+                {
+                  "name": "DETAILS, COMPONENTS, OR ACCESSORIES FOR MACHINE TOOLS, e.g. ARRANGEMENTS FOR COPYING OR CONTROLLING ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "WORKING OF PLASTICS",
+              "children": [
+                {
+                  "name": "SHAPING OR JOINING OF PLASTICS",
+                  "size": 20
+                },
+                {
+                  "name": "PRODUCING PARTICULAR ARTICLES FROM PLASTICS OR FROM SUBSTANCES IN A PLASTIC STATE ",
+                  "size": 3
+                },
+                {
+                  "name": "PREPARATION OR PRETREATMENT OF THE MATERIAL TO BE SHAPED",
+                  "size": 2
+                },
+                {
+                  "name": "INDEXING SCHEME ASSOCIATED WITH SUBCLASSES ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "MECHANICAL METAL-WORKING WITHOUT ESSENTIALLY REMOVING MATERIAL",
+              "children": [
+                {
+                  "name": "WORKING OR PROCESSING OF SHEET METAL OR METAL TUBES, RODS OR PROFILES WITHOUT ESSENTIALLY REMOVING MATERIAL",
+                  "size": 5
+                },
+                {
+                  "name": "MANUFACTURE OF METAL SHEETS, WIRE, RODS, TUBES OR PROFILES, OTHERWISE THAN BY ROLLING",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "LAYERED PRODUCTS",
+              "children": [
+                {
+                  "name": "LAYERED PRODUCTS, i.e. PRODUCTS BUILT-UP OF STRATA OF FLAT OR NON-FLAT, e.g. CELLULAR OR HONEYCOMB, FORM",
+                  "size": 9
+                }
+              ]
+            },
+            {
+              "name": "CASTING",
+              "children": [
+                {
+                  "name": "FOUNDRY MOULDING ",
+                  "size": 4
+                },
+                {
+                  "name": "CASTING OF METALS",
+                  "size": 4
+                }
+              ]
+            },
+            {
+              "name": "WORKING CEMENT, CLAY, OR STONE",
+              "children": [
+                {
+                  "name": "SHAPING CLAY OR OTHER CERAMIC COMPOSITIONS, SLAG, OR MIXTURES CONTAINING CEMENTITIOUS MATERIAL, e.g. PLASTER ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "MAKING PAPER ARTICLES",
+              "children": [
+                {
+                  "name": "MAKING BOXES, CARTONS, ENVELOPES OR BAGS ",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Printing",
+          "children": [
+            {
+              "name": "WRITING OR DRAWING IMPLEMENTS",
+              "children": [
+                {
+                  "name": "ARTICLES FOR WRITING OR DRAWING UPON; ",
+                  "size": 1
+                },
+                {
+                  "name": "IMPLEMENTS FOR WRITING OR DRAWING ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "PRINTING",
+              "children": [
+                {
+                  "name": "TYPEWRITERS",
+                  "size": 28
+                },
+                {
+                  "name": "PRINTING, DUPLICATING, MARKING, OR COPYING PROCESSES",
+                  "size": 3
+                },
+                {
+                  "name": "PRINTING MACHINES OR PRESSES ",
+                  "size": 3
+                },
+                {
+                  "name": "STAMPS",
+                  "size": 1
+                },
+                {
+                  "name": "PROCESSES FOR THE MANUFACTURE OR REPRODUCTION OF PRINTING SURFACES ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "DECORATIVE ARTS",
+              "children": [
+                {
+                  "name": "PAINTING OR ARTISTIC DRAWING, NOT OTHERWISE PROVIDED FOR",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "BOOKBINDING",
+              "children": [
+                {
+                  "name": "BOOKS",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Separating",
+          "children": [
+            {
+              "name": "PHYSICAL OR CHEMICAL PROCESSES OR APPARATUS IN GENERAL ",
+              "children": [
+                {
+                  "name": "SEPARATION ",
+                  "size": 19
+                },
+                {
+                  "name": "MIXING, e.g. DISSOLVING, EMULSIFYING, DISPERSING ",
+                  "size": 8
+                },
+                {
+                  "name": "CHEMICAL OR PHYSICAL PROCESSES, e.g. CATALYSIS, COLLOID CHEMISTRY",
+                  "size": 7
+                },
+                {
+                  "name": "CHEMICAL OR PHYSICAL LABORATORY APPARATUS FOR GENERAL USE ",
+                  "size": 6
+                }
+              ]
+            },
+            {
+              "name": "CLEANING",
+              "children": [
+                {
+                  "name": "CLEANING IN GENERAL",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "SPRAYING OR ATOMISING IN GENERAL",
+              "children": [
+                {
+                  "name": "SPRAYING APPARATUS",
+                  "size": 8
+                },
+                {
+                  "name": "APPARATUS FOR APPLYING LIQUIDS OR OTHER FLUENT MATERIALS TO SURFACES, IN GENERAL ",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "SEPARATING SOLIDS FROM SOLIDS",
+              "children": [
+                {
+                  "name": "POSTAL SORTING",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "CENTRIFUGAL APPARATUS OR MACHINES FOR CARRYING-OUT PHYSICAL OR CHEMICAL PROCESSES ",
+              "children": [
+                {
+                  "name": "CENTRIFUGES ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "GENERATING OR TRANSMITTING MECHANICAL VIBRATIONS IN GENERAL",
+              "children": [
+                {
+                  "name": "METHODS OR APPARATUS FOR GENERATING OR TRANSMITTING MECHANICAL VIBRATIONS OF INFRASONIC, SONIC, OR ULTRASONIC FREQUENCY, ",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Micro-structural technology",
+          "children": [
+            {
+              "name": "NANO-TECHNOLOGY",
+              "children": [
+                {
+                  "name": "SPECIFIC USES OR APPLICATIONS OF NANO-STRUCTURES",
+                  "size": 7
+                }
+              ]
+            },
+            {
+              "name": "MICRO-STRUCTURAL TECHNOLOGY",
+              "children": [
+                {
+                  "name": "MICRO-STRUCTURAL DEVICES OR SYSTEMS, e.g. MICRO-MECHANICAL DEVICES ",
+                  "size": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MECHANICAL ENGINEERING; LIGHTING; HEATING; WEAPONS; BLASTING ENGINES OR PUMPS",
+      "children": [
+        {
+          "name": "Lighting",
+          "children": [
+            {
+              "name": "HEATING",
+              "children": [
+                {
+                  "name": "OTHER DOMESTIC STOVES OR RANGES",
+                  "size": 3
+                },
+                {
+                  "name": "DOMESTIC STOVES OR RANGES FOR SOLID FUELS",
+                  "size": 1
+                },
+                {
+                  "name": "PRODUCING OR USE OF HEAT NOT OTHERWISE PROVIDED FOR ",
+                  "size": 3
+                },
+                {
+                  "name": "AIR-CONDITIONING, AIR-HUMIDIFICATION, VENTILATION, USE OF AIR CURRENTS FOR SCREENING ",
+                  "size": 4
+                },
+                {
+                  "name": "DOMESTIC- OR SPACE-HEATING SYSTEMS, e.g. CENTRAL HEATING SYSTEMS",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "LIGHTING ",
+              "children": [
+                {
+                  "name": "NON-PORTABLE LIGHTING DEVICES OR SYSTEMS THEREOF ",
+                  "size": 3
+                },
+                {
+                  "name": "DETAILS OF LIGHTING DEVICES, OF GENERAL APPLICATION",
+                  "size": 4
+                },
+                {
+                  "name": "LIGHT SOURCES NOT OTHERWISE PROVIDED FOR",
+                  "size": 1
+                },
+                {
+                  "name": "INDEXING SCHEME RELATING TO THE FORM OF THE LIGHT SOURCES",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "DRYING",
+              "children": [
+                {
+                  "name": "DRYING SOLID MATERIALS OR OBJECTS BY REMOVING LIQUID THEREFROM ",
+                  "size": 5
+                }
+              ]
+            },
+            {
+              "name": "COMBUSTION APPARATUS",
+              "children": [
+                {
+                  "name": "GENERATING COMBUSTION PRODUCTS OF HIGH PRESSURE OR HIGH VELOCITY, e.g. GAS-TURBINE COMBUSTION CHAMBERS ",
+                  "size": 2
+                },
+                {
+                  "name": "REGULATING OR CONTROLLING COMBUSTION ",
+                  "size": 1
+                },
+                {
+                  "name": "BURNERS ",
+                  "size": 1
+                },
+                {
+                  "name": "CREMATION FURNACES",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "REFRIGERATION OR COOLING",
+              "children": [
+                {
+                  "name": "PRODUCTION, WORKING, STORING OR DISTRIBUTION OF ICE ",
+                  "size": 3
+                },
+                {
+                  "name": "REFRIGERATION MACHINES, PLANTS OR SYSTEMS",
+                  "size": 3
+                },
+                {
+                  "name": "REFRIGERATORS",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "STEAM GENERATION ",
+              "children": [
+                {
+                  "name": "METHODS OF STEAM GENERATION",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "HEAT EXCHANGE IN GENERAL",
+              "children": [
+                {
+                  "name": "DETAILS OF HEAT-EXCHANGE AND HEAT-TRANSFER APPARATUS, OF GENERAL APPLICATION ",
+                  "size": 2
+                },
+                {
+                  "name": "HEAT-EXCHANGE APPARATUS, NOT PROVIDED FOR IN ANOTHER SUBCLASS, IN WHICH THE HEAT-EXCHANGE MEDIA DO NOT COME INTO DIRECT CONTACT ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "FURNACES",
+              "children": [
+                {
+                  "name": "FURNACES, KILNS, OVENS, OR RETORTS IN GENERAL",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Engines or pumps",
+          "children": [
+            {
+              "name": "MACHINES OR ENGINES IN GENERAL ",
+              "children": [
+                {
+                  "name": "GAS-FLOW SILENCERS OR EXHAUST APPARATUS FOR MACHINES OR ENGINES IN GENERAL",
+                  "size": 9
+                },
+                {
+                  "name": "NON-POSITIVE DISPLACEMENT MACHINES OR ENGINES, e.g. STEAM TURBINES ",
+                  "size": 14
+                },
+                {
+                  "name": "COOLING OF MACHINES OR ENGINES IN GENERAL",
+                  "size": 3
+                },
+                {
+                  "name": "CYCLICALLY OPERATING VALVES FOR MACHINES OR ENGINES ",
+                  "size": 4
+                },
+                {
+                  "name": "ROTARY-PISTON OR OSCILLATING-PISTON MACHINES OR ENGINES ",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "COMBUSTION ENGINES ",
+              "children": [
+                {
+                  "name": "INTERNAL-COMBUSTION PISTON ENGINES",
+                  "size": 10
+                },
+                {
+                  "name": "SUPPLYING COMBUSTION ENGINES IN GENERAL, WITH COMBUSTIBLE MIXTURES OR CONSTITUENTS THEREOF ",
+                  "size": 4
+                },
+                {
+                  "name": "JET-PROPULSION PLANTS ",
+                  "size": 2
+                },
+                {
+                  "name": "GAS-TURBINE PLANTS",
+                  "size": 6
+                },
+                {
+                  "name": "CONTROLLING COMBUSTION ENGINES ",
+                  "size": 7
+                },
+                {
+                  "name": "IGNITION, OTHER THAN COMPRESSION IGNITION, FOR INTERNAL-COMBUSTION ENGINES",
+                  "size": 2
+                },
+                {
+                  "name": "STARTING OF COMBUSTION ENGINES ",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "POSITIVE DISPLACEMENT MACHINES FOR LIQUIDS",
+              "children": [
+                {
+                  "name": "POSITIVE DISPLACEMENT MACHINES FOR LIQUIDS",
+                  "size": 5
+                },
+                {
+                  "name": "NON-POSITIVE DISPLACEMENT PUMPS",
+                  "size": 8
+                },
+                {
+                  "name": "ROTARY-PISTON, OR OSCILLATING-PISTON, POSITIVE-DISPLACEMENT MACHINES FOR LIQUIDS ",
+                  "size": 6
+                }
+              ]
+            },
+            {
+              "name": "MACHINES OR ENGINES FOR LIQUIDS ",
+              "children": [
+                {
+                  "name": "SPRING, WEIGHT, INERTIA OR LIKE MOTORS",
+                  "size": 2
+                },
+                {
+                  "name": "WIND MOTORS",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "Indexing Schemes relating to Engines or Pumps in various subclasses of Classes ",
+              "children": [
+                {
+                  "name": "INDEXING SCHEME RELATING TO MACHINES OR ENGINES OTHER THAN NON-POSITIVE-DISPLACEMENT MACHINES OR ENGINES, TO WIND MOTORS, TO NON-POSITIVE DISPLACEMENT PUMPS, AND TO GENERATING COMBUSTION PRODUCTS OF HIGH PRESSURE OR HIGH VELOCITY",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Weapons",
+          "children": [
+            {
+              "name": "WEAPONS",
+              "children": [
+                {
+                  "name": "SMALLARMS, e.g. PISTOLS, RIFLES ",
+                  "size": 10
+                },
+                {
+                  "name": "WEAPON SIGHTS",
+                  "size": 7
+                },
+                {
+                  "name": "FUNCTIONAL FEATURES OR DETAILS COMMON TO BOTH SMALLARMS AND ORDNANCE, e.g. CANNONS",
+                  "size": 4
+                },
+                {
+                  "name": "ARMOUR",
+                  "size": 1
+                },
+                {
+                  "name": "WEAPONS FOR PROJECTING MISSILES WITHOUT USE OF EXPLOSIVE OR COMBUSTIBLE PROPELLANT CHARGE",
+                  "size": 1
+                },
+                {
+                  "name": "TARGETS",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "EXPLOSIVE CHARGES, e.g. FOR BLASTING, FIREWORKS, AMMUNITION ",
+                  "size": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Engineering in general",
+          "children": [
+            {
+              "name": "ENGINEERING ELEMENTS AND UNITS",
+              "children": [
+                {
+                  "name": "VALVES",
+                  "size": 10
+                },
+                {
+                  "name": "SHAFTS",
+                  "size": 6
+                },
+                {
+                  "name": "PIPES",
+                  "size": 11
+                },
+                {
+                  "name": "SPRINGS",
+                  "size": 5
+                },
+                {
+                  "name": "GEARING",
+                  "size": 15
+                },
+                {
+                  "name": "BELTS, CABLES, OR ROPES, PREDOMINANTLY USED FOR DRIVING PURPOSES",
+                  "size": 2
+                },
+                {
+                  "name": "COUPLINGS FOR TRANSMITTING ROTATION",
+                  "size": 4
+                },
+                {
+                  "name": "FRAMES, CASINGS, OR BEDS OF ENGINES OR OTHER MACHINES OR APPARATUS NOT SPECIFIC TO AN ENGINE, MACHINE, OR APPARATUS PROVIDED FOR ELSEWHERE",
+                  "size": 1
+                },
+                {
+                  "name": "DEVICES FOR FASTENING OR SECURING CONSTRUCTIONAL ELEMENTS OR MACHINE PARTS TOGETHER, e.g. NAILS, BOLTS, CIRCLIPS, CLAMPS, CLIPS, WEDGES, JOINTS OR JOINTING",
+                  "size": 4
+                },
+                {
+                  "name": "PISTONS ",
+                  "size": 4
+                }
+              ]
+            },
+            {
+              "name": "FLUID-PRESSURE ACTUATORS",
+              "children": [
+                {
+                  "name": "SYSTEMS ACTING BY MEANS OF FLUIDS IN GENERAL",
+                  "size": 3
+                },
+                {
+                  "name": "FLUID-CIRCUIT ELEMENTS PREDOMINANTLY USED FOR COMPUTING OR CONTROL PURPOSES ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "STORING OF DISTRIBUTING GASES OR LIQUIDS ",
+              "children": [
+                {
+                  "name": "PIPE-LINE SYSTEMS",
+                  "size": 1
+                },
+                {
+                  "name": "VESSELS FOR CONTAINING OR STORING COMPRESSED, LIQUEFIED OR SOLIDIFIED GASES",
+                  "size": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ELECTRICITY",
+      "children": [
+        {
+          "name": "Nucleonics",
+          "children": [
+            {
+              "name": "GENERATION",
+              "children": [
+                {
+                  "name": "INSTALLATION OF ELECTRIC CABLES OR LINES, OR OF COMBINED OPTICAL AND ELECTRIC CABLES OR LINES ",
+                  "size": 5
+                },
+                {
+                  "name": "ELECTRIC MACHINES NOT OTHERWISE PROVIDED FOR",
+                  "size": 3
+                },
+                {
+                  "name": "CONTROL OR REGULATION OF ELECTRIC MOTORS, ELECTRIC GENERATORS OR DYNAMO-ELECTRIC CONVERTERS",
+                  "size": 3
+                },
+                {
+                  "name": "CIRCUIT ARRANGEMENTS OR SYSTEMS FOR SUPPLYING OR DISTRIBUTING ELECTRIC POWER",
+                  "size": 8
+                },
+                {
+                  "name": "DYNAMO-ELECTRIC MACHINES ",
+                  "size": 11
+                },
+                {
+                  "name": "APPARATUS FOR CONVERSION BETWEEN AC AND AC, BETWEEN AC AND DC, OR BETWEEN DC AND DC, AND FOR USE WITH MAINS OR SIMILAR POWER SUPPLY SYSTEMS",
+                  "size": 7
+                },
+                {
+                  "name": "EMERGENCY PROTECTIVE CIRCUIT ARRANGEMENTS ",
+                  "size": 4
+                }
+              ]
+            },
+            {
+              "name": "BASIC ELECTRONIC CIRCUITRY",
+              "children": [
+                {
+                  "name": "TUNING RESONANT CIRCUITS",
+                  "size": 1
+                },
+                {
+                  "name": "CODING",
+                  "size": 19
+                },
+                {
+                  "name": "IMPEDANCE NETWORKS, e.g. RESONANT CIRCUITS",
+                  "size": 10
+                },
+                {
+                  "name": "PULSE TECHNIQUE ",
+                  "size": 12
+                },
+                {
+                  "name": "GENERATION OF OSCILLATIONS, DIRECTLY OR BY FREQUENCY-CHANGING, BY CIRCUITS EMPLOYING ACTIVE ELEMENTS WHICH OPERATE IN A NON-SWITCHING MANNER",
+                  "size": 5
+                },
+                {
+                  "name": "AUTOMATIC CONTROL, STARTING, SYNCHRONISATION, OR STABILISATION OF GENERATORS OF ELECTRONIC OSCILLATIONS OR PULSES ",
+                  "size": 4
+                },
+                {
+                  "name": "AMPLIFIERS ",
+                  "size": 2
+                },
+                {
+                  "name": "CONTROL OF AMPLIFICATION ",
+                  "size": 2
+                },
+                {
+                  "name": "DEMODULATION OR TRANSFERENCE OF MODULATION FROM ONE CARRIER TO ANOTHER ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "BASIC ELECTRIC ELEMENTS",
+              "children": [
+                {
+                  "name": "SEMICONDUCTOR DEVICES",
+                  "size": 231
+                },
+                {
+                  "name": "MAGNETS",
+                  "size": 7
+                },
+                {
+                  "name": "LINE CONNECTORS",
+                  "size": 17
+                },
+                {
+                  "name": "ELECTRIC DISCHARGE TUBES OR DISCHARGE LAMPS ",
+                  "size": 11
+                },
+                {
+                  "name": "PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL INTO ELECTRICAL ENERGY ",
+                  "size": 27
+                },
+                {
+                  "name": "CABLES",
+                  "size": 8
+                },
+                {
+                  "name": "CAPACITORS",
+                  "size": 7
+                },
+                {
+                  "name": "ELECTRIC SWITCHES",
+                  "size": 9
+                },
+                {
+                  "name": "SPARK GAPS",
+                  "size": 4
+                },
+                {
+                  "name": "WAVEGUIDES",
+                  "size": 2
+                },
+                {
+                  "name": "AERIALS ",
+                  "size": 17
+                },
+                {
+                  "name": "DEVICES USING STIMULATED EMISSION",
+                  "size": 11
+                }
+              ]
+            },
+            {
+              "name": "ELECTRIC COMMUNICATION TECHNIQUE",
+              "children": [
+                {
+                  "name": "TELEPHONIC COMMUNICATION ",
+                  "size": 31
+                },
+                {
+                  "name": "TRANSMISSION ",
+                  "size": 67
+                },
+                {
+                  "name": "LOUDSPEAKERS, MICROPHONES, GRAMOPHONE PICK-UPS OR LIKE ACOUSTIC ELECTROMECHANICAL TRANSDUCERS",
+                  "size": 25
+                },
+                {
+                  "name": "PICTORIAL COMMUNICATION, e.g. TELEVISION ",
+                  "size": 129
+                },
+                {
+                  "name": "SELECTING ",
+                  "size": 7
+                },
+                {
+                  "name": "WIRELESS COMMUNICATIONS NETWORKS ",
+                  "size": 110
+                },
+                {
+                  "name": "TRANSMISSION OF DIGITAL INFORMATION, e.g. TELEGRAPHIC COMMUNICATION ",
+                  "size": 179
+                },
+                {
+                  "name": "MULTIPLEX COMMUNICATION ",
+                  "size": 5
+                },
+                {
+                  "name": "STEREOPHONIC SYSTEMS ",
+                  "size": 1
+                },
+                {
+                  "name": "BROADCAST COMMUNICATION ",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "ELECTRIC TECHNIQUES NOT OTHERWISE PROVIDED FOR",
+              "children": [
+                {
+                  "name": "PRINTED CIRCUITS",
+                  "size": 30
+                },
+                {
+                  "name": "ELECTRIC HEATING",
+                  "size": 13
+                },
+                {
+                  "name": "STATIC ELECTRICITY",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TEXTILES; PAPER",
+      "children": [
+        {
+          "name": "Textiles or flexible materials not otherwise provided for",
+          "children": [
+            {
+              "name": "TREATMENT OF TEXTILES OR THE LIKE",
+              "children": [
+                {
+                  "name": "LAUNDERING, DRYING, IRONING, PRESSING OR FOLDING TEXTILE ARTICLES ",
+                  "size": 10
+                }
+              ]
+            },
+            {
+              "name": "BRAIDING",
+              "children": [
+                {
+                  "name": "KNITTING",
+                  "size": 1
+                },
+                {
+                  "name": "MAKING TEXTILE FABRICS, e.g. FROM FIBRES OR FILAMENTARY MATERIAL ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "SEWING",
+              "children": [
+                {
+                  "name": "SEWING ",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "NATURAL OR ARTIFICIAL THREADS OR FIBRES",
+              "children": [
+                {
+                  "name": "MECHANICAL METHODS OR APPARATUS IN THE MANUFACTURE OF ARTIFICIAL FILAMENTS, THREADS, FIBRES, BRISTLES OR RIBBONS",
+                  "size": 1
+                },
+                {
+                  "name": "CHEMICAL FEATURES IN THE MANUFACTURE OF ARTIFICIAL FILAMENTS, THREADS, FIBRES, BRISTLES OR RIBBONS",
+                  "size": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paper",
+          "children": [
+            {
+              "name": "PAPER-MAKING",
+              "children": [
+                {
+                  "name": "PRODUCTION OF CELLULOSE BY REMOVING NON-CELLULOSE SUBSTANCES FROM CELLULOSE-CONTAINING MATERIALS",
+                  "size": 2
+                },
+                {
+                  "name": "PAPER-MAKING MACHINES",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GENERAL TAGGING OF NEW TECHNOLOGICAL DEVELOPMENTS",
+      "children": [
+        {
+          "name": "Nucleonics",
+          "children": [
+            {
+              "name": "TECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE",
+              "children": [
+                {
+                  "name": "INDEXING SCHEME RELATING TO CLIMATE CHANGE MITIGATION TECHNOLOGIES RELATED TO BUILDINGS, e.g. INCLUDING HOUSING AND APPLIANCES OR RELATED END-USER APPLICATIONS",
+                  "size": 3
+                },
+                {
+                  "name": "REDUCTION OF GREENHOUSE GASES [GHG] EMISSION, RELATED TO ENERGY GENERATION, TRANSMISSION OR DISTRIBUTION",
+                  "size": 6
+                }
+              ]
+            },
+            {
+              "name": "TECHNICAL SUBJECTS COVERED BY FORMER USPC",
+              "children": [
+                {
+                  "name": "TECHNICAL SUBJECTS COVERED BY FORMER US CLASSIFICATION",
+                  "size": 1
+                },
+                {
+                  "name": "TECHNICAL SUBJECTS COVERED BY FORMER USPC CROSS-REFERENCE ART COLLECTIONS [XRACs] AND DIGESTS",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "INFORMATION OR COMMUNICATION TECHNOLOGIES HAVING AN IMPACT ON OTHER TECHNOLOGY AREAS",
+              "children": [
+                {
+                  "name": "SYSTEMS INTEGRATING TECHNOLOGIES RELATED TO POWER NETWORK OPERATION, COMMUNICATION OR INFORMATION TECHNOLOGIES FOR IMPROVING THE ELECTRICAL POWER GENERATION, TRANSMISSION, DISTRIBUTION, MANAGEMENT OR USAGE, i.e. SMART GRIDS",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CHEMISTRY; METALLURGY",
+      "children": [
+        {
+          "name": "Chemistry",
+          "children": [
+            {
+              "name": "DYES",
+              "children": [
+                {
+                  "name": "COATING COMPOSITIONS, e.g. PAINTS, VARNISHES OR LACQUERS",
+                  "size": 5
+                },
+                {
+                  "name": "MATERIALS FOR MISCELLANEOUS APPLICATIONS, NOT PROVIDED FOR ELSEWHERE",
+                  "size": 6
+                },
+                {
+                  "name": "ADHESIVES",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "GLASS",
+              "children": [
+                {
+                  "name": "CHEMICAL COMPOSITION OF GLASSES, GLAZES, OR VITREOUS ENAMELS",
+                  "size": 2
+                },
+                {
+                  "name": "MANUFACTURE, SHAPING, OR SUPPLEMENTARY PROCESSES",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "BIOCHEMISTRY",
+              "children": [
+                {
+                  "name": "APPARATUS FOR ENZYMOLOGY OR MICROBIOLOGY",
+                  "size": 5
+                },
+                {
+                  "name": "MEASURING OR TESTING PROCESSES INVOLVING ENZYMES OR MICRO-ORGANISMS ",
+                  "size": 8
+                },
+                {
+                  "name": "MICRO-ORGANISMS OR ENZYMES",
+                  "size": 8
+                }
+              ]
+            },
+            {
+              "name": "TREATMENT OF WATER, WASTE WATER, SEWAGE, OR SLUDGE ",
+              "children": [
+                {
+                  "name": "TREATMENT OF WATER, WASTE WATER, SEWAGE, OR SLUDGE ",
+                  "size": 3
+                }
+              ]
+            },
+            {
+              "name": "PETROLEUM, GAS OR COKE INDUSTRIES",
+              "children": [
+                {
+                  "name": "FUELS NOT OTHERWISE PROVIDED FOR ",
+                  "size": 3
+                },
+                {
+                  "name": "PRODUCTION OF PRODUCER GAS, WATER-GAS, SYNTHESIS GAS FROM SOLID CARBONACEOUS MATERIAL, OR MIXTURES CONTAINING THESE GASES ",
+                  "size": 1
+                },
+                {
+                  "name": "DESTRUCTIVE DISTILLATION OF CARBONAGEOUS MATERIALS FOR PRODUCTION OF GAS, COKE, TAR, OR SIMILAR MATERIALS ",
+                  "size": 1
+                },
+                {
+                  "name": "CRACKING HYDROCARBON OILS",
+                  "size": 1
+                },
+                {
+                  "name": "LUBRICATING COMPOSITIONS ",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "FERTILISERS",
+              "children": [
+                {
+                  "name": "MIXTURES OF FERTILISERS COVERED INDIVIDUALLY BY DIFFERENT SUBCLASSES OF CLASS ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "ORGANIC MACROMOLECULAR COMPOUNDS",
+              "children": [
+                {
+                  "name": "COMPOSITIONS OF MACROMOLECULAR COMPOUNDS ",
+                  "size": 8
+                },
+                {
+                  "name": "MACROMOLECULAR COMPOUNDS OBTAINED OTHERWISE THAN BY REACTIONS ONLY INVOLVING UNSATURATED CARBON-TO-CARBON BONDS",
+                  "size": 9
+                },
+                {
+                  "name": "MACROMOLECULAR COMPOUNDS OBTAINED BY REACTIONS ONLY INVOLVING CARBON-TO-CARBON UNSATURATED BONDS",
+                  "size": 14
+                },
+                {
+                  "name": "USE OF INORGANIC OR NON-MACROMOLECULAR ORGANIC SUBSTANCES AS COMPOUNDING INGREDIENTS ",
+                  "size": 4
+                },
+                {
+                  "name": "DERIVATIVES OF NATURAL MACROMOLECULAR COMPOUNDS ",
+                  "size": 1
+                },
+                {
+                  "name": "POLYSACCHARIDES",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "CEMENTS",
+              "children": [
+                {
+                  "name": "LIME, MAGNESIA",
+                  "size": 7
+                }
+              ]
+            },
+            {
+              "name": "INORGANIC CHEMISTRY ",
+              "children": [
+                {
+                  "name": "NON-METALLIC ELEMENTS",
+                  "size": 10
+                },
+                {
+                  "name": "COMPOUNDS CONTAINING METALS NOT COVERED BY SUBCLASSES ",
+                  "size": 4
+                },
+                {
+                  "name": "INDEXING SCHEME RELATING TO STRUCTURAL AND PHYSICAL ASPECTS OF SOLID INORGANIC COMPOUNDS",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "ANIMAL AND VEGETABLE OILS, FATS, FATTY SUBSTANCES AND WAXES",
+              "children": [
+                {
+                  "name": "DETERGENT COMPOSITIONS ",
+                  "size": 6
+                },
+                {
+                  "name": "FATTY ACIDS FROM FATS, OILS OR WAXES",
+                  "size": 1
+                },
+                {
+                  "name": "ESSENTIAL OILS",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "EXPLOSIVES",
+              "children": [
+                {
+                  "name": "EXPLOSIVES OR THERMIC COMPOSITIONS ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "SUGAR INDUSTRY ",
+              "children": [
+                {
+                  "name": "SACCHARIDES, OTHER THAN SUCROSE, OBTAINED FROM NATURAL SOURCES OR BY HYDROLYSIS OF NATURALLY OCCURRING DI-, OLIGO- OR POLYSACCHARIDES ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "ORGANIC CHEMISTRY ",
+              "children": [
+                {
+                  "name": "PEPTIDES ",
+                  "size": 7
+                },
+                {
+                  "name": "ACYCLIC OR CARBOCYCLIC COMPOUNDS",
+                  "size": 19
+                },
+                {
+                  "name": "SUGARS",
+                  "size": 1
+                },
+                {
+                  "name": "HETEROCYCLIC COMPOUNDS",
+                  "size": 31
+                },
+                {
+                  "name": "ACYCLIC, CARBOCYCLIC OR HETEROCYCLIC COMPOUNDS CONTAINING ELEMENTS OTHER THAN CARBON, HYDROGEN, HALOGEN, OXYGEN, NITROGEN, SULFUR, SELENIUM OR TELLURIUM ",
+                  "size": 3
+                },
+                {
+                  "name": "STEROIDS ",
+                  "size": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Metallurgy",
+          "children": [
+            {
+              "name": "METALLURGY ",
+              "children": [
+                {
+                  "name": "PRODUCTION AND REFINING OF METALS ",
+                  "size": 5
+                },
+                {
+                  "name": "ALLOYS ",
+                  "size": 4
+                }
+              ]
+            },
+            {
+              "name": "CRYSTAL GROWTH ",
+              "children": [
+                {
+                  "name": "SINGLE-CRYSTAL-GROWTH ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "COATING METALLIC MATERIAL",
+              "children": [
+                {
+                  "name": "COATING METALLIC MATERIAL",
+                  "size": 11
+                }
+              ]
+            },
+            {
+              "name": "ELECTROLYTIC OR ELECTROPHORETIC PROCESSES",
+              "children": [
+                {
+                  "name": "ELECTROLYTIC OR ELECTROPHORETIC PROCESSES FOR THE PRODUCTION OF COMPOUNDS OR NON-METALS",
+                  "size": 5
+                },
+                {
+                  "name": "PROCESSES FOR THE ELECTROLYTIC PRODUCTION, RECOVERY OR REFINING OF METALS",
+                  "size": 2
+                }
+              ]
+            },
+            {
+              "name": "METALLURGY OF IRON",
+              "children": [
+                {
+                  "name": "MANUFACTURE OF IRON OR STEEL ",
+                  "size": 1
+                }
+              ]
+            },
+            {
+              "name": "COMBINATORIAL CHEMISTRY",
+              "children": [
+                {
+                  "name": "COMBINATORIAL CHEMISTRY",
+                  "size": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+} 
