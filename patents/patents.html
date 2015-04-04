@@ -40,6 +40,8 @@ var color = d3.scale.linear()
     .domain([-1, 5])
     .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
     .interpolate(d3.interpolateHcl);
+    
+var color1 = d3.scale.category20c(),
 
 var pack = d3.layout.pack()
     .padding(2)
@@ -65,7 +67,10 @@ console.log(nodes);
       .data(nodes)
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      // .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+
+	// testing out categorical coloring
+      .style("fill", function(d) { return color(d.parent.name); });
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = svg.selectAll("text")
