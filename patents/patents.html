@@ -70,7 +70,7 @@ console.log(nodes);
       // .style("fill", function(d) { return d.children ? color(d.depth) : null; })
 
 	// testing out categorical coloring
-      .style("fill", function(d) { return d3.children ? color1(d.name) : null; })
+      .style("fill", function(d) { return d.children ? color1(d.parent.name) : null; })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = svg.selectAll("text")
