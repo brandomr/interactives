@@ -119,9 +119,8 @@ var grandparent = svg.append("g")
 grandparent.append("rect")
     .attr("y", -margin.top)
     .attr("width", width)
-    .attr("height", margin.top)
-    .style("fill", function(d) { return d3.hsl(color1(d.lev2)).darker(-2).toString() ; });
-
+    .attr("height", margin.top);
+    
 grandparent.append("text")
     .attr("x", 6)
     .attr("y", 6 - margin.top)
@@ -202,7 +201,8 @@ d3.json("patents_tree.json", function(root) {
         .attr("class", "parent")
         .call(rect)
       .append("title")
-        .text(function(d) { return formatNumber(d.value); });
+        .text(function(d) { return formatNumber(d.value); })
+        .style("fill", function(d) { return d3.hsl(color1(d.lev2)).darker((-2)*0.6).toString() ;});
 
     g.append("text")
         .attr("dy", ".75em")
