@@ -70,6 +70,9 @@ console.log(nodes);
       // .style("fill", function(d) { return d.children ? color(d.depth) : null; })
 
 	// testing out categorical coloring
+	// if has parent, if has children, apply lev 2 color 
+	// if has parent, no children apply null [lowest level]
+	// if no parent, apply light blue [root]
       .style("fill", function(d) { return d.parent ? d.children ? d3.hsl(color1(d.lev2)).darker((d.depth - 2)*0.6).toString() : null : "#6baed6"; })
       .style("fill-opacity", "0.6")
 
