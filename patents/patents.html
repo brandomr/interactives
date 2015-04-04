@@ -69,6 +69,7 @@ console.log(nodes);
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       // .style("fill", function(d) { return d.children ? color(d.depth) : null; })
 
+console.log(d3.rgb(color1("test")).darken(d.depth).toString())
 	// testing out categorical coloring
       .style("fill", function(d) { return d.parent ? d.children ? d3.rgb(color1(d.lev2)).darken(d.depth).toString() : null : "light blue" ;})
       .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
