@@ -206,7 +206,8 @@ d3.json("patents_tree.json", function(root) {
     g.append("text")
         .attr("dy", ".75em")
         .text(function(d) { return d.name; })
-        .call(text);
+        .call(text)
+        .call(wrap, 100);
 
     function transition(d) {
       if (transitioning || !d) return;
@@ -247,8 +248,7 @@ d3.json("patents_tree.json", function(root) {
 
   function text(text) {
     text.attr("x", function(d) { return x(d.x) + 6; })
-        .attr("y", function(d) { return y(d.y) + 6; })
-        .call(wrap, 100);
+        .attr("y", function(d) { return y(d.y) + 6; });
   }
 
   function rect(rect) {
