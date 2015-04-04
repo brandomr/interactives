@@ -98,7 +98,7 @@ var y = d3.scale.linear()
 
 var treemap = d3.layout.treemap()
     .children(function(d, depth) { return depth ? null : d._children; })
-    .sort(function(a, b) { return a.value - b.value; })
+    .sort(function(a, b) { return a.size - b.size; })
     .ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
     .round(false);
 
@@ -124,7 +124,7 @@ grandparent.append("text")
     .attr("y", 6 - margin.top)
     .attr("dy", ".75em");
 
-d3.json("flare_tree.json", function(root) {
+d3.json("flare.json", function(root) {
   initialize(root);
   accumulate(root);
   layout(root);
@@ -143,8 +143,8 @@ d3.json("flare_tree.json", function(root) {
   // the children being overwritten when when layout is computed.
   function accumulate(d) {
     return (d._children = d.children)
-        ? d.value = d.children.reduce(function(p, v) { return p + accumulate(v); }, 0)
-        : d.value;
+        ? d.size = d.children.reduce(function(p, v) { return p + accumulate(v); }, 0)
+        : d.size;
   }
 
   // Compute the treemap layout recursively such that each group of siblings
@@ -197,7 +197,7 @@ d3.json("flare_tree.json", function(root) {
         .attr("class", "parent")
         .call(rect)
       .append("title")
-        .text(function(d) { return formatNumber(d.value); });
+        .text(function(d) { return formatNumber(d.size); });
 
     g.append("text")
         .attr("dy", ".75em")
