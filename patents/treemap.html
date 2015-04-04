@@ -201,8 +201,7 @@ d3.json("patents_tree.json", function(root) {
         .attr("class", "parent")
         .call(rect)
       .append("title")
-        .text(function(d) { return formatNumber(d.value); })
-        .style("fill", function(d) { return d3.hsl(color1(d.lev2)).darker((-2)*0.6).toString() ;});
+        .text(function(d) { return formatNumber(d.value); });
 
     g.append("text")
         .attr("dy", ".75em")
@@ -255,7 +254,9 @@ d3.json("patents_tree.json", function(root) {
     rect.attr("x", function(d) { return x(d.x); })
         .attr("y", function(d) { return y(d.y); })
         .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
-        .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); });
+        .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); })
+        
+        .style("fill", function(d) { return d3.hsl(color1(d.lev2)).darker((-2)*0.6).toString() ;});
   }
 
   function name(d) {
