@@ -29,16 +29,16 @@ var nested_data = { "key": "Classifications", "values":
 var treeData = { "name": "Classification", "children":
         nested_data.values.map( function(level_2){
 
-            return { "name": level_2.key, "children": 
+            return { "name": level_2.key, "lev2" : level_2.key, "children": 
               level_2.values.map( function(level_3){
 
-                 return { "name": level_3.key, "children": 
+                 return { "name": level_3.key, "lev2" : level_2.key, "children": 
                    level_3.values.map(function(level_4){
 
-                      return { "name": level_4.key, "children":
+                      return { "name": level_4.key, "lev2" : level_2.key, "children":
 			 level_4.values.map(function(level_5){
 			
-			 	return { "name": level_5.key, "size": level_5.values };
+			 	return { "name": level_5.key, "lev2" : level_2.key, "size": level_5.values };
 				
 				}) //end of map(function(level_5){
 				};
