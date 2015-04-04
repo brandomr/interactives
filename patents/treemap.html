@@ -255,8 +255,8 @@ d3.json("patents_tree.json", function(root) {
         .attr("y", function(d) { return y(d.y); })
         .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
         .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); })
-        
-        .style("fill", function(d) { return d3.hsl(color1(d.lev2)).darker((-2)*0.6).toString() ;});
+        // trying to fill by category 
+        .style("fill", function(d) { return d3.hsl(color1(d.lev2)).toString() ;});
   }
 
   function name(d) {
