@@ -94,7 +94,7 @@ console.log(nodes);
 
   function zoom(d) {
     var focus0 = focus; focus = d;
-    console.log(focus);
+    console.log(focus.depth);
 
     var transition = d3.transition()
         .duration(d3.event.altKey ? 7500 : 750)
