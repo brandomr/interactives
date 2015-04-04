@@ -88,6 +88,8 @@ var margin = {top: 20, right: 0, bottom: 0, left: 0},
     formatNumber = d3.format(",d"),
     transitioning;
 
+var color1 = d3.scale.category10();
+
 var x = d3.scale.linear()
     .domain([0, width])
     .range([0, width]);
@@ -117,7 +119,8 @@ var grandparent = svg.append("g")
 grandparent.append("rect")
     .attr("y", -margin.top)
     .attr("width", width)
-    .attr("height", margin.top);
+    .attr("height", margin.top)
+    .style("fill", function(d) { return d3.hsl(color1(d.lev2)).darker(-2).toString() ; });
 
 grandparent.append("text")
     .attr("x", 6)
@@ -265,9 +268,3 @@ d3.json("patents_tree.json", function(root) {
 </script>
 <script>
 
-GoogleAnalyticsObject = "ga", ga = function() { ga.q.push(arguments); }, ga.q = [], ga.l = +new Date;
-ga("create", "UA-48272912-3", "ocks.org");
-ga("send", "pageview");
-
-</script>
-<script async src="//www.google-analytics.com/analytics.js"></script>
