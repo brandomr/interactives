@@ -66,7 +66,7 @@ rect.parent,
 
 <aside>Click any cell to zoom in, or the top orange label to zoom out.</aside>
 
-<p>Treemaps are a form of <a href="http://mbostock.github.com/d3/ex/treemap.html">space</a><a href="http://mbostock.github.com/d3/ex/pack.html">-filling</a> <a href="http://mbostock.github.com/d3/ex/sunburst.html">layout</a> where the area of each rectangle is proportional to its value. This example shows the size of files in a source tree.
+<p>Treemaps are a form of <a href="http://mbostock.github.com/d3/ex/treemap.html">space</a><a href="http://mbostock.github.com/d3/ex/pack.html">-filling</a> <a href="http://mbostock.github.com/d3/ex/sunburst.html">layout</a> where the area of each rectangle is proportional to its value. This example shows the value of files in a source tree.
 
 <p>Treemaps visualize hierarchical data, but since often only the leaf nodes (files rather than folders) are drawn, it can be difficult to see the hierarchy. <a href="http://en.wikipedia.org/wiki/File:Tree_Map.png">Padding</a> is sometimes used to show the hierarchy via containment, though this introduces area distortion. <a href="http://www.win.tue.nl/~vanwijk/ctm.pdf">Cushion gradients</a> also indicate hierarchy, but are somewhat unintuitive (or perhaps just ugly).
 
@@ -98,7 +98,7 @@ var y = d3.scale.linear()
 
 var treemap = d3.layout.treemap()
     .children(function(d, depth) { return depth ? null : d._children; })
-    .sort(function(a, b) { return a.size - b.size; })
+    .sort(function(a, b) { return a.value - b.value; })
     .ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
     .round(false);
 
@@ -124,7 +124,7 @@ grandparent.append("text")
     .attr("y", 6 - margin.top)
     .attr("dy", ".75em");
 
-d3.json("flare.json", function(root) {
+d3.json("patents_tree.json", function(root) {
   initialize(root);
   accumulate(root);
   layout(root);
@@ -135,7 +135,6 @@ d3.json("flare.json", function(root) {
     root.dx = width;
     root.dy = height;
     root.depth = 0;
-    root.size = +root.size;
   }
   
   console.log(root);
@@ -146,12 +145,12 @@ d3.json("flare.json", function(root) {
   // the children being overwritten when when layout is computed.
   function accumulate(d) {
     return (d._children = d.children)
-        ? d.size = d.children.reduce(function(p, v) { return p + accumulate(v); }, 0)
-        : d.size;
+        ? d.value = d.children.reduce(function(p, v) { return p + accumulate(v); }, 0)
+        : d.value;
   }
 
   // Compute the treemap layout recursively such that each group of siblings
-  // uses the same size (1×1) rather than the dimensions of the parent cell.
+  // uses the same value (1×1) rather than the dimensions of the parent cell.
   // This optimizes the layout for the current zoom state. Note that a wrapper
   // object is created for the parent node for each group of siblings so that
   // the parent’s dimensions are not discarded as we recurse. Since each group
@@ -200,7 +199,7 @@ d3.json("flare.json", function(root) {
         .attr("class", "parent")
         .call(rect)
       .append("title")
-        .text(function(d) { return formatNumber(d.size); });
+        .text(function(d) { return formatNumber(d.value); });
 
     g.append("text")
         .attr("dy", ".75em")
