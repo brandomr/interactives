@@ -135,6 +135,8 @@ d3.json("flare.json", function(root) {
     root.depth = 0;
   }
 
+console.log(root);
+
   // Aggregate the values for internal nodes. This is normally done by the
   // treemap layout, but not here because of our custom implementation.
   // We also take a snapshot of the original children (_children) to avoid
