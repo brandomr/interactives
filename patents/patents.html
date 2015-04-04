@@ -103,7 +103,7 @@ console.log(nodes);
         });
 
     transition.selectAll("text")
-      .style("display", function(d) { return d.r > 50 ? null : "none"; });
+      .style("display", function(d) { return d.r > 50 ? null : "none"; })
       .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
         .each("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
