@@ -108,7 +108,7 @@ console.log(nodes);
         .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
         .each("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
         .each("end", function(d) { if (d.parent !== focus) this.style.display = "none"; })
-        .style("display", function(d) { if ( focus.depth == 0) return d.r > 50 ? null : "none"; });
+        .style("display", function(d) { if ( focus.depth == 0) return d.r > 50 ? "inline" : "none"; });
   }
 
   function zoomTo(v) {
