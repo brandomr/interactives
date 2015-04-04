@@ -3,104 +3,129 @@
   "children": [
     {
       "name": "Human necessities",
+      "lev2": "Human necessities",
       "children": [
         {
           "name": "Personal or domestic articles",
+          "lev2": "Human necessities",
           "children": [
             {
               "name": "Wearing apparel",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Outerwear",
+                  "lev2": "Human necessities",
                   "size": 5
                 },
                 {
                   "name": "Corsets",
+                  "lev2": "Human necessities",
                   "size": 1
                 },
                 {
                   "name": "Shirts",
+                  "lev2": "Human necessities",
                   "size": 4
                 }
               ]
             },
             {
               "name": "Footwear",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Characteristic features of footwear",
+                  "lev2": "Human necessities",
                   "size": 7
                 }
               ]
             },
             {
               "name": "Hand or travelling articles",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Travelling or camp equipment",
+                  "lev2": "Human necessities",
                   "size": 3
                 },
                 {
                   "name": "Purses",
+                  "lev2": "Human necessities",
                   "size": 7
                 },
                 {
                   "name": "Hairdressing or shaving equipment",
+                  "lev2": "Human necessities",
                   "size": 5
                 },
                 {
                   "name": "Walking sticks",
+                  "lev2": "Human necessities",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Brushware",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Brushes ",
+                  "lev2": "Human necessities",
                   "size": 7
                 }
               ]
             },
             {
               "name": "Furniture ",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Chairs ",
+                  "lev2": "Human necessities",
                   "size": 14
                 },
                 {
                   "name": "Tables",
+                  "lev2": "Human necessities",
                   "size": 6
                 },
                 {
                   "name": "Kitchen equipment ",
+                  "lev2": "Human necessities",
                   "size": 8
                 },
                 {
                   "name": "Household or table equipment ",
+                  "lev2": "Human necessities",
                   "size": 9
                 },
                 {
                   "name": "Sanitary equipment not otherwise provided for ",
+                  "lev2": "Human necessities",
                   "size": 2
                 },
                 {
                   "name": "Domestic washing or cleaning ",
+                  "lev2": "Human necessities",
                   "size": 15
                 },
                 {
                   "name": "Special furniture, fittings, or accessories for shops, storehouses, bars, restaurants or the like",
+                  "lev2": "Human necessities",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Haberdashery",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Buttons, pins, buckles, slide fasteners, or the like ",
+                  "lev2": "Human necessities",
                   "size": 5
                 }
               ]
@@ -109,40 +134,50 @@
         },
         {
           "name": "Agriculture",
+          "lev2": "Human necessities",
           "children": [
             {
               "name": "Agriculture",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Animal husbandry",
+                  "lev2": "Human necessities",
                   "size": 16
                 },
                 {
                   "name": "Horticulture",
+                  "lev2": "Human necessities",
                   "size": 4
                 },
                 {
                   "name": "New plants or processes for obtaining them",
+                  "lev2": "Human necessities",
                   "size": 7
                 },
                 {
                   "name": "Catching or trapping of animals ",
+                  "lev2": "Human necessities",
                   "size": 3
                 },
                 {
                   "name": "Harvesting",
+                  "lev2": "Human necessities",
                   "size": 4
                 },
                 {
                   "name": "Planting",
+                  "lev2": "Human necessities",
                   "size": 5
                 },
                 {
                   "name": "Soil working in agriculture or forestry",
+                  "lev2": "Human necessities",
                   "size": 3
                 },
                 {
                   "name": "Preservation of bodies of humans or animals or plants or parts thereof",
+                  "lev2": "Human necessities",
                   "size": 6
                 }
               ]
@@ -151,67 +186,83 @@
         },
         {
           "name": "Foodstuffs",
+          "lev2": "Human necessities",
           "children": [
             {
               "name": "Baking",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Machines or equipment for baking ",
+                  "lev2": "Human necessities",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Tobacco",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Match boxes ",
+                  "lev2": "Human necessities",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Butchering",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Processing meat, poultry, or fish ",
+                  "lev2": "Human necessities",
                   "size": 1
                 },
                 {
                   "name": "Slaughtering",
+                  "lev2": "Human necessities",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Foods or foodstuffs",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Indexing scheme relating to foods, foodstuffs or non-alcoholic beverages",
+                  "lev2": "Human necessities",
                   "size": 1
                 },
                 {
                   "name": "Dairy products, e.g. milk, butter, cheese",
+                  "lev2": "Human necessities",
                   "size": 2
                 },
                 {
                   "name": "Coffee",
+                  "lev2": "Human necessities",
                   "size": 1
                 },
                 {
                   "name": "Shaping or working of foodstuffs, not fully covered by a single other subclass ",
+                  "lev2": "Human necessities",
                   "size": 1
                 },
                 {
                   "name": "Foods, foodstuffs, or non-alcoholic beverages, not covered by subclasses ",
+                  "lev2": "Human necessities",
                   "size": 2
                 },
                 {
                   "name": "Preserving, e.g. by canning, meat, fish, eggs, fruit, vegetables, edible seeds",
+                  "lev2": "Human necessities",
                   "size": 1
                 },
                 {
                   "name": "Fodder",
+                  "lev2": "Human necessities",
                   "size": 1
                 }
               ]
@@ -220,90 +271,112 @@
         },
         {
           "name": "Health",
+          "lev2": "Human necessities",
           "children": [
             {
               "name": "Sports",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Apparatus for physical training, gymnastics, swimming, climbing, or fencing",
+                  "lev2": "Human necessities",
                   "size": 22
                 },
                 {
                   "name": "Toys, e.g. tops, dolls, hoops, building blocks",
+                  "lev2": "Human necessities",
                   "size": 9
                 },
                 {
                   "name": "Card, board, or roulette games",
+                  "lev2": "Human necessities",
                   "size": 11
                 },
                 {
                   "name": "Skates",
+                  "lev2": "Human necessities",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Medical or veterinary science",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Diagnosis",
+                  "lev2": "Human necessities",
                   "size": 88
                 },
                 {
                   "name": "Containers specially adapted for medical or pharmaceutical purposes",
+                  "lev2": "Human necessities",
                   "size": 5
                 },
                 {
                   "name": "Physical therapy apparatus, e.g. devices for locating or stimulating reflex points in the body",
+                  "lev2": "Human necessities",
                   "size": 1
                 },
                 {
                   "name": "Dentistry",
+                  "lev2": "Human necessities",
                   "size": 8
                 },
                 {
                   "name": "Preparations for medical, dental, or toilet purposes ",
+                  "lev2": "Human necessities",
                   "size": 69
                 },
                 {
                   "name": "Transport or accomodation for patients",
+                  "lev2": "Human necessities",
                   "size": 4
                 },
                 {
                   "name": "Filters implantable into blood vessels",
+                  "lev2": "Human necessities",
                   "size": 38
                 },
                 {
                   "name": "Devices for introducing media into, or onto, the body ",
+                  "lev2": "Human necessities",
                   "size": 43
                 },
                 {
                   "name": "Methods or apparatus for sterilising materials or objects in general",
+                  "lev2": "Human necessities",
                   "size": 5
                 },
                 {
                   "name": "Electrotherapy",
+                  "lev2": "Human necessities",
                   "size": 16
                 },
                 {
                   "name": "Specific use of cosmetics or similar toilet preparations",
+                  "lev2": "Human necessities",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Life-saving",
+              "lev2": "Human necessities",
               "children": [
                 {
                   "name": "Devices, apparatus or methods for life-saving ",
+                  "lev2": "Human necessities",
                   "size": 2
                 },
                 {
                   "name": "Fire-fighting ",
+                  "lev2": "Human necessities",
                   "size": 1
                 },
                 {
                   "name": "Chemical means for extinguishing fires or for combating or protecting against harmful chemical agents",
+                  "lev2": "Human necessities",
                   "size": 1
                 }
               ]
@@ -314,116 +387,144 @@
     },
     {
       "name": "Fixed constructions",
+      "lev2": "Fixed constructions",
       "children": [
         {
           "name": "Building",
+          "lev2": "Fixed constructions",
           "children": [
             {
               "name": "Locks",
+              "lev2": "Fixed constructions",
               "children": [
                 {
                   "name": "Locks",
+                  "lev2": "Fixed constructions",
                   "size": 6
                 },
                 {
                   "name": "Bolts or fastening devices for wings, specially for doors or windows ",
+                  "lev2": "Fixed constructions",
                   "size": 3
                 },
                 {
                   "name": "Hinges or other suspension devices for doors, windows or wings ",
+                  "lev2": "Fixed constructions",
                   "size": 3
                 },
                 {
                   "name": "Devices for moving wings into open or closed position",
+                  "lev2": "Fixed constructions",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Construction of roads, railways, or bridges ",
+              "lev2": "Fixed constructions",
               "children": [
                 {
                   "name": "Street cleaning",
+                  "lev2": "Fixed constructions",
                   "size": 4
                 },
                 {
                   "name": "Construction of, or surfaces for, roads, sports grounds, or the like",
+                  "lev2": "Fixed constructions",
                   "size": 8
                 },
                 {
                   "name": "Permanent way",
+                  "lev2": "Fixed constructions",
                   "size": 1
                 },
                 {
                   "name": "Additional work, such as equipping roads or the construction of platforms, helicopter landing stages, signs, snow fences, or the like",
+                  "lev2": "Fixed constructions",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Water supply",
+              "lev2": "Fixed constructions",
               "children": [
                 {
                   "name": "Domestic plumbing installations for fresh water or waste water ",
+                  "lev2": "Fixed constructions",
                   "size": 7
                 },
                 {
                   "name": "Sewers",
+                  "lev2": "Fixed constructions",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Hydraulic engineering",
+              "lev2": "Fixed constructions",
               "children": [
                 {
                   "name": "Dredging",
+                  "lev2": "Fixed constructions",
                   "size": 4
                 },
                 {
                   "name": "Hydraulic engineering ",
+                  "lev2": "Fixed constructions",
                   "size": 3
                 },
                 {
                   "name": "Foundations",
+                  "lev2": "Fixed constructions",
                   "size": 3
                 }
               ]
             },
             {
               "name": "Doors, windows, shutters, or roller blinds in general",
+              "lev2": "Fixed constructions",
               "children": [
                 {
                   "name": "Fixed or movable closures for openings in buildings, vehicles, fences or like enclosures in general, e.g. doors, windows, blinds, gates ",
+                  "lev2": "Fixed constructions",
                   "size": 6
                 }
               ]
             },
             {
               "name": "Building ",
+              "lev2": "Fixed constructions",
               "children": [
                 {
                   "name": "Buildings or like structures for particular purposes",
+                  "lev2": "Fixed constructions",
                   "size": 2
                 },
                 {
                   "name": "Scaffolding",
+                  "lev2": "Fixed constructions",
                   "size": 2
                 },
                 {
                   "name": "Roof coverings",
+                  "lev2": "Fixed constructions",
                   "size": 2
                 },
                 {
                   "name": "Finishing work on buildings, e.g. stairs, floors ",
+                  "lev2": "Fixed constructions",
                   "size": 3
                 },
                 {
                   "name": "General building constructions",
+                  "lev2": "Fixed constructions",
                   "size": 5
                 },
                 {
                   "name": "Structural elements",
+                  "lev2": "Fixed constructions",
                   "size": 2
                 }
               ]
@@ -432,24 +533,30 @@
         },
         {
           "name": "Earth drilling",
+          "lev2": "Fixed constructions",
           "children": [
             {
               "name": "Earth drilling",
+              "lev2": "Fixed constructions",
               "children": [
                 {
                   "name": "Earth drilling, e.g. deep drilling ",
+                  "lev2": "Fixed constructions",
                   "size": 20
                 },
                 {
                   "name": "Safety devices, transport, filling-up, rescue, ventilation, or draining in or of mines or tunnels",
+                  "lev2": "Fixed constructions",
                   "size": 2
                 },
                 {
                   "name": "Shafts",
+                  "lev2": "Fixed constructions",
                   "size": 2
                 },
                 {
                   "name": "Mining or quarrying",
+                  "lev2": "Fixed constructions",
                   "size": 1
                 }
               ]
@@ -460,261 +567,324 @@
     },
     {
       "name": "Physics",
+      "lev2": "Physics",
       "children": [
         {
           "name": "Instruments",
+          "lev2": "Physics",
           "children": [
             {
               "name": "Education",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Displaying",
+                  "lev2": "Physics",
                   "size": 5
                 },
                 {
                   "name": "Educational or demonstration appliances",
+                  "lev2": "Physics",
                   "size": 6
                 },
                 {
                   "name": "Arrangements or circuits for control of indicating devices using static means to present variable information ",
+                  "lev2": "Physics",
                   "size": 32
                 }
               ]
             },
             {
               "name": "Checking-devices",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Coin-freed or like apparatus ",
+                  "lev2": "Physics",
                   "size": 12
                 },
                 {
                   "name": "Time or attendance registers",
+                  "lev2": "Physics",
                   "size": 9
                 },
                 {
                   "name": "Handling of coins or of paper currency or similar valuable papers, e.g. testing, sorting by denominations, counting, dispensing, changing or depositing",
+                  "lev2": "Physics",
                   "size": 3
                 },
                 {
                   "name": "Registering the receipt of cash, valuables, or tokens ",
+                  "lev2": "Physics",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Horology",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Mechanically-driven clocks or watches",
+                  "lev2": "Physics",
                   "size": 8
                 },
                 {
                   "name": "Electromechanical clocks or watches ",
+                  "lev2": "Physics",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Measuring ",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Measurement of intensity, velocity, spectral content, polarisation, phase or pulse characteristics of infra-red, visible or ultra-violet light",
+                  "lev2": "Physics",
                   "size": 5
                 },
                 {
                   "name": "Measuring length, thickness or similar linear dimensions",
+                  "lev2": "Physics",
                   "size": 9
                 },
                 {
                   "name": "Measuring electric variables",
+                  "lev2": "Physics",
                   "size": 23
                 },
                 {
                   "name": "Measuring linear or angular speed, acceleration, deceleration, or shock",
+                  "lev2": "Physics",
                   "size": 3
                 },
                 {
                   "name": "Measuring force, stress, torque, work, mechanical power, mechanical efficiency, or fluid pressure ",
+                  "lev2": "Physics",
                   "size": 7
                 },
                 {
                   "name": "Testing static or dynamic balance of machines or structures",
+                  "lev2": "Physics",
                   "size": 7
                 },
                 {
                   "name": "Investigating or analysing materials by determining their chemical or physical properties ",
+                  "lev2": "Physics",
                   "size": 53
                 },
                 {
                   "name": "Measuring volume, volume flow, mass flow or liquid level",
+                  "lev2": "Physics",
                   "size": 4
                 },
                 {
                   "name": "Geophysics",
+                  "lev2": "Physics",
                   "size": 4
                 },
                 {
                   "name": "Weighing ",
+                  "lev2": "Physics",
                   "size": 5
                 },
                 {
                   "name": "Measuring not specially adapted for a specific variable",
+                  "lev2": "Physics",
                   "size": 3
                 },
                 {
                   "name": "Measuring temperature",
+                  "lev2": "Physics",
                   "size": 2
                 },
                 {
                   "name": "Measurement of nuclear or x-radiation ",
+                  "lev2": "Physics",
                   "size": 6
                 },
                 {
                   "name": "Measuring distances, levels or bearings",
+                  "lev2": "Physics",
                   "size": 13
                 },
                 {
                   "name": "Radio direction-finding",
+                  "lev2": "Physics",
                   "size": 17
                 },
                 {
                   "name": "Measurement of mechanical vibrations or ultrasonic, sonic or infrasonic waves ",
+                  "lev2": "Physics",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Signalling ",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Traffic control systems ",
+                  "lev2": "Physics",
                   "size": 7
                 },
                 {
                   "name": "Transmission systems for measured values, control or similar signals ",
+                  "lev2": "Physics",
                   "size": 2
                 },
                 {
                   "name": "Signalling or calling systems",
+                  "lev2": "Physics",
                   "size": 9
                 }
               ]
             },
             {
               "name": "Computing",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Electrical digital data processing ",
+                  "lev2": "Physics",
                   "size": 400
                 },
                 {
                   "name": "Recognition of data",
+                  "lev2": "Physics",
                   "size": 43
                 },
                 {
                   "name": "Data processing systems or methods, specially adapted for administrative, commercial, financial, managerial, supervisory or forecasting purposes",
+                  "lev2": "Physics",
                   "size": 38
                 },
                 {
                   "name": "Image data processing or generation, in general ",
+                  "lev2": "Physics",
                   "size": 15
                 },
                 {
                   "name": "Analogue computers ",
+                  "lev2": "Physics",
                   "size": 1
                 },
                 {
                   "name": "Computer systems based on specific computational models",
+                  "lev2": "Physics",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Optics ",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Optical elements, systems, or apparatus ",
+                  "lev2": "Physics",
                   "size": 52
                 },
                 {
                   "name": "Spectacles",
+                  "lev2": "Physics",
                   "size": 6
                 },
                 {
                   "name": "Devices or arrangements, the optical operation of which is modified by changing the optical properties of the medium of the devices or arrangements for the control of the intensity, colour, phase, polarisation or direction of light, e.g. switching, gating, modulating or demodulating",
+                  "lev2": "Physics",
                   "size": 27
                 }
               ]
             },
             {
               "name": "Photography",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Apparatus or arrangements for taking photographs or for projecting or viewing them",
+                  "lev2": "Physics",
                   "size": 17
                 },
                 {
                   "name": "Electrography",
+                  "lev2": "Physics",
                   "size": 26
                 },
                 {
                   "name": "Photomechanical production of textured or patterned surfaces, e.g. for printing, for processing of semiconductor devices",
+                  "lev2": "Physics",
                   "size": 15
                 },
                 {
                   "name": "Holographic processes or apparatus ",
+                  "lev2": "Physics",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Information storage",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Information storage based on relative movement between record carrier and transducer ",
+                  "lev2": "Physics",
                   "size": 20
                 },
                 {
                   "name": "Static stores ",
+                  "lev2": "Physics",
                   "size": 34
                 }
               ]
             },
             {
               "name": "Controlling",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Systems for controlling or regulating non-electric variables ",
+                  "lev2": "Physics",
                   "size": 4
                 },
                 {
                   "name": "Systems for regulating electric or magnetic variables ",
+                  "lev2": "Physics",
                   "size": 3
                 },
                 {
                   "name": "Control or regulating systems in general",
+                  "lev2": "Physics",
                   "size": 5
                 }
               ]
             },
             {
               "name": "Musical instruments",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Electrophonic musical instruments ",
+                  "lev2": "Physics",
                   "size": 5
                 },
                 {
                   "name": "Stringed musical instruments",
+                  "lev2": "Physics",
                   "size": 2
                 },
                 {
                   "name": "Speech analysis or synthesis",
+                  "lev2": "Physics",
                   "size": 9
                 },
                 {
                   "name": "Sound-producing devices ",
+                  "lev2": "Physics",
                   "size": 1
                 }
               ]
@@ -723,20 +893,25 @@
         },
         {
           "name": "Nucleonics",
+          "lev2": "Physics",
           "children": [
             {
               "name": "Nuclear physics",
+              "lev2": "Physics",
               "children": [
                 {
                   "name": "Techniques for handling particles or ionising radiation not otherwise provided for",
+                  "lev2": "Physics",
                   "size": 2
                 },
                 {
                   "name": "Conversion of chemical elements",
+                  "lev2": "Physics",
                   "size": 1
                 },
                 {
                   "name": "Nuclear reactors ",
+                  "lev2": "Physics",
                   "size": 2
                 }
               ]
@@ -747,219 +922,272 @@
     },
     {
       "name": "Performing operations; transporting",
+      "lev2": "Performing operations; transporting",
       "children": [
         {
           "name": "Transporting",
+          "lev2": "Performing operations; transporting",
           "children": [
             {
               "name": "Conveying",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Containers for storage or transport of articles or materials, e.g. bags, barrels, bottles, boxes, cans, cartons, crates, drums, jars, tanks, hoppers, forwarding containers",
+                  "lev2": "Performing operations; transporting",
                   "size": 40
                 },
                 {
                   "name": "Handling thin or filamentary material, e.g. sheets, webs, cables",
+                  "lev2": "Performing operations; transporting",
                   "size": 19
                 },
                 {
                   "name": "Machines, apparatus or devices for, or methods of, packaging articles or materials",
+                  "lev2": "Performing operations; transporting",
                   "size": 7
                 },
                 {
                   "name": "Gathering or removal of domestic or like refuse ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Transport or storage devices, e.g. conveyers for loading or tipping",
+                  "lev2": "Performing operations; transporting",
                   "size": 9
                 },
                 {
                   "name": "Labelling or tagging machines, apparatus, or processes ",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Opening, closing ",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Dispensing, delivering or transferring liquids, not otherwise provided for ",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 },
                 {
                   "name": "Cleaning, filling with liquids or semiliquids, or emptying, of bottles, jars, cans, casks, barrels, or similar containers, not otherwise provided for",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Applying closure members to bottles jars, or similar containers",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Vehicles in general",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Vehicles, vehicle fittings, or vehicle parts, not otherwise provided for",
+                  "lev2": "Performing operations; transporting",
                   "size": 27
                 },
                 {
                   "name": "Vehicle passenger accommodation not otherwise provided for ",
+                  "lev2": "Performing operations; transporting",
                   "size": 6
                 },
                 {
                   "name": "Vehicle wheels",
+                  "lev2": "Performing operations; transporting",
                   "size": 10
                 },
                 {
                   "name": "Arrangements or adaptations of heating, cooling, ventilating, or other air-treating devices specially for passenger or goods spaces of vehicles",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 },
                 {
                   "name": "Servicing, cleaning, repairing, supporting, lifting, or manoeuvring of vehicles, not otherwise provided for",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Arrangement or mounting of propulsion units or of transmissions in vehicles",
+                  "lev2": "Performing operations; transporting",
                   "size": 12
                 },
                 {
                   "name": "Vehicle tyres ",
+                  "lev2": "Performing operations; transporting",
                   "size": 9
                 },
                 {
                   "name": "Vehicle brake control systems or parts thereof",
+                  "lev2": "Performing operations; transporting",
                   "size": 5
                 },
                 {
                   "name": "Vehicle suspension arrangements ",
+                  "lev2": "Performing operations; transporting",
                   "size": 5
                 },
                 {
                   "name": "Vehicle connections ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Windows, windscreens, non-fixed roofs, doors, or similar devices for vehicles",
+                  "lev2": "Performing operations; transporting",
                   "size": 6
                 },
                 {
                   "name": "Vehicle lighting or signalling ",
+                  "lev2": "Performing operations; transporting",
                   "size": 4
                 },
                 {
                   "name": "Vehicles adapted for load transportation or to transport, to carry or to comprise special loads or objects ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Electric equipment or propulsion of electrically-propelled vehicles",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 },
                 {
                   "name": "Conjoint control of vehicle sub-units of different type or different function",
+                  "lev2": "Performing operations; transporting",
                   "size": 9
                 }
               ]
             },
             {
               "name": "Land vehicles for travelling otherwise than on rails",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Cycle saddles or seats",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Hand-propelled vehicles, e.g. hand carts, perambulators",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 },
                 {
                   "name": "Rider propulsion of wheeled vehicles or sledges",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Motor vehicles",
+                  "lev2": "Performing operations; transporting",
                   "size": 14
                 },
                 {
                   "name": "Cycle stands",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Cycles",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 }
               ]
             },
             {
               "name": "Aircraft",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Lighter-than air aircraft",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Aeroplanes",
+                  "lev2": "Performing operations; transporting",
                   "size": 10
                 },
                 {
                   "name": "Equipment for fitting in or to aircraft",
+                  "lev2": "Performing operations; transporting",
                   "size": 8
                 },
                 {
                   "name": "Ground or aircraft-carrier-deck installations",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Ships or other waterborne vessels",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Ships or other waterborne vessels",
+                  "lev2": "Performing operations; transporting",
                   "size": 4
                 },
                 {
                   "name": "Marine propulsion or steering ",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 }
               ]
             },
             {
               "name": "Saddlery",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Saddles",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Hoisting",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Elevators",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Cranes",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Railways",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Couplings",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Railway systems",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Guiding railway traffic",
+                  "lev2": "Performing operations; transporting",
                   "size": 5
                 }
               ]
@@ -968,157 +1196,194 @@
         },
         {
           "name": "Shaping",
+          "lev2": "Performing operations; transporting",
           "children": [
             {
               "name": "Working or preserving wood or similar material",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Planing, drilling, milling, turning, or universal machines ",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Grinding",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Machines, devices, or processes for grinding or polishing ",
+                  "lev2": "Performing operations; transporting",
                   "size": 6
                 },
                 {
                   "name": "Tools for grinding, buffing, or sharpening ",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Hand tools",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Combination or multi-purpose tools not otherwise provided for",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Handles for hand implements ",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 },
                 {
                   "name": "Tools or bench devices not otherwise provided for, for fastening, connecting, disengaging or holding",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 },
                 {
                   "name": "Hand-held nailing or stapling tools",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Workshop equipment, e.g. for marking-out work",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Manipulators",
+                  "lev2": "Performing operations; transporting",
                   "size": 4
                 }
               ]
             },
             {
               "name": "Machine tools",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Other working of metal",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 },
                 {
                   "name": "Soldering or unsoldering",
+                  "lev2": "Performing operations; transporting",
                   "size": 5
                 },
                 {
                   "name": "Turning",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 },
                 {
                   "name": "Milling ",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 },
                 {
                   "name": "Making gears or toothed racks ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Details, components, or accessories for machine tools, e.g. arrangements for copying or controlling ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Working of plastics",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Shaping or joining of plastics",
+                  "lev2": "Performing operations; transporting",
                   "size": 20
                 },
                 {
                   "name": "Producing particular articles from plastics or from substances in a plastic state ",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 },
                 {
                   "name": "Preparation or pretreatment of the material to be shaped",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 },
                 {
                   "name": "Indexing scheme associated with subclasses ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Mechanical metal-working without essentially removing material",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Working or processing of sheet metal or metal tubes, rods or profiles without essentially removing material",
+                  "lev2": "Performing operations; transporting",
                   "size": 5
                 },
                 {
                   "name": "Manufacture of metal sheets, wire, rods, tubes or profiles, otherwise than by rolling",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Layered products",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Layered products, i.e. products built-up of strata of flat or non-flat, e.g. cellular or honeycomb, form",
+                  "lev2": "Performing operations; transporting",
                   "size": 9
                 }
               ]
             },
             {
               "name": "Casting",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Foundry moulding ",
+                  "lev2": "Performing operations; transporting",
                   "size": 4
                 },
                 {
                   "name": "Casting of metals",
+                  "lev2": "Performing operations; transporting",
                   "size": 4
                 }
               ]
             },
             {
               "name": "Working cement, clay, or stone",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Shaping clay or other ceramic compositions, slag, or mixtures containing cementitious material, e.g. plaster ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Making paper articles",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Making boxes, cartons, envelopes or bags ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
@@ -1127,59 +1392,73 @@
         },
         {
           "name": "Printing",
+          "lev2": "Performing operations; transporting",
           "children": [
             {
               "name": "Writing or drawing implements",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Articles for writing or drawing upon; ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Implements for writing or drawing ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Printing",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Typewriters",
+                  "lev2": "Performing operations; transporting",
                   "size": 28
                 },
                 {
                   "name": "Printing, duplicating, marking, or copying processes",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 },
                 {
                   "name": "Printing machines or presses ",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 },
                 {
                   "name": "Stamps",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 },
                 {
                   "name": "Processes for the manufacture or reproduction of printing surfaces ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Decorative arts",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Painting or artistic drawing, not otherwise provided for",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Bookbinding",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Books",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
@@ -1188,73 +1467,90 @@
         },
         {
           "name": "Separating",
+          "lev2": "Performing operations; transporting",
           "children": [
             {
               "name": "Physical or chemical processes or apparatus in general ",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Separation ",
+                  "lev2": "Performing operations; transporting",
                   "size": 19
                 },
                 {
                   "name": "Mixing, e.g. dissolving, emulsifying, dispersing ",
+                  "lev2": "Performing operations; transporting",
                   "size": 8
                 },
                 {
                   "name": "Chemical or physical processes, e.g. catalysis, colloid chemistry",
+                  "lev2": "Performing operations; transporting",
                   "size": 7
                 },
                 {
                   "name": "Chemical or physical laboratory apparatus for general use ",
+                  "lev2": "Performing operations; transporting",
                   "size": 6
                 }
               ]
             },
             {
               "name": "Cleaning",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Cleaning in general",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Spraying or atomising in general",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Spraying apparatus",
+                  "lev2": "Performing operations; transporting",
                   "size": 8
                 },
                 {
                   "name": "Apparatus for applying liquids or other fluent materials to surfaces, in general ",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 }
               ]
             },
             {
               "name": "Separating solids from solids",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Postal sorting",
+                  "lev2": "Performing operations; transporting",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Centrifugal apparatus or machines for carrying-out physical or chemical processes ",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Centrifuges ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Generating or transmitting mechanical vibrations in general",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Methods or apparatus for generating or transmitting mechanical vibrations of infrasonic, sonic, or ultrasonic frequency, ",
+                  "lev2": "Performing operations; transporting",
                   "size": 1
                 }
               ]
@@ -1263,21 +1559,26 @@
         },
         {
           "name": "Micro-structural technology",
+          "lev2": "Performing operations; transporting",
           "children": [
             {
               "name": "Nano-technology",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Specific uses or applications of nano-structures",
+                  "lev2": "Performing operations; transporting",
                   "size": 7
                 }
               ]
             },
             {
               "name": "Micro-structural technology",
+              "lev2": "Performing operations; transporting",
               "children": [
                 {
                   "name": "Micro-structural devices or systems, e.g. micro-mechanical devices ",
+                  "lev2": "Performing operations; transporting",
                   "size": 3
                 }
               ]
@@ -1288,130 +1589,161 @@
     },
     {
       "name": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
+      "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
       "children": [
         {
           "name": "Lighting",
+          "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
           "children": [
             {
               "name": "Heating",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Other domestic stoves or ranges",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 3
                 },
                 {
                   "name": "Domestic stoves or ranges for solid fuels",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 },
                 {
                   "name": "Producing or use of heat not otherwise provided for ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 3
                 },
                 {
                   "name": "Air-conditioning, air-humidification, ventilation, use of air currents for screening ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 4
                 },
                 {
                   "name": "Domestic- or space-heating systems, e.g. central heating systems",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Lighting ",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Non-portable lighting devices or systems thereof ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 3
                 },
                 {
                   "name": "Details of lighting devices, of general application",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 4
                 },
                 {
                   "name": "Light sources not otherwise provided for",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 },
                 {
                   "name": "Indexing scheme relating to the form of the light sources",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Drying",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Drying solid materials or objects by removing liquid therefrom ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 5
                 }
               ]
             },
             {
               "name": "Combustion apparatus",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Generating combustion products of high pressure or high velocity, e.g. gas-turbine combustion chambers ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 2
                 },
                 {
                   "name": "Regulating or controlling combustion ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 },
                 {
                   "name": "Burners ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 },
                 {
                   "name": "Cremation furnaces",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Refrigeration or cooling",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Production, working, storing or distribution of ice ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 3
                 },
                 {
                   "name": "Refrigeration machines, plants or systems",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 3
                 },
                 {
                   "name": "Refrigerators",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Steam generation ",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Methods of steam generation",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Heat exchange in general",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Details of heat-exchange and heat-transfer apparatus, of general application ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 2
                 },
                 {
                   "name": "Heat-exchange apparatus, not provided for in another subclass, in which the heat-exchange media do not come into direct contact ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Furnaces",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Furnaces, kilns, ovens, or retorts in general",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 }
               ]
@@ -1420,100 +1752,124 @@
         },
         {
           "name": "Engines or pumps",
+          "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
           "children": [
             {
               "name": "Machines or engines in general ",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Gas-flow silencers or exhaust apparatus for machines or engines in general",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 9
                 },
                 {
                   "name": "Non-positive displacement machines or engines, e.g. steam turbines ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 14
                 },
                 {
                   "name": "Cooling of machines or engines in general",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 3
                 },
                 {
                   "name": "Cyclically operating valves for machines or engines ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 4
                 },
                 {
                   "name": "Rotary-piston or oscillating-piston machines or engines ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 3
                 }
               ]
             },
             {
               "name": "Combustion engines ",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Internal-combustion piston engines",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 10
                 },
                 {
                   "name": "Supplying combustion engines in general, with combustible mixtures or constituents thereof ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 4
                 },
                 {
                   "name": "Jet-propulsion plants ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 2
                 },
                 {
                   "name": "Gas-turbine plants",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 6
                 },
                 {
                   "name": "Controlling combustion engines ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 7
                 },
                 {
                   "name": "Ignition, other than compression ignition, for internal-combustion engines",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 2
                 },
                 {
                   "name": "Starting of combustion engines ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Positive displacement machines for liquids",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Positive displacement machines for liquids",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 5
                 },
                 {
                   "name": "Non-positive displacement pumps",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 8
                 },
                 {
                   "name": "Rotary-piston, or oscillating-piston, positive-displacement machines for liquids ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 6
                 }
               ]
             },
             {
               "name": "Machines or engines for liquids ",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Spring, weight, inertia or like motors",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 2
                 },
                 {
                   "name": "Wind motors",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 3
                 }
               ]
             },
             {
               "name": "Indexing schemes relating to engines or pumps in various subclasses of classes ",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Indexing scheme relating to machines or engines other than non-positive-displacement machines or engines, to wind motors, to non-positive displacement pumps, and to generating combustion products of high pressure or high velocity",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 }
               ]
@@ -1522,41 +1878,51 @@
         },
         {
           "name": "Weapons",
+          "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
           "children": [
             {
               "name": "Weapons",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Smallarms, e.g. pistols, rifles ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 10
                 },
                 {
                   "name": "Weapon sights",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 7
                 },
                 {
                   "name": "Functional features or details common to both smallarms and ordnance, e.g. cannons",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 4
                 },
                 {
                   "name": "Armour",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 },
                 {
                   "name": "Weapons for projecting missiles without use of explosive or combustible propellant charge",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 },
                 {
                   "name": "Targets",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Ammunition",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Explosive charges, e.g. for blasting, fireworks, ammunition ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 4
                 }
               ]
@@ -1565,74 +1931,92 @@
         },
         {
           "name": "Engineering in general",
+          "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
           "children": [
             {
               "name": "Engineering elements and units",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Valves",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 10
                 },
                 {
                   "name": "Shafts",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 6
                 },
                 {
                   "name": "Pipes",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 11
                 },
                 {
                   "name": "Springs",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 5
                 },
                 {
                   "name": "Gearing",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 15
                 },
                 {
                   "name": "Belts, cables, or ropes, predominantly used for driving purposes",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 2
                 },
                 {
                   "name": "Couplings for transmitting rotation",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 4
                 },
                 {
                   "name": "Frames, casings, or beds of engines or other machines or apparatus not specific to an engine, machine, or apparatus provided for elsewhere",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 },
                 {
                   "name": "Devices for fastening or securing constructional elements or machine parts together, e.g. nails, bolts, circlips, clamps, clips, wedges, joints or jointing",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 4
                 },
                 {
                   "name": "Pistons ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 4
                 }
               ]
             },
             {
               "name": "Fluid-pressure actuators",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Systems acting by means of fluids in general",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 3
                 },
                 {
                   "name": "Fluid-circuit elements predominantly used for computing or control purposes ",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Storing of distributing gases or liquids ",
+              "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
               "children": [
                 {
                   "name": "Pipe-line systems",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 1
                 },
                 {
                   "name": "Vessels for containing or storing compressed, liquefied or solidified gases",
+                  "lev2": "Mechanical engineering; lighting; heating; weapons; blasting engines or pumps",
                   "size": 3
                 }
               ]
@@ -1643,195 +2027,243 @@
     },
     {
       "name": "Electricity",
+      "lev2": "Electricity",
       "children": [
         {
           "name": "Electricity",
+          "lev2": "Electricity",
           "children": [
             {
               "name": "Generation",
+              "lev2": "Electricity",
               "children": [
                 {
                   "name": "Installation of electric cables or lines, or of combined optical and electric cables or lines ",
+                  "lev2": "Electricity",
                   "size": 5
                 },
                 {
                   "name": "Electric machines not otherwise provided for",
+                  "lev2": "Electricity",
                   "size": 3
                 },
                 {
                   "name": "Control or regulation of electric motors, electric generators or dynamo-electric converters",
+                  "lev2": "Electricity",
                   "size": 3
                 },
                 {
                   "name": "Circuit arrangements or systems for supplying or distributing electric power",
+                  "lev2": "Electricity",
                   "size": 8
                 },
                 {
                   "name": "Dynamo-electric machines ",
+                  "lev2": "Electricity",
                   "size": 11
                 },
                 {
                   "name": "Apparatus for conversion between ac and ac, between ac and dc, or between dc and dc, and for use with mains or similar power supply systems",
+                  "lev2": "Electricity",
                   "size": 7
                 },
                 {
                   "name": "Emergency protective circuit arrangements ",
+                  "lev2": "Electricity",
                   "size": 4
                 }
               ]
             },
             {
               "name": "Basic electronic circuitry",
+              "lev2": "Electricity",
               "children": [
                 {
                   "name": "Tuning resonant circuits",
+                  "lev2": "Electricity",
                   "size": 1
                 },
                 {
                   "name": "Coding",
+                  "lev2": "Electricity",
                   "size": 19
                 },
                 {
                   "name": "Impedance networks, e.g. resonant circuits",
+                  "lev2": "Electricity",
                   "size": 10
                 },
                 {
                   "name": "Pulse technique ",
+                  "lev2": "Electricity",
                   "size": 12
                 },
                 {
                   "name": "Generation of oscillations, directly or by frequency-changing, by circuits employing active elements which operate in a non-switching manner",
+                  "lev2": "Electricity",
                   "size": 5
                 },
                 {
                   "name": "Automatic control, starting, synchronisation, or stabilisation of generators of electronic oscillations or pulses ",
+                  "lev2": "Electricity",
                   "size": 4
                 },
                 {
                   "name": "Amplifiers ",
+                  "lev2": "Electricity",
                   "size": 2
                 },
                 {
                   "name": "Control of amplification ",
+                  "lev2": "Electricity",
                   "size": 2
                 },
                 {
                   "name": "Demodulation or transference of modulation from one carrier to another ",
+                  "lev2": "Electricity",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Basic electric elements",
+              "lev2": "Electricity",
               "children": [
                 {
                   "name": "Semiconductor devices",
+                  "lev2": "Electricity",
                   "size": 231
                 },
                 {
                   "name": "Magnets",
+                  "lev2": "Electricity",
                   "size": 7
                 },
                 {
                   "name": "Line connectors",
+                  "lev2": "Electricity",
                   "size": 17
                 },
                 {
                   "name": "Electric discharge tubes or discharge lamps ",
+                  "lev2": "Electricity",
                   "size": 11
                 },
                 {
                   "name": "Processes or means, e.g. batteries, for the direct conversion of chemical into electrical energy ",
+                  "lev2": "Electricity",
                   "size": 27
                 },
                 {
                   "name": "Cables",
+                  "lev2": "Electricity",
                   "size": 8
                 },
                 {
                   "name": "Capacitors",
+                  "lev2": "Electricity",
                   "size": 7
                 },
                 {
                   "name": "Electric switches",
+                  "lev2": "Electricity",
                   "size": 9
                 },
                 {
                   "name": "Spark gaps",
+                  "lev2": "Electricity",
                   "size": 4
                 },
                 {
                   "name": "Waveguides",
+                  "lev2": "Electricity",
                   "size": 2
                 },
                 {
                   "name": "Aerials ",
+                  "lev2": "Electricity",
                   "size": 17
                 },
                 {
                   "name": "Devices using stimulated emission",
+                  "lev2": "Electricity",
                   "size": 11
                 }
               ]
             },
             {
               "name": "Electric communication technique",
+              "lev2": "Electricity",
               "children": [
                 {
                   "name": "Telephonic communication ",
+                  "lev2": "Electricity",
                   "size": 31
                 },
                 {
                   "name": "Transmission ",
+                  "lev2": "Electricity",
                   "size": 67
                 },
                 {
                   "name": "Loudspeakers, microphones, gramophone pick-ups or like acoustic electromechanical transducers",
+                  "lev2": "Electricity",
                   "size": 25
                 },
                 {
                   "name": "Pictorial communication, e.g. television ",
+                  "lev2": "Electricity",
                   "size": 129
                 },
                 {
                   "name": "Selecting ",
+                  "lev2": "Electricity",
                   "size": 7
                 },
                 {
                   "name": "Wireless communications networks ",
+                  "lev2": "Electricity",
                   "size": 110
                 },
                 {
                   "name": "Transmission of digital information, e.g. telegraphic communication ",
+                  "lev2": "Electricity",
                   "size": 179
                 },
                 {
                   "name": "Multiplex communication ",
+                  "lev2": "Electricity",
                   "size": 5
                 },
                 {
                   "name": "Stereophonic systems ",
+                  "lev2": "Electricity",
                   "size": 1
                 },
                 {
                   "name": "Broadcast communication ",
+                  "lev2": "Electricity",
                   "size": 3
                 }
               ]
             },
             {
               "name": "Electric techniques not otherwise provided for",
+              "lev2": "Electricity",
               "children": [
                 {
                   "name": "Printed circuits",
+                  "lev2": "Electricity",
                   "size": 30
                 },
                 {
                   "name": "Electric heating",
+                  "lev2": "Electricity",
                   "size": 13
                 },
                 {
                   "name": "Static electricity",
+                  "lev2": "Electricity",
                   "size": 1
                 }
               ]
@@ -1842,50 +2274,62 @@
     },
     {
       "name": "Textiles; paper",
+      "lev2": "Textiles; paper",
       "children": [
         {
           "name": "Textiles or flexible materials not otherwise provided for",
+          "lev2": "Textiles; paper",
           "children": [
             {
               "name": "Treatment of textiles or the like",
+              "lev2": "Textiles; paper",
               "children": [
                 {
                   "name": "Laundering, drying, ironing, pressing or folding textile articles ",
+                  "lev2": "Textiles; paper",
                   "size": 10
                 }
               ]
             },
             {
               "name": "Braiding",
+              "lev2": "Textiles; paper",
               "children": [
                 {
                   "name": "Knitting",
+                  "lev2": "Textiles; paper",
                   "size": 1
                 },
                 {
                   "name": "Making textile fabrics, e.g. from fibres or filamentary material ",
+                  "lev2": "Textiles; paper",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Sewing",
+              "lev2": "Textiles; paper",
               "children": [
                 {
                   "name": "Sewing ",
+                  "lev2": "Textiles; paper",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Natural or artificial threads or fibres",
+              "lev2": "Textiles; paper",
               "children": [
                 {
                   "name": "Mechanical methods or apparatus in the manufacture of artificial filaments, threads, fibres, bristles or ribbons",
+                  "lev2": "Textiles; paper",
                   "size": 1
                 },
                 {
                   "name": "Chemical features in the manufacture of artificial filaments, threads, fibres, bristles or ribbons",
+                  "lev2": "Textiles; paper",
                   "size": 2
                 }
               ]
@@ -1894,16 +2338,20 @@
         },
         {
           "name": "Paper",
+          "lev2": "Textiles; paper",
           "children": [
             {
               "name": "Paper-making",
+              "lev2": "Textiles; paper",
               "children": [
                 {
                   "name": "Production of cellulose by removing non-cellulose substances from cellulose-containing materials",
+                  "lev2": "Textiles; paper",
                   "size": 2
                 },
                 {
                   "name": "Paper-making machines",
+                  "lev2": "Textiles; paper",
                   "size": 1
                 }
               ]
@@ -1914,41 +2362,51 @@
     },
     {
       "name": "General tagging of new technological developments",
+      "lev2": "General tagging of new technological developments",
       "children": [
         {
           "name": "General tagging of new technological developments",
+          "lev2": "General tagging of new technological developments",
           "children": [
             {
               "name": "Technologies or applications for mitigation or adaptation against climate change",
+              "lev2": "General tagging of new technological developments",
               "children": [
                 {
                   "name": "Indexing scheme relating to climate change mitigation technologies related to buildings, e.g. including housing and appliances or related end-user applications",
+                  "lev2": "General tagging of new technological developments",
                   "size": 3
                 },
                 {
                   "name": "Reduction of greenhouse gases [ghg] emission, related to energy generation, transmission or distribution",
+                  "lev2": "General tagging of new technological developments",
                   "size": 6
                 }
               ]
             },
             {
               "name": "Technical subjects covered by former uspc",
+              "lev2": "General tagging of new technological developments",
               "children": [
                 {
                   "name": "Technical subjects covered by former us classification",
+                  "lev2": "General tagging of new technological developments",
                   "size": 1
                 },
                 {
                   "name": "Technical subjects covered by former uspc cross-reference art collections [xracs] and digests",
+                  "lev2": "General tagging of new technological developments",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Information or communication technologies having an impact on other technology areas",
+              "lev2": "General tagging of new technological developments",
               "children": [
                 {
                   "name": "Systems integrating technologies related to power network operation, communication or information technologies for improving the electrical power generation, transmission, distribution, management or usage, i.e. smart grids",
+                  "lev2": "General tagging of new technological developments",
                   "size": 1
                 }
               ]
@@ -1959,215 +2417,266 @@
     },
     {
       "name": "Chemistry; metallurgy",
+      "lev2": "Chemistry; metallurgy",
       "children": [
         {
           "name": "Chemistry",
+          "lev2": "Chemistry; metallurgy",
           "children": [
             {
               "name": "Dyes",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Coating compositions, e.g. paints, varnishes or lacquers",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 5
                 },
                 {
                   "name": "Materials for miscellaneous applications, not provided for elsewhere",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 6
                 },
                 {
                   "name": "Adhesives",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Glass",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Chemical composition of glasses, glazes, or vitreous enamels",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 2
                 },
                 {
                   "name": "Manufacture, shaping, or supplementary processes",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 3
                 }
               ]
             },
             {
               "name": "Biochemistry",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Apparatus for enzymology or microbiology",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 5
                 },
                 {
                   "name": "Measuring or testing processes involving enzymes or micro-organisms ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 8
                 },
                 {
                   "name": "Micro-organisms or enzymes",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 8
                 }
               ]
             },
             {
               "name": "Treatment of water, waste water, sewage, or sludge ",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Treatment of water, waste water, sewage, or sludge ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 3
                 }
               ]
             },
             {
               "name": "Petroleum, gas or coke industries",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Fuels not otherwise provided for ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 3
                 },
                 {
                   "name": "Production of producer gas, water-gas, synthesis gas from solid carbonaceous material, or mixtures containing these gases ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 },
                 {
                   "name": "Destructive distillation of carbonageous materials for production of gas, coke, tar, or similar materials ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 },
                 {
                   "name": "Cracking hydrocarbon oils",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 },
                 {
                   "name": "Lubricating compositions ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Fertilisers",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Mixtures of fertilisers covered individually by different subclasses of class ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Organic macromolecular compounds",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Compositions of macromolecular compounds ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 8
                 },
                 {
                   "name": "Macromolecular compounds obtained otherwise than by reactions only involving unsaturated carbon-to-carbon bonds",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 9
                 },
                 {
                   "name": "Macromolecular compounds obtained by reactions only involving carbon-to-carbon unsaturated bonds",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 14
                 },
                 {
                   "name": "Use of inorganic or non-macromolecular organic substances as compounding ingredients ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 4
                 },
                 {
                   "name": "Derivatives of natural macromolecular compounds ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 },
                 {
                   "name": "Polysaccharides",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Cements",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Lime, magnesia",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 7
                 }
               ]
             },
             {
               "name": "Inorganic chemistry ",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Non-metallic elements",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 10
                 },
                 {
                   "name": "Compounds containing metals not covered by subclasses ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 4
                 },
                 {
                   "name": "Indexing scheme relating to structural and physical aspects of solid inorganic compounds",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Animal and vegetable oils, fats, fatty substances and waxes",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Detergent compositions ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 6
                 },
                 {
                   "name": "Fatty acids from fats, oils or waxes",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 },
                 {
                   "name": "Essential oils",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Explosives",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Explosives or thermic compositions ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Sugar industry ",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Saccharides, other than sucrose, obtained from natural sources or by hydrolysis of naturally occurring di-, oligo- or polysaccharides ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Organic chemistry ",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Peptides ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 7
                 },
                 {
                   "name": "Acyclic or carbocyclic compounds",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 19
                 },
                 {
                   "name": "Sugars",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 },
                 {
                   "name": "Heterocyclic compounds",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 31
                 },
                 {
                   "name": "Acyclic, carbocyclic or heterocyclic compounds containing elements other than carbon, hydrogen, halogen, oxygen, nitrogen, sulfur, selenium or tellurium ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 3
                 },
                 {
                   "name": "Steroids ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 2
                 }
               ]
@@ -2176,65 +2685,80 @@
         },
         {
           "name": "Metallurgy",
+          "lev2": "Chemistry; metallurgy",
           "children": [
             {
               "name": "Metallurgy ",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Production and refining of metals ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 5
                 },
                 {
                   "name": "Alloys ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 4
                 }
               ]
             },
             {
               "name": "Crystal growth ",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Single-crystal-growth ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Coating metallic material",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Coating metallic material",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 11
                 }
               ]
             },
             {
               "name": "Electrolytic or electrophoretic processes",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Electrolytic or electrophoretic processes for the production of compounds or non-metals",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 5
                 },
                 {
                   "name": "Processes for the electrolytic production, recovery or refining of metals",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 2
                 }
               ]
             },
             {
               "name": "Metallurgy of iron",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Manufacture of iron or steel ",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 }
               ]
             },
             {
               "name": "Combinatorial chemistry",
+              "lev2": "Chemistry; metallurgy",
               "children": [
                 {
                   "name": "Combinatorial chemistry",
+                  "lev2": "Chemistry; metallurgy",
                   "size": 1
                 }
               ]

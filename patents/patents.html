@@ -70,7 +70,7 @@ console.log(nodes);
       // .style("fill", function(d) { return d.children ? color(d.depth) : null; })
 
 	// testing out categorical coloring
-      .style("fill", function(d) { return d.children ? d.parent.parent ? color1(d.parent.parent.name) : color1(d.parent.name) :null; })
+      .style("fill", function(d) { d.children ? color1(d.lev2) : null; })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 	
 		
