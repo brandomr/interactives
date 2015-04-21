@@ -99,7 +99,7 @@ d3.select('#full')
 
 /* Add a mouseover event */
 d3.selectAll("#full path").on('mouseover', function() {
-  var d = d3.select(this).data()[0];
+  var d = d3.select(this).full()[0];
     d3.select("#fullinfo").text(d.title + ' has value ' + d.value);
 });
 d3.selectAll("#full svg").on('mouseout', function() {
