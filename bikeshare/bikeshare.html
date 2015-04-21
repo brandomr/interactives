@@ -48,8 +48,11 @@ path {
         </p>
 
         <div id="full" style="display:inline"></div>
+        <div id="fullinfo" style="display:inline"></div>
+
         <div id="empty" style="display:inline; margin-left:50px;"></div>
-        
+        <div id="emptyinfo" style="display:inline"></div>
+
         
         
       </div>
@@ -89,6 +92,17 @@ d3.select('#full')
     .enter()
     .append('svg')
     .call(fullchart);
+
+/* Add a mouseover event */
+d3.selectAll("#full path").on('mouseover', function() {
+  var d = d3.select(this).data()[0];
+    d3.select("#fullinfo").text(d.title + ' has value ' + d.value);
+});
+d3.selectAll("#full svg").on('mouseout', function() {
+    d3.select("#fullinfo").text('');  
+});
+
+
   
 d3.select('#empty')
     .selectAll('svg')
@@ -96,6 +110,15 @@ d3.select('#empty')
     .enter()
     .append('svg')
     .call(emptychart);
+
+/* Add a mouseover event */
+d3.selectAll("#empty path").on('mouseover', function() {
+  var d = d3.select(this).data()[0];
+    d3.select("#emptyinfo").text(d.title + ' has value ' + d.value);
+});
+d3.selectAll("#empty svg").on('mouseout', function() {
+    d3.select("#emptyinfo").text('');  
+});
 
 
 
