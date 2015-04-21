@@ -11,6 +11,13 @@
   <style>
 
 /* SVG styling */
+
+#full, #empty{
+  margin-left:20px;
+  margin-right:20px;
+  display:inline;
+}
+
 svg {
   width: 360px;
   height: 300px;
@@ -47,14 +54,10 @@ path {
         <p>This chart shows...
         </p>
 
-        <div id="full" style="display:inline">
-          
-        <div id="fullinfo" style="display:block"></div>
+        <div id="full">
         </div>
 
-        <div id="empty" style="display:inline; margin-left:50px;">
-          
-        <div id="emptyinfo" style="display:block"></div>
+        <div id="empty">
         </div>
 
         
@@ -97,17 +100,6 @@ d3.select('#full')
     .append('svg')
     .call(fullchart);
 
-/* Add a mouseover event */
-d3.selectAll("#full path").on('mouseover', function() {
-  var d = d3.select(this).data();
-  d3.select("#fullinfo").text(d);
-
-});
-d3.selectAll("#full svg").on('mouseout', function() {
-    d3.select("#fullinfo").text('');  
-});
-
-
   
 d3.select('#empty')
     .selectAll('svg')
@@ -115,17 +107,6 @@ d3.select('#empty')
     .enter()
     .append('svg')
     .call(emptychart);
-
-/* Add a mouseover event 
-d3.selectAll("#empty path").on('mouseover', function() {
-  var d = d3.select(this).data()[0];
-    d3.select("#emptyinfo").text(d.title + ' has value ' + d.value);
-});
-d3.selectAll("#empty svg").on('mouseout', function() {
-    d3.select("#emptyinfo").text('');  
-});
-*/
-
 
 
 </script>
