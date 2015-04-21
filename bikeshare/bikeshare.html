@@ -66,9 +66,19 @@ path {
 <script src="circularHeatChart.js"></script>
 <script>
 
-var chart = circularHeatChart()
+var fullchart = circularHeatChart()
     .segmentHeight(20)
     .innerRadius(20)
+    .range(["white", "steelblue"])
+    .numSegments(24)
+    .radialLabels(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+    .segmentLabels(["Midnight", "1am", "2am", "3am", "4am", "5am", "6am", "7am", "8am", "9am", "10am", "11am", "Midday", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm", "7pm", "8pm", "9pm", "10pm", "11pm"])
+    .margin({top: 20, right: 0, bottom: 20, left: 280});
+
+  var emptychart = circularHeatChart()
+    .segmentHeight(20)
+    .innerRadius(20)
+    .range(["white", "red"])
     .numSegments(24)
     .radialLabels(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
     .segmentLabels(["Midnight", "1am", "2am", "3am", "4am", "5am", "6am", "7am", "8am", "9am", "10am", "11am", "Midday", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm", "7pm", "8pm", "9pm", "10pm", "11pm"])
@@ -83,14 +93,14 @@ d3.select('#canvas')
     .data([full])
     .enter()
     .append('svg')
-    .call(chart);
+    .call(fullchart);
   
 d3.select('#empty')
     .selectAll('svg')
     .data([empty])
     .enter()
     .append('svg')
-    .call(chart);
+    .call(emptychart);
 
 
 
