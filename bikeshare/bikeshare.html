@@ -278,6 +278,13 @@ d3.select('#full')
     .append('svg')
     .call(fullchart);
 
+
+/* Add a mouseover event */
+d3.selectAll("#full path").on('mouseover', function() {
+    var d = d3.select(this).data()[0];
+    console.log(d.time + ' :: ' + d.count_full;
+});
+
   
 d3.select('#empty')
     .selectAll('svg')
