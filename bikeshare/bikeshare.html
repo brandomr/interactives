@@ -106,7 +106,7 @@ console.log(alljson);
 
 d3.select('#full')
     .selectAll('svg')
-    .data([full])
+    .data([alljson])
     .enter()
     .append('svg')
     .call(fullchart);
