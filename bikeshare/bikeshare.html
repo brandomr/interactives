@@ -54,15 +54,15 @@ path {
         <div id="full" class="large-6 columns">
           <div class="row">
             <div class="large-6 columns"><h5><strong>Full Stations</strong></h5></div>
-            <div id="fullinfo"></div>
           </div>
+          <div id="fullinfo"></div>
         </div>
 
         <div id="empty" class="large-6 columns">
           <div class="row">
             <div class="large-6 columns"><h5><strong>Empty Stations</strong></h5></div>
-            <div id="emptyinfo"></div>
           </div>
+         <div id="emptyinfo"></div>
         </div>
 
 
@@ -284,10 +284,12 @@ d3.select('#full')
 /* Add a mouseover event */
 d3.selectAll("#full path").on('mouseover', function() {
   var d = d3.select(this).data()[0];
-    d3.select("#fullinfo").text(d.time + ' :: ' + d.count_full);
+    d3.select("#fullinfo").text(d.time + ' :: ' + d.count_full)
+    d3.select("#emptyinfo").text(d.time + ' :: ' + d.count_empty);
 });
 d3.selectAll("#full svg").on('mouseout', function() {
-    d3.select("#fullinfo").text('');  
+    d3.select("#fullinfo").text('')
+    d3.select("#emptyinfo").text('');  ;  
 });
 
 
