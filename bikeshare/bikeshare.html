@@ -281,13 +281,14 @@ d3.select('#full')
 d3.select('#full')
     .append('div')
     .attr('id', 'fullinfo')
+    .text('Hover over chart to see number of full stations')
 
 
 /* Add a mouseover event */
 d3.selectAll("#full path").on('mouseover', function() {
   var d = d3.select(this).data()[0];
-    d3.select("#fullinfo").text(d.time + ' - ' + d.count_full + 'full stations')
-    d3.select("#emptyinfo").text(d.time + ' - ' + d.count_empty + 'empty stations');
+    d3.select("#fullinfo").text(d.time + ' - ' + d.count_full + ' full stations')
+    d3.select("#emptyinfo").text(d.time + ' - ' + d.count_empty + ' empty stations');
 });
 d3.selectAll("#full svg").on('mouseout', function() {
     d3.select("#fullinfo").text('Hover over chart to see number of full stations')
@@ -312,13 +313,14 @@ d3.select('#empty')
 d3.select('#empty')
     .append('div')
     .attr('id', 'emptyinfo')
+    .text('Hover over chart to see number of empty stations');
 
 
 /* Add a mouseover event */
 d3.selectAll("#empty path").on('mouseover', function() {
-  var d = d3.select(this).data()[0];
-    d3.select("#fullinfo").text(d.time + ' - ' + d.count_full + 'full stations')
-    d3.select("#emptyinfo").text(d.time + ' - ' + d.count_empty + 'empty stations');
+  var d = d3.select(this).data()[0]; 
+    d3.select("#fullinfo").text(d.time + ' - ' + d.count_full + ' full stations')
+    d3.select("#emptyinfo").text(d.time + ' - ' + d.count_empty + ' empty stations');
 });
 d3.selectAll("#empty svg").on('mouseout', function() {
     d3.select("#fullinfo").text('Hover over chart to see number of full stations')
