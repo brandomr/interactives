@@ -55,14 +55,12 @@ path {
           <div class="row">
             <div class="large-6 columns"><h5><strong>Full Stations</strong></h5></div>
           </div>
-          <div id="fullinfo"></div>
         </div>
 
         <div id="empty" class="large-6 columns">
           <div class="row">
             <div class="large-6 columns"><h5><strong>Empty Stations</strong></h5></div>
           </div>
-         <div id="emptyinfo"></div>
         </div>
 
 
@@ -280,6 +278,13 @@ d3.select('#full')
     .append('svg')
     .call(fullchart);
 
+d3.select('#full')
+    .append('div')
+    .attr('id', 'fullinfo')
+
+d3.select('#empty')
+    .append('div')
+    .attr('id', 'emptyinfo')
 
 /* Add a mouseover event */
 d3.selectAll("#full path").on('mouseover', function() {
