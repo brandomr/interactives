@@ -120,7 +120,7 @@ var chord = svg.selectAll(".chord")
                     .style("top", function () { return (d3.event.pageY - 100)+"px"})
                     .style("left", function () { return (d3.event.pageX - 100)+"px";})
                 })
-                .on("mouseout", function (d) { d3.select("#tooltip").style("visibility", "hidden") });
+                .on("mouseout", function (d) { d3.select("#tooltip").html("Mouseover to focus on travel <br> to and from a particular city.") });
 
           function chordTip (d) {
             var p = d3.format(".1%"), q = d3.format(",.2r")
