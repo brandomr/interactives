@@ -112,7 +112,7 @@ var chord = svg.selectAll(".chord")
 .on("mouseover", function (d) {
                   d3.select("#tooltip")
                     .style("visibility", "visible")
-                    .html(chordTip(d))
+                    .html(function(d) { return chordTip(d);})
                     .style("top", function () { return (d3.event.pageY - 100)+"px"})
                     .style("left", function () { return (d3.event.pageX - 100)+"px";})
                 })
