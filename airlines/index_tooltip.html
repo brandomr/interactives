@@ -127,7 +127,7 @@ var chord = svg.selectAll(".chord")
  + "\n" + cities[d.target.index].name
  + " → " + cities[d.source.index].name
  + ": " + d.target.value;
-          });
+          };
  
 function mouseover(d, i) {
 chord.classed("fade", function(p) {
