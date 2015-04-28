@@ -116,7 +116,7 @@ var chord = svg.selectAll(".chord")
  + ": " + formatPercent(d.source.value)
  + "\n" + cities[d.target.index].name
  + " → " + cities[d.source.index].name
- + ": " + formatPercent(d.target.value);
+ + ": " + d.target.value;
  });
  
 function mouseover(d, i) {
