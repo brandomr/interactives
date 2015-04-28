@@ -109,10 +109,10 @@ var chord = svg.selectAll(".chord")
 .attr("class", "chord")
 .style("fill", function(d) { return cities[d.source.index].color; })
 .attr("d", path)
-                .on("mouseover", function (d) {
+.on("mouseover", function (d) {
                   d3.select("#tooltip")
                     .style("visibility", "visible")
-                    .html(chordTip(d)
+                    .html(chordTip(d))
                     .style("top", function () { return (d3.event.pageY - 100)+"px"})
                     .style("left", function () { return (d3.event.pageX - 100)+"px";})
                 })
