@@ -113,7 +113,7 @@ var chord = svg.selectAll(".chord")
  chord.append("title").text(function(d) {
  return cities[d.source.index].name
  + " → " + cities[d.target.index].name
- + ": " + formatPercent(d.source.value)
+ + ": " + d.source.value
  + "\n" + cities[d.target.index].name
  + " → " + cities[d.source.index].name
  + ": " + d.target.value;
