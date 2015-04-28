@@ -112,7 +112,13 @@ var chord = svg.selectAll(".chord")
 .on("mouseover", function (d) {
                   d3.select("#tooltip")
                     .style("visibility", "visible")
-                    .html(function(d) { return chordTip(d);})
+                    .html(function(d) { return cities[d.source.index].name
+ + " → " + cities[d.target.index].name
+ + ": " + d.source.value
+ + "\n" + cities[d.target.index].name
+ + " → " + cities[d.source.index].name
+ + ": " + d.target.value;})
+                    
                     .style("top", function () { return (d3.event.pageY - 100)+"px"})
                     .style("left", function () { return (d3.event.pageX - 100)+"px";})
                 })
