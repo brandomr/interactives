@@ -1,0 +1,122 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QB Stats</title>
+    <link rel="stylesheet" href="../foundation/css/foundation.css" />
+    <script src="../foundation/js/vendor/modernizr.js"></script>
+  </head>
+  
+  <style>
+
+/* SVG styling */
+
+
+</style>
+
+  <body>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        
+        
+        <h2>Capital Bikeshare Outages 4/13/15 to 4/19/15</h2>
+        
+        <p>These circular heat maps show Capital Bikeshare system outage information for the week of 4/13/15 to 4/19/15 using data obtained from <a href="http://www.cabitracker.com/outage_history.php">Capital Bikeshare Tracker</a>.
+        A system outage takes two forms: a full station or an empty station. When a station is full, riders currently using bikes can't park at that station so may have to go out of there way to find another station to dock their bike. When the station is empty, a rider in need of a bike will have to go to another station to obtain one.
+        </p>
+       
+        <canvas id="myChart" width="400" height="400"></canvas>
+
+        
+        
+        
+      </div>
+    </div>
+    
+ </body>
+  
+<script src="../Chart.js/Chart.js"></script>
+
+<script>
+
+// Get the context of the canvas element we want to select
+var ctx = document.getElementById("myChart").getContext("2d");
+var myRadarChart = new Chart(ctx).Radar(data, options);
+
+var data = {
+    labels: [ '40yd dash', 'vert jump', 'broad jump', '3 cone drill', '20yd shuttle'],
+    datasets: [
+        {
+            label: "Jameis Winston",
+            fillColor: "rgba(220,220,220,0.2)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [5.0, 1.0, 1.0, 5.0, 5.0, 1.0]
+        },
+        {
+            label: "Marcus Mariota",
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: [1.0, 4.5, 4.0, 1.0, 2.0, 2.0]
+        },
+          {
+            label: "Bryce Petty",
+            fillColor: "rgba(220,220,220,0.2)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [4.0, 2.5, 4.0, 2.0, 3.0, 4.0]
+        },
+        {
+            label: "Garret Grayson",
+            fillColor: "rgba(220,220,220,0.2)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [3.0, 2.5, 4.0, 4.0, 4.0, 3.0]
+        },
+        {
+            label: "Brett Hundley",
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: [2.0, 4.5, 2.0, 3.0, 1.0, 5.0]
+        }
+
+
+    ]
+};
+
+
+</script>
+    
+    
+    
+    
+    <script src="../foundation/js/vendor/jquery.js"></script>
+    <script src="../foundation/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      
+
+      
+      
+    </script>
+  </body>
+</html>
