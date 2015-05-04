@@ -45,7 +45,7 @@
     datasets: [
         {
             label: "Jameis Winston",
-            fillColor: "rgba(220,220,220,0.2)",
+            fillColor: "rgba(127,201,127,0.2)",
             strokeColor: "rgba(220,220,220,1)",
             pointColor: "rgba(220,220,220,1)",
             pointStrokeColor: "#fff",
@@ -55,7 +55,7 @@
         },
         {
             label: "Marcus Mariota",
-            fillColor: "rgba(151,187,205,0.2)",
+            fillColor: "rgba(190,174,212,0.2)",
             strokeColor: "rgba(151,187,205,1)",
             pointColor: "rgba(151,187,205,1)",
             pointStrokeColor: "#fff",
@@ -65,7 +65,7 @@
         },
           {
             label: "Bryce Petty",
-            fillColor: "rgba(220,220,220,0.2)",
+            fillColor: "rgba(255,255,153,0.2)",
             strokeColor: "rgba(220,220,220,1)",
             pointColor: "rgba(220,220,220,1)",
             pointStrokeColor: "#fff",
@@ -75,7 +75,7 @@
         },
         {
             label: "Garret Grayson",
-            fillColor: "rgba(220,220,220,0.2)",
+            fillColor: "rgba(253,192,134,0.2)",
             strokeColor: "rgba(220,220,220,1)",
             pointColor: "rgba(220,220,220,1)",
             pointStrokeColor: "#fff",
@@ -85,7 +85,7 @@
         },
         {
             label: "Brett Hundley",
-            fillColor: "rgba(151,187,205,0.2)",
+            fillColor: "rgba(56,108,176,0.2)",
             strokeColor: "rgba(151,187,205,1)",
             pointColor: "rgba(151,187,205,1)",
             pointStrokeColor: "#fff",
@@ -99,7 +99,7 @@
         window.myRadar = new Chart(document.getElementById("myChart").getContext("2d")).Radar(radarChartData, {
             responsive: true,
             
-            multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>"
+            multiTooltipTemplate: " <%= datasetLabel %> - <%= value %>"
 
         });
     }
