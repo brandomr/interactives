@@ -95,14 +95,18 @@
             }
         ]
     };
-    window.onload = function(){
-        window.myRadar = new Chart(document.getElementById("myChart").getContext("2d")).Radar(radarChartData, {
+    
+
+
+// Get the context of the canvas element we want to select
+var ctx = document.getElementById("myChart").getContext("2d");
+var myNewChart = new Chart(ctx).Radar(radarChartData, {
             responsive: true,
             
             multiTooltipTemplate: " <%= datasetLabel %> - <%= value %>"
 
         });
-    }
+    
 </script>
     
     
