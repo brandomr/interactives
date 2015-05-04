@@ -102,7 +102,7 @@
 var ctx = document.getElementById("myChart").getContext("2d");
 var myNewChart = new Chart(ctx).Radar(radarChartData, {
             responsive: true,
-            
+            maintainAspectRatio: true,
             multiTooltipTemplate: " <%= datasetLabel %> - <%= value %>"
 
         });
