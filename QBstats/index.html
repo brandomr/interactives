@@ -23,12 +23,13 @@
         
         <h2>Top 5 QBs in 2015 Draft</h2>
         
-        <p>These circular heat maps show Capital Bikeshare system outage information for the week of 4/13/15 to 4/19/15 using data obtained from <a href="http://www.cabitracker.com/outage_history.php">Capital Bikeshare Tracker</a>.
-        A system outage takes two forms: a full station or an empty station. When a station is full, riders currently using bikes can't park at that station so may have to go out of there way to find another station to dock their bike. When the station is empty, a rider in need of a bike will have to go to another station to obtain one.
+        <p>This is a comparison of the relative ranking of the top 5 drafted Quarterbacks in 2015 on key athletic metrics measured in the combine. 
+        The scores are their relative rankings. The full rankings are available through <a href="http://www.nfl.com/draft/2015/tracker?icampaign=draft-sub_nav_bar-drafteventpage-tracker">nfl.com</a>.
         </p>
        
+       <div class="large-8 columns">
         <canvas id="myChart" width="400" height="400"></canvas>
-
+    </div>
         
         
         
@@ -40,19 +41,14 @@
 <script src="Chart.js"></script>
 
 <script>
-
-// Get the context of the canvas element we want to select
-var ctx = document.getElementById("myChart").getContext("2d");
-var myRadarChart = new Chart(ctx).Radar(data);
-
-var data = {
+    var radarChartData = {
     labels: ["40yd dash", "vert jump", "broad jump", "3 cone drill", "20yd shuttle"],
     datasets: [
         {
             label: "Jameis Winston",
-            fillColor: "rgba(220,220,220,0.2)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,1)",
+            fillColor: "rgba(127,201,127,0.2)",
+            strokeColor: "rgba(127,201,127,1)",
+            pointColor: "rgba(127,201,127,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
@@ -60,9 +56,9 @@ var data = {
         },
         {
             label: "Marcus Mariota",
-            fillColor: "rgba(151,187,205,0.2)",
-            strokeColor: "rgba(151,187,205,1)",
-            pointColor: "rgba(151,187,205,1)",
+            fillColor: "rgba(190,174,212,0.2)",
+            strokeColor: "rgba(190,174,212,1)",
+            pointColor: "rgba(190,174,212,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
@@ -70,9 +66,9 @@ var data = {
         },
           {
             label: "Bryce Petty",
-            fillColor: "rgba(220,220,220,0.2)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,1)",
+            fillColor: "rgba(255,255,153,0.2)",
+            strokeColor: "rgba(255,255,153,1)",
+            pointColor: "rgba(255,255,153,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
@@ -80,9 +76,9 @@ var data = {
         },
         {
             label: "Garret Grayson",
-            fillColor: "rgba(220,220,220,0.2)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,1)",
+            fillColor: "rgba(253,192,134,0.2)",
+            strokeColor: "rgba(253,192,134,1)",
+            pointColor: "rgba(253,192,134,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
@@ -90,18 +86,28 @@ var data = {
         },
         {
             label: "Brett Hundley",
-            fillColor: "rgba(151,187,205,0.2)",
-            strokeColor: "rgba(151,187,205,1)",
-            pointColor: "rgba(151,187,205,1)",
+            fillColor: "rgba(56,108,176,0.2)",
+            strokeColor: "rgba(56,108,176,1)",
+            pointColor: "rgba(56,108,176,1)",
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
             data: [2.0, 4.5, 2.0, 3.0, 1.0]
-        }
-    ]
-};
+            }
+        ]
+    };
+    
+ 
 
+// Get the context of the canvas element we want to select
+var ctx = document.getElementById("myChart").getContext("2d");
+var myNewChart = new Chart(ctx).Radar(radarChartData, {
+            responsive: true,
+            maintainAspectRatio: true,
+            multiTooltipTemplate: " <%= datasetLabel %> - <%= value %>"
 
+        });
+    
 </script>
     
     
