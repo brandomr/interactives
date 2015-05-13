@@ -78,12 +78,10 @@ nv.addGraph(function() {
   ;
 
   chart.xAxis     //Chart x-axis settings
-      .axisLabel('Month')
-      .tickFormat(d3.time.format("%Y-%m"));
+      .axisLabel('Month');
 
   chart.yAxis     //Chart y-axis settings
-      .axisLabel('Price')
-      .tickFormat(d3.format('.00f'));
+      .axisLabel('Price');
 
   /* Done setting the chart up? Time to render it!*/
   var myData = getdata();   //You need data...
