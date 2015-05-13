@@ -79,7 +79,10 @@ nv.addGraph(function() {
   ;
 
   chart.xAxis     //Chart x-axis settings
-      .axisLabel('Month');
+      .axisLabel('Month')
+      .tickFormat(function(d) {
+          return d3.time.format('%Y-%m')(new Date(d))
+      });
 
   chart.yAxis     //Chart y-axis settings
       .axisLabel('Price');
