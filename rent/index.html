@@ -25,15 +25,14 @@
       <div class="large-12 columns">
         
         
-        <h2>Top 5 QBs in 2015 Draft</h2>
+        <h2>DC Neighborhood Rental Costs</h2>
         
-        <p>This is a comparison of the relative ranking of the top 5 drafted Quarterbacks in 2015 on key athletic metrics measured in the combine. 
-        The scores are their relative rankings. The full rankings are available through <a href="http://www.nfl.com/draft/2015/tracker?icampaign=draft-sub_nav_bar-drafteventpage-tracker">nfl.com</a>.
+        <p>Data from <a href="http://www.zillow.com/research/data/">Zillow</a>.
         </p>
        
        <div class="large-8 columns">
             <div id="chart">
-                <svg style='height:500px'> </svg>
+                <svg> </svg>
             </div>
        </div>
         
@@ -79,12 +78,12 @@ nv.addGraph(function() {
   ;
 
   chart.xAxis     //Chart x-axis settings
-      .axisLabel('Time (ms)')
-      .tickFormat(d3.format(',r'));
+      .axisLabel('Month')
+      .tickFormat(d3.time.format("%Y-%m"));
 
   chart.yAxis     //Chart y-axis settings
-      .axisLabel('Voltage (v)')
-      .tickFormat(d3.format('.02f'));
+      .axisLabel('Price')
+      .tickFormat(d3.format('.00f'));
 
   /* Done setting the chart up? Time to render it!*/
   var myData = getdata();   //You need data...
