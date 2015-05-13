@@ -58,7 +58,7 @@ d3.csv("sample.csv", function(error, data) {
 
 console.log(data);
 
-console.log(data[0]);
+console.log(data[0].date);
 
  /*These lines are all chart setup.  Pick and choose which chart features you want to utilize. */
 nv.addGraph(function() {
@@ -104,8 +104,8 @@ function getdata() {
 
   //Data is represented as an array of {x,y} pairs.
   for (var i = 0; i < data.length; i++) {
-    series1.push({x: data.date[i], y: data.series1[i]});
-    series2.push({x: data.date[i], y: data.series2[i]});
+    series1.push({x: data[i].date[, y: data[i].series1});
+    series2.push({x: data[i].date, y: data[i].series2});
   }
 
 
