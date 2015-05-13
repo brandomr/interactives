@@ -28,7 +28,7 @@
         
         <h2>DC Neighborhood Rental Costs</h2>
         
-        <p>Data from <a href="http://www.zillow.com/research/data/">Zillow</a>.
+        <p>This chart shows the change in average rental costs over the past 3 years for the top 5 priciest neighborhoods in Washington DC. The data was obtained from <a href="http://www.zillow.com/research/data/">Zillow</a>.
         </p>
        
 
@@ -72,7 +72,7 @@ console.log(data[0].date);
  /*These lines are all chart setup.  Pick and choose which chart features you want to utilize. */
 nv.addGraph(function() {
   var chart = nv.models.lineChart()
-                .margin({left: 75, right:25})  //Adjust chart margins to give the x-axis some breathing room.
+                .margin({left: 65, right:25})  //Adjust chart margins to give the x-axis some breathing room.
                 .useInteractiveGuideline(true)  //We want nice looking tooltips and a guideline!
                 //.transitionDuration(350)  //how fast do you want the lines to transition?
                 .showLegend(true)       //Show the legend, allowing users to turn on/off line series.
@@ -134,7 +134,7 @@ function getdata() {
     {
       values: WoodleyPark,
       key: 'Woodley Park',
-      color: '#ffffb3'
+      color: '#fdb462'
     },
     {
       values: WestEnd,
