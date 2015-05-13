@@ -89,7 +89,8 @@ nv.addGraph(function() {
   chart.xScale(d3.time.scale());
 
   chart.yAxis     //Chart y-axis settings
-      .axisLabel('Price');
+      .axisLabel('Price')
+      .tickFormat(function(d) { return "$" + d; });
 
   /* Done setting the chart up? Time to render it!*/
   var myData = getdata();   //You need data...
