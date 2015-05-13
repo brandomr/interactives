@@ -49,6 +49,9 @@
 
 
 d3.csv("DC_neighborhoods.csv", function(error, data) {
+
+var parseDate = d3.time.format("%Y-%m").parse;
+
     data.forEach(function(d) {
         d.date = parseDate(d.Date);
         d.Georgetown = +d.Georgetown;
