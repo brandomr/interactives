@@ -77,6 +77,18 @@ nv.addGraph(function() {
   nv.utils.windowResize(function() { chart.update() });
   return chart;
 });
+
+
+d3.csv("sample.csv", function(error, data) {
+    data.forEach(function(d) {
+        d.date = +d.date;
+        d.series1 = +d.series1;
+        d.series2 = +d.series2
+    });
+    console.log(function(d) { return d.date;});
+});
+
+
 /**************************************
  * Simple test data generator
  */
@@ -91,7 +103,6 @@ function sinAndCos() {
     cos.push({x: i, y: .5 * Math.cos(i/10)});
   }
 
-  console.log(sin);
 
   //Line chart data should be sent as an array of series objects.
   return [
