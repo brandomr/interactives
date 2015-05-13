@@ -86,6 +86,8 @@ nv.addGraph(function() {
           return d3.time.format('%Y-%m')(new Date(d))
       });
 
+  chart.xScale(d3.time.scale());
+
   chart.yAxis     //Chart y-axis settings
       .axisLabel('Price');
 
@@ -127,27 +129,27 @@ function getdata() {
     {
       values: Georgetown,      //values - represents the array of {x,y} data points
       key: 'Georgetown', //key  - the name of the series.
-      color: '#ff7f0e'  //color - optional: choose your own line color.
+      color: '#8dd3c7'  //color - optional: choose your own line color.
     },
     {
       values: WoodleyPark,
       key: 'Woodley Park',
-      color: '#2ca02c'
+      color: '#ffffb3'
     },
     {
       values: WestEnd,
       key: 'West End',
-      color: '#2ca02c'
+      color: '#bebada'
     },
     {
       values: Shaw,
       key: 'Shaw',
-      color: '#2ca02c'
+      color: '#fb8072'
     },
     {
       values: Chinatown,
       key: 'Chinatown',
-      color: '#2ca02c'
+      color: '#80b1d3'
     },
 
   ];
