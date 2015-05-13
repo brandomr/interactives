@@ -48,17 +48,23 @@
 <script>
 
 
-d3.csv("sample.csv", function(error, data) {
+d3.csv("DC_neighborhoods.csv", function(error, data) {
     data.forEach(function(d) {
-        d.date = +d.date;
-        d.series1 = +d.series1;
-        d.series2 = +d.series2
+        d.date = parseDate(d.Date);
+        d.Georgetown = +d.Georgetown;
+        d.WoodleyPark = +d.WoodleyPark;
+        d.WestEnd = +d.WestEnd;
+        d.Shaw = +d.Shaw;
+        d.Chinatown = +d.Chinatown;
     });
 
 
 console.log(data);
 
 console.log(data[0].date);
+
+
+var format = d3.time.format("%Y-%m-%d"),
 
  /*These lines are all chart setup.  Pick and choose which chart features you want to utilize. */
 nv.addGraph(function() {
@@ -100,25 +106,43 @@ nv.addGraph(function() {
  * Simple test data generator
  */
 function getdata() {
-  var series1 = [],series2 = [];
+  var Georgetown = [], WoodleyPark = [], WestEnd = [], Shaw = [], Chinatown = [];
 
   //Data is represented as an array of {x,y} pairs.
   for (var i = 0; i < data.length; i++) {
-    series1.push({x: data[i].date, y: data[i].series1});
-    series2.push({x: data[i].date, y: data[i].series2});
+    Georgetown.push({x: data[i].date, y: data[i].Georgetown});
+    WoodleyPark.push({x: data[i].date, y: data[i].WoodleyPark});
+    WestEnd.push({x: data[i].date, y: data[i].WestEnd});
+    Shaw.push({x: data[i].date, y: data[i].Shaw});
+    Chinatown.push({x: data[i].date, y: data[i].Chinatown});
   }
 
 
   //Line chart data should be sent as an array of series objects.
   return [
     {
-      values: series1,      //values - represents the array of {x,y} data points
-      key: 'Series 1', //key  - the name of the series.
+      values: Georgetown,      //values - represents the array of {x,y} data points
+      key: 'Georgetown', //key  - the name of the series.
       color: '#ff7f0e'  //color - optional: choose your own line color.
     },
     {
-      values: series2,
-      key: 'Series 2',
+      values: WoodleyPark,
+      key: 'Woodley Park',
+      color: '#2ca02c'
+    },
+    {
+      values: WestEnd,
+      key: 'West End',
+      color: '#2ca02c'
+    },
+    {
+      values: Shaw,
+      key: 'Shaw',
+      color: '#2ca02c'
+    },
+    {
+      values: Chinatown,
+      key: 'Chinatown',
       color: '#2ca02c'
     },
 
