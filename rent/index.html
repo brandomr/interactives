@@ -6,7 +6,7 @@
     <title>QB Stats</title>
     <link rel="stylesheet" href="../foundation/css/foundation.css" />
     <script src="../foundation/js/vendor/modernizr.js"></script>
-    <script src="nvd3-master/build/d3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <link href="nvd3-master/build/nv.d3.min.css" rel="stylesheet">
     <script src="nvd3-master/build/nv.d3.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -90,6 +90,8 @@ function sinAndCos() {
     sin2.push({x: i, y: Math.sin(i/10) *0.25 + 0.5});
     cos.push({x: i, y: .5 * Math.cos(i/10)});
   }
+
+  console.log(sin);
 
   //Line chart data should be sent as an array of series objects.
   return [
