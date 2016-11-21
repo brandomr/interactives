@@ -19,30 +19,31 @@
 }
 
 .bar {
-  fill: steelblue;
+  fill: #238b45;
+  opacity: 0.4;
 }
 
 .bar:hover {
-  fill: orangered ;
+  fill: #00441b;
+  opacity: 0.6;
 }
 
-.x.axis path {
+.y.axis path {
   display: none;
 }
 
 
 .y.axis text {
-  font-size:11px;
+  font-size:13px;
   }
 
 .x.axis text {
-  font-size:13px;
+  font-size:11px;
   }
 
 .d3-tip {
   line-height: 1;
-  font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
   padding: 12px;
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
@@ -53,7 +54,7 @@
 .d3-tip:after {
   box-sizing: border-box;
   display: inline;
-  font-size: 10px;
+  font-size: 12px;
   width: 100%;
   line-height: 1;
   color: rgba(0, 0, 0, 0.8);
@@ -78,13 +79,15 @@
         
         <h1>Higher Education Institutions by State</h1>
         
-        <p>This chart shows the number of universities per state within the National
-        Center for Educational Statistics Integrated Postsecondary Education System (IPEDS) System.
-        The data was obtained from <a href="https://inventory.data.gov/dataset/032e19b4-5a90-41dc-83ff-6e4cd234f565/resource/38625c3d-5388-4c16-a30f-d105432553a4">data.gov</a>
+        <p>This chart shows the number of residents per university by state. The smaller the bar,
+        the more universities on a per capita basis. Data on universities was obtained from the the National
+        Center for Educational Statistics Integrated Postsecondary Education System (IPEDS) System and can be found 
+        at <a href="https://inventory.data.gov/dataset/032e19b4-5a90-41dc-83ff-6e4cd234f565/resource/38625c3d-5388-4c16-a30f-d105432553a4">data.gov</a>.
+        State population data was obtained from <a href="http://www.census.gov/popest/data/national/totals/2014/NST-EST2014-alldata.html">census.gov</a>.
         </p>
 
         <div id="canvas">
-        <label><input type="checkbox"> Sort values</label>
+        <label><input type="checkbox"> Sort by population per university</label>
         </div>
         
       </div>
@@ -96,89 +99,142 @@
 <script src="../d3-tip/index.js"></script>
 <script>
 
-var margin = {top: 40, right: 20, bottom: 50, left: 65},
+
+// Browser detection to set the width of the tooltip
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	// If the browser is a mobile device, set a slightly larger tipwidth of 45% of the canvas
+	var tipwidth = 45;
+}
+else {
+	// Else, the tipwidth will be 35% of the canvas width
+	var tipwidth = 35;
+}
+
+// Define a format that adds commas to large numbers
+format = d3.format("0,000");
+
+// Set the canvas size and margins
+var margin = {top: 50, right: 20, bottom: 50, left: 10},
     width = 960 - margin.left - margin.right,
-    height = 450 - margin.top - margin.bottom;
+    height = 1160 - margin.top - margin.bottom;
 
-var x = d3.scale.ordinal()
-    .rangeRoundBands([0, width], .1);
+// Define the X Axis as a linear scaled axis
+var x = d3.scale.linear()
+	// Set the range as from 0 to the width defined for the canvas previously
+    .range([0, width])
+    // manually set the domain to 0 to 65 since the maximum in the data set is 62
+    .domain([0, 65]);
 
-var y = d3.scale.linear()
-    .range([height, 0]);
+// Define the Y Axis as an ordinal axis 
+// State is categorical, but for a bar chart we treat it as ordinal
+var y = d3.scale.ordinal()
+    .rangeRoundBands([0, height], .1);
 
 var xAxis = d3.svg.axis()
     .scale(x)
-    .tickSize(0)
-    .tickPadding(0)
-    .orient("bottom");
+    .tickSize(4)
+    .ticks(4)
+    .orient("top");
 
 var yAxis = d3.svg.axis()
     .scale(y)
-    .orient("left")
-    .tickSize(4)
-    .ticks(4);
+    .tickSize(0)
+    .tickPadding(4)
+    .orient("right");
 
 var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
+  .style("width", tipwidth + "%")
   .html(function(d) {
-    return "<strong>" + d.state + ":</strong> <span style='color:red'>" + d.count + "</span>";
+    return "" + d.state + " has <strong><span style='color:red'>" + d.count + " universities</span></strong>"
+    + " and a population of <strong><span style='color:red'>" + format(d.population) + ".  </span></strong>"
+    + "It ranks <strong><span style='color:red'>#" + d.per_capita_rank + " </span></strong>in terms of universities on a per capita basis,"
+    + " having one university for every <strong><span style='color:red'>" + d.per_capita + " thousand</span></strong> residents.";
   })
 
 var svg = d3.select("#canvas").append("svg")
 	.attr("id", "chart")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-    .attr("viewBox", "0 0 960 450")
-    .attr("preserveAspectRatio", "xMidYMid")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 svg.call(tip);
 
-d3.csv("data.csv", function(error, data) {
+d3.csv("data_update.csv", function(error, data) {
   
   data.forEach(function(d) {
-    d.count = +d.count;
+    d.per_capita = +d.per_capita;
+    d.population = +d.population;
   });
 
-  x.domain(data.map(function(d) { return d.state; }));
-  y.domain([0, 800]);
+  x.domain([0, d3.max(data, function(d) { return d.per_capita; })]);
+  y.domain(data.map(function(d) { return d.state; }));
 
   svg.append("g")
       .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
-        .selectAll("text")  
-        .style("text-anchor", "end")
-     	.attr("dx", "-.3em")
-     	.attr("dy", ".3em")
-     	.attr("transform", "rotate(-90)")
+      .append("text")
+	  	.attr("class", "xtitle")
+      	.attr("dy", "-1.5em")
+      	.attr("x", width/2)
+      	.style("text-anchor", "middle")
+      	.style("font-size", "13px")
+      .text("Thousand Residents per University")
+
 
   svg.append("g")
       .attr("class", "y axis")
-      .call(yAxis)
-	.append("text")
-	  .attr("class", "ytitle")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", "-3em")
-      .style("text-anchor", "end")
-      .style("font-size", "16px")
-      .text("Number of Universities");
+      .attr("transform", "translate(5,0)")
+      .call(yAxis);
 
-  svg.selectAll(".bar")
+
+
+ var bar = svg.selectAll("g.bar")
       .data(data)
-    .enter().append("rect")
+    .enter().append("g")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.state); })
-      .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(d.count); })
-      .attr("height", function(d) { return height - y(d.count); })
+      .attr("transform", function(d) { return "translate(0," + y(d.state) + ")"; });
+
+  bar.append("rect")
+      .attr("width", function(d) { return x(d.per_capita); })
+      .attr("height", y.rangeBand())
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide);
 
 
+
+
+
+
+d3.select(window).on('resize', resize); 
+
+resize();
+
+function resize() {
+    // update width
+    width = parseInt(d3.select('#canvas').style('width'), 10);
+    width = width - margin.left - margin.right;
+
+    // resize the chart
+    x.range([0, width]);
+    d3.select("svg")
+        .style('height', (y.rangeExtent()[1] + margin.top + margin.bottom) + 'px')
+        .style('width', (width + margin.left + margin.right) + 'px');
+
+    svg.selectAll('rect')
+        .attr('width', function(d) { return x(d.per_capita); });
+
+    // update axes
+      svg.select(".x.axis").call(xAxis)
+      
+      .select(".xtitle")
+      	.attr("x", width/2);
+
+	}
+	
+	
 
 d3.select("input").on("change", change);
 
@@ -190,32 +246,31 @@ d3.select("input").on("change", change);
     clearTimeout(sortTimeout);
 
     // Copy-on-write since tweens are evaluated after a delay.
-    var x0 = x.domain(data.sort(this.checked
-        ? function(a, b) { return b.count - a.count; }
+    var y0 = y.domain(data.sort(this.checked
+        ? function(a, b) { return a.per_capita - b.per_capita; }
         : function(a, b) { return d3.ascending(a.state, b.state); })
         .map(function(d) { return d.state; }))
         .copy();
 
-    svg.selectAll(".bar")
-        .sort(function(a, b) { return x0(a.state) - x0(b.state); });
+    svg.selectAll("g.bar")
+        .sort(function(a, b) { return y0(a.state) - y0(b.state); });
 
     var transition = svg.transition().duration(750),
         delay = function(d, i) { return i * 50; };
 
-    transition.selectAll(".bar")
+    transition.selectAll("g.bar")
         .delay(delay)
-        .attr("x", function(d) { return x0(d.state); });
+        .attr("transform", function(d) { return "translate(0," + y0(d.state) + ")"; });
 
-    transition.select(".x.axis")
-        .call(xAxis)
-            .selectAll("text")  
-        	.style("text-anchor", "end")
-     		.attr("dx", "-.3em")
-     		.attr("dy", ".3em")
-     		.attr("transform", "rotate(-90)")
-      .selectAll("g")
+    transition.select(".y.axis")
+        .call(yAxis)
+
+    .selectAll("g")
         .delay(delay);
   }
+
+
+
   });
   
   
@@ -233,14 +288,6 @@ d3.select("input").on("change", change);
     <script>
       $(document).foundation();
       
-    var chart = $("#chart"),
-   		aspect = chart.width() / chart.height(),
-    	container = chart.parent();
-	$(window).on("resize", function() {
-    	var targetWidth = container.width();
-    	chart.attr("width", targetWidth);
-    	chart.attr("height", Math.round(targetWidth / aspect));
-	}).trigger("resize");
 
       
       

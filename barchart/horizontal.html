@@ -1,0 +1,249 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Higher Ed by State</title>
+    <link rel="stylesheet" href="../foundation/css/foundation.css" />
+    <script src="../foundation/js/vendor/modernizr.js"></script>
+  </head>
+  
+  <style>
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #bdbdbd;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: orangered ;
+}
+
+.x.axis path {
+  display: none;
+}
+
+
+.y.axis text {
+  font-size:11px;
+  }
+
+.x.axis text {
+  font-size:13px;
+  }
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+</style>
+
+  <body>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        
+        
+        <h1>Higher Education Institutions by State</h1>
+        
+        <p>This chart shows the number of universities per state within the National
+        Center for Educational Statistics Integrated Postsecondary Education System (IPEDS) System.
+        The data was obtained from <a href="https://inventory.data.gov/dataset/032e19b4-5a90-41dc-83ff-6e4cd234f565/resource/38625c3d-5388-4c16-a30f-d105432553a4">data.gov</a>
+        </p>
+
+        <div id="canvas">
+        <label><input type="checkbox"> Sort values</label>
+        </div>
+        
+      </div>
+    </div>
+    
+ 
+    
+<script src="../d3/d3.min.js"></script>
+<script src="../d3-tip/index.js"></script>
+<script>
+
+var margin = {top: 40, right: 20, bottom: 50, left: 65},
+    width = 960 - margin.left - margin.right,
+    height = 450 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width], .1);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .tickSize(0)
+    .tickPadding(0)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickSize(4)
+    .ticks(4);
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<strong>" + d.state + ":</strong> <span style='color:red'>" + d.count + "</span>";
+  })
+
+var svg = d3.select("#canvas").append("svg")
+	.attr("id", "chart")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .attr("viewBox", "0 0 960 450")
+    .attr("preserveAspectRatio", "xMidYMid")
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+svg.call(tip);
+
+d3.csv("data.csv", function(error, data) {
+  
+  data.forEach(function(d) {
+    d.count = +d.count;
+  });
+
+  x.domain(data.map(function(d) { return d.state; }));
+  y.domain([0, 800]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+        .selectAll("text")  
+        .style("text-anchor", "end")
+     	.attr("dx", "-.3em")
+     	.attr("dy", ".3em")
+     	.attr("transform", "rotate(-90)")
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+	.append("text")
+	  .attr("class", "ytitle")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", "-3em")
+      .style("text-anchor", "end")
+      .style("font-size", "16px")
+      .text("Number of Universities");
+
+  svg.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.state); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.count); })
+      .attr("height", function(d) { return height - y(d.count); })
+      .on('mouseover', tip.show)
+      .on('mouseout', tip.hide);
+
+
+
+d3.select("input").on("change", change);
+
+  var sortTimeout = setTimeout(function() {
+    d3.select("input").property("checked", true).each(change);
+  }, 2000);
+
+  function change() {
+    clearTimeout(sortTimeout);
+
+    // Copy-on-write since tweens are evaluated after a delay.
+    var x0 = x.domain(data.sort(this.checked
+        ? function(a, b) { return b.count - a.count; }
+        : function(a, b) { return d3.ascending(a.state, b.state); })
+        .map(function(d) { return d.state; }))
+        .copy();
+
+    svg.selectAll(".bar")
+        .sort(function(a, b) { return x0(a.state) - x0(b.state); });
+
+    var transition = svg.transition().duration(750),
+        delay = function(d, i) { return i * 50; };
+
+    transition.selectAll(".bar")
+        .delay(delay)
+        .attr("x", function(d) { return x0(d.state); });
+
+    transition.select(".x.axis")
+        .call(xAxis)
+            .selectAll("text")  
+        	.style("text-anchor", "end")
+     		.attr("dx", "-.3em")
+     		.attr("dy", ".3em")
+     		.attr("transform", "rotate(-90)")
+      .selectAll("g")
+        .delay(delay);
+  }
+  });
+  
+  
+
+
+
+
+</script>
+    
+    
+    
+    
+    <script src="../foundation/js/vendor/jquery.js"></script>
+    <script src="../foundation/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      
+    var chart = $("#chart"),
+   		aspect = chart.width() / chart.height(),
+    	container = chart.parent();
+	$(window).on("resize", function() {
+    	var targetWidth = container.width();
+    	chart.attr("width", targetWidth);
+    	chart.attr("height", Math.round(targetWidth / aspect));
+	}).trigger("resize");
+
+      
+      
+    </script>
+  </body>
+</html>
